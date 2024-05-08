@@ -1,12 +1,22 @@
-import MosaicFilterSize from "@/components/MosaicFilterSize";
+import CeramicFilterSize from "@/components/CeramicFilterSize";
 import Header from "@/components/header/Header";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
-import { useParams } from "next/navigation";
 
 const Category = () => {
-  const param = useParams();
+  const router = useRouter();
+  const { ceramiccategory } = router.query;
+
+  if (!ceramiccategory) {
+    return (
+      <div>
+        <p>ceramic category not found.</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <Header />
@@ -33,7 +43,7 @@ const Category = () => {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
-                  {param.category}
+                  {ceramiccategory}
                 </h2>
               </div>
             </div>
@@ -83,7 +93,7 @@ const Category = () => {
           </div>
         </div>
       </div>
-      <MosaicFilterSize />
+      <CeramicFilterSize />
 
       <div id="contact" className="contact-us section">
         <div className="container">

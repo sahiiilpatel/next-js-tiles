@@ -1,12 +1,4 @@
-import gsap from "gsap";
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import CountUp from "react-countup";
-import ScrollTrigger from "react-scroll-trigger";
-import Counter from "./Counter";
-import ScrollCounter4 from "./Counter4";
-import ScrollCounter2 from "./Counter2";
-import ScrollCounter3 from "./Counter3";
 import Image from "next/image";
 
 const Homec = () => {
@@ -71,7 +63,6 @@ const Homec = () => {
           </div>
         </div>
       </div>
-
       <div className="row !p-0">
         <div className="col-lg-12 ">
           <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg mt-10 fixed-bg">
@@ -93,7 +84,6 @@ const Homec = () => {
           </section>
         </div>
       </div>
-
       <div id="portfolio" className="our-portfolio section relative vector">
         <svg
           className="absolute left-[100px] bottom-0 -translate-x-1/2 transform hide opacity-50"
@@ -158,7 +148,13 @@ const Homec = () => {
                     </p>
                   </div>
                   <div className="showed-content">
-                    <Image src="/assets/images/1.jpg" alt="img" height={500} width={500} loading="lazy"/>
+                    <Image
+                      src="/assets/images/1.jpg"
+                      alt="img"
+                      height={500}
+                      width={500}
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </Link>
@@ -177,7 +173,13 @@ const Homec = () => {
                     </p>
                   </div>
                   <div className="showed-content">
-                    <Image src="/assets/images/2.jpg" alt="img" height={"500"} width={"500"} loading="lazy"/>
+                    <Image
+                      src="/assets/images/2.jpg"
+                      alt="img"
+                      height={"500"}
+                      width={"500"}
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </Link>
@@ -196,7 +198,13 @@ const Homec = () => {
                     </p>
                   </div>
                   <div className="showed-content">
-                    <Image src="/assets/images/3.jpg" alt="img" height={"500"} width={"500"} loading="lazy" />
+                    <Image
+                      src="/assets/images/3.jpg"
+                      alt="img"
+                      height={"500"}
+                      width={"500"}
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </Link>
@@ -215,7 +223,13 @@ const Homec = () => {
                     </p>
                   </div>
                   <div className="showed-content">
-                    <Image src="/assets/images/4.jpg" alt="img" height={"500"} width={"500"} loading="lazy"/>
+                    <Image
+                      src="/assets/images/4.jpg"
+                      alt="img"
+                      height={"500"}
+                      width={"500"}
+                      loading="lazy"
+                    />
                   </div>
                 </div>
               </Link>
@@ -223,70 +237,12 @@ const Homec = () => {
           </div>
         </div>
       </div>
-
       <section
         className="w-full flex relative  wow fadeIn"
         id="top"
         data-wow-duration="1s"
         data-wow-delay="0.5s"
-      >
-        {/* <div className="max-w-7xl mx-auto  px-4 pb-[100px] sm:px-6 lg:px-8 z-[10]">
-          <div className="text-center space-y-5">
-            <div className="inline-flex items-end justify-center w-full text-center mx-auto">
-              <img
-                src="assets/images/1.jpg"
-                className="absolute transform translate-x-24 ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"
-              />
-              <img
-                src="assets/images/2.jpg"
-                className="absolute transform -translate-x-24 -ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"
-              />
-              <img
-                src="assets/images/3.jpg"
-                className="absolute transform -translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"
-              />
-              <img
-                src="assets/images/4.jpg"
-                className="absolute transform translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"
-              />
-              <img
-                src="assets/images/1.jpg"
-                className="rounded-full w-20 h-20 md:w-24 md:h-24 border-4 border-white relative"
-              />
-            </div>
-            <p className="mt-1 text-4xl font-extrabold text-gray-900  sm:text-5xl sm:tracking-tight lg:text-6xl">
-              Discover
-              <span className="px-2 py-1 relative inline-block">
-                <svg
-                  className="stroke-current bottom-0 absolute text-blue-300 -translate-x-2"
-                  viewBox="0 0 410 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 6.4c16.8 16.8 380.8-11.2 397.6 5.602"
-                    strokeWidth="12"
-                    fill="none"
-                    fillRule="evenodd"
-                    strokeLinecap="round"
-                  ></path>
-                </svg>
-                <span className="relative">Amazing Flooring</span>
-              </span>
-            </p>
-            <p className="max-w-3xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-300">
-              Take Link peek at our luxurious yet affordable lifestyle solutions
-              for walls and floor tiles. Find your design inspiration with us!
-              Our flooring store is here to spruce up your space, be it the
-              kitchen, living room, office space, or cafe.
-            </p>
-            <p className="max-w-3xl mt-5 mx-auto text-xl text-gray-500 dark:text-gray-300">
-              A fantastic collection of high-quality tiles proves our commitment
-              to quality and reliability if you are Link vendor looking for Link
-              reliable tile supplier.
-            </p>
-          </div>
-        </div> */}
-      </section>
+      ></section>
       <div id="about" className="about-us company-hover section h-screen">
         <div className="container">
           <div className="row">
@@ -298,9 +254,9 @@ const Homec = () => {
               >
                 <Image
                   src="/assets/images/about-left-image.svg"
-                  alt="person graphic" 
-                  height={"500"} 
-                  width={"500"} 
+                  alt="person graphic"
+                  height={"500"}
+                  width={"500"}
                   loading="lazy"
                 />
               </div>
@@ -342,7 +298,6 @@ const Homec = () => {
           </div>
         </div>
       </div>
-
       <section>
         <p className="text-4xl font-extrabold text-gray-900   sm:text-5xl sm:tracking-tight lg:text-6xl text-center mt-[100px] mb-[10px]">
           Discover
@@ -389,7 +344,7 @@ const Homec = () => {
                 <figcaption className="flex w-full p-3 absolute  left-0 bg-slate-900/60 !text-white justify-between items-center  bottom-0 hover:visible transition-all duration-200">
                   <div className="flex flex-col gap-y-2">
                     <p className="text-lg font-semibold !text-white">
-                    Mosaic Tiles
+                      Mosaic Tiles
                     </p>
                   </div>
                 </figcaption>
@@ -408,7 +363,7 @@ const Homec = () => {
                 <figcaption className="flex w-full p-3 absolute  left-0 bg-slate-900/60 !text-white justify-between items-center  bottom-0 hover:visible transition-all duration-200">
                   <div className="flex flex-col gap-y-2">
                     <p className="text-lg font-semibold !text-white">
-                    Slim Tiles
+                      Slim Tiles
                     </p>
                   </div>
                 </figcaption>
@@ -427,7 +382,7 @@ const Homec = () => {
                 <figcaption className="flex w-full p-3 absolute  left-0 bg-slate-900/60 !text-white justify-between items-center  bottom-0 hover:visible transition-all duration-200">
                   <div className="flex flex-col gap-y-2">
                     <p className="text-lg font-semibold !text-white">
-                    Ceramic Tiles
+                      Ceramic Tiles
                     </p>
                   </div>
                 </figcaption>
@@ -446,7 +401,7 @@ const Homec = () => {
                 <figcaption className="flex w-full p-3 absolute  left-0 bg-slate-900/60 !text-white justify-between items-center  bottom-0 hover:visible transition-all duration-200">
                   <div className="flex flex-col gap-y-2">
                     <p className="text-lg font-semibold !text-white">
-                    Porcelain Tiles
+                      Porcelain Tiles
                     </p>
                   </div>
                 </figcaption>
@@ -455,48 +410,6 @@ const Homec = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="section-4 py-[100px] mt-[100px] bg-[#00000010]">
-        <div className="bg-color">
-          <div className="wrapper container">
-            <div className="row justify-content-center text-wrapper">
-              <div className="col-md-3 col-6 text-center mb-lg-0 mb-4">
-                <div>
-                  <img
-                    src="assets/images/AFFORDABLE.png"
-                    alt="Affordable tiles icon"
-                  />
-                  <p>Affordable tiles</p>
-                </div>
-              </div>
-              <div className="col-md-3 col-6 text-center mb-lg-0 mb-4">
-                <div>
-                  <img
-                    src="assets/images/UNMATCHED.png"
-                    alt="Unmatched quality icon"
-                  />
-                  <p>Unmatched quality</p>
-                </div>
-              </div>
-              <div className="col-md-3 col-6 text-center mb-lg-0 mb-4">
-                <div>
-                  <img src="assets/images/24X7.png" alt="24*7 Support icon" />
-                  <p>24*7 Support</p>
-                </div>
-              </div>
-              <div className="col-md-3 col-6 text-center mb-md-0 mb-4">
-                <div>
-                  <img
-                    src="assets/images/CERTIFIED.png"
-                    alt="Certified Products icon"
-                  />
-                  <p>Certified Products</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <div className="bg-gray-100 py-16 mt-[100px] mb-[50px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -638,32 +551,6 @@ const Homec = () => {
                   looking for Link reliable tile supplier.
                 </p>
               </div>
-              {/* <div className="row">
-                <div className="col-lg-12">
-                  <div className="first-bar progress-skill-bar">
-                    <h4>Website Analysis</h4>
-                    <span>84%</span>
-                    <div className="filled-bar" />
-                    <div className="full-bar" />
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="second-bar progress-skill-bar">
-                    <h4>SEO Reports</h4>
-                    <span>88%</span>
-                    <div className="filled-bar" />
-                    <div className="full-bar" />
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="third-bar progress-skill-bar">
-                    <h4>Page Optimizations</h4>
-                    <span>94%</span>
-                    <div className="filled-bar" />
-                    <div className="full-bar" />
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </div>

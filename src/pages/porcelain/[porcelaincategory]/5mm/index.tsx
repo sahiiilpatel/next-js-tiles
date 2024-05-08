@@ -113,7 +113,11 @@ const Fivemm = () => {
                 </tr>
                 <tr>
                   <td className="font-semibold">APPLICATIONS</td>
-                  <td>Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium</td>
+                  <td>
+                    Commercial Buildings, Hotel, School, Colleges, Residentials,
+                    Hospital, Airport, Industry, Mall, Religious Place,
+                    Gymnasium
+                  </td>
                 </tr>
                 <tr>
                   <td className="font-semibold">FINISH</td>
@@ -157,9 +161,9 @@ const Fivemm = () => {
                 <div className="container mx-auto">
                   <div className="md:flex-1 px-4">
                     <p className="text-gray-500">
-                      It&rsquo;s best to know important factors while selecting tiles.
-                      We had a big goal and used cutting-edge technology to
-                      start a revolution, which caused us to plan. Our modern
+                      It&rsquo;s best to know important factors while selecting
+                      tiles. We had a big goal and used cutting-edge technology
+                      to start a revolution, which caused us to plan. Our modern
                       equipment motivates us and continuously adorns the world
                       with unparalleled craftsmanship & unique surfaces. Our
                       features help you in selecting the perfect tile for the
