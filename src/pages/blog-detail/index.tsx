@@ -1,70 +1,20 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Link from "next/link";
 
 const Blogetail = () => {
   return (
     <>
-      {/* <header
-        className="header-area header-sticky wow slideInDown"
-        data-wow-duration="0.75s"
-        data-wow-delay="0s"
-      >
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <nav className="main-nav">
-               
-                <Link href="/" className="logo">
-                  <h4>
-                    Amazing<span>Flooring</span>
-                  </h4>
-                </Link>
-              
-                <ul className="nav">
-                  <li className="scroll-to-section">
-                    <Link href="/"> Home </Link>
-                  </li>
-                  <li className="scroll-to-section">
-                    <Link href="/company" className="active">
-                      Company
-                    </Link>
-                  </li>
-                  <li className="scroll-to-section">
-                    <Link href="/products">Products</Link>
-                  </li>
-                 
-                  <li className="scroll-to-section">
-                    <Link href="/faq">FAQ</Link>
-                  </li>
-                  <li className="scroll-to-section">
-                    <Link href="/blogs">Blogs</Link>
-                  </li>
-                  <li className="scroll-to-section">
-                    <div className="main-red-button">
-                      <Link href="/contact">Contact Now</Link>
-                    </div>
-                  </li>
-                </ul>
-                <Link href={""} className="menu-trigger">
-                  <span>Menu</span>
-                </Link>
-              
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header> */}
       <Header />
       <div className="relative  mt-[100px]">
         <img
           src="assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="image"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -84,10 +34,10 @@ const Blogetail = () => {
         </div>
       </div>
 
-      <div className="relative p-4">
-        <div className="max-w-3xl mx-auto">
-          <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
-            <div className="">
+      <div className="relative px-4 py-10 sm:px-6 lg:px-8 ">
+        <div className="mx-auto max-w-4xl">
+          <div className="mt-3 bg-white rounded-lg shadow-lg p-6">
+            <div className="bg-[#f8f8f8] p-6 rounded-t-lg">
               <a
                 href="#"
                 className="text-indigo-600 hover:text-gray-700 transition duration-500 ease-in-out text-sm"

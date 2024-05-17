@@ -1,19 +1,33 @@
-import SlimFilter from "@/components/SlimFilter";
+import SubwayFilterSize from "@/components/CeramicFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
-const Glossy = () => {
+const Category = () => {
+  const router = useRouter();
+  const { subwaycategory } = router.query;
+
+  if (!subwaycategory) {
+    return (
+      <div>
+        <p>ceramic category not found.</p>
+      </div>
+    );
+  }
+
   return (
     <>
       <Header />
       <div className="relative  mt-[100px]">
-        <img
-          src="assets/images/a.jpg"
+        <Image
+          src="/assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt="alt"
+          alt={"img"}
+          height={"500"}
+          width={"500"}
+          loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
@@ -30,18 +44,18 @@ const Glossy = () => {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
-                  SLIM TILES
+                  {subwaycategory}
                 </h2>
               </div>
             </div>
           </div>
         </div>
       </div>
-  
-      <SlimFilter />
+
+      <SubwayFilterSize />
       <Footer />
     </>
   );
 };
 
-export default Glossy;
+export default Category;

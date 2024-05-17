@@ -1,18 +1,49 @@
-import { useState } from "react";
-import { filterableDataCeramic } from "../data/FilterableData";
+import { useEffect, useState } from "react";
+import { filterableDataSubway } from "../data/FilterableData";
 import Button from "./Button";
 import { Text } from "./Text";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
-const CeramicFilterSize = () => {
+const SubwayFilterSize = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
+  const [dataTwo, setDataTwo] = useState<any>(null);
 
   const buttonCaptions = ["all", "12*24", "24*24", "24*48", "5mm", "9mm"];
 
   const handleFilterClick = (filter: string) => {
     setActiveFilter(filter);
   };
+
+  const router = useRouter();
+  const { subwaycategory } = router.query;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!subwaycategory) return;
+
+      const response = filterableDataSubway.find(
+        (item) => item[0] === subwaycategory
+      );
+      setDataTwo(response);
+    };
+
+    fetchData();
+  }, [subwaycategory]);
+
+  if (!subwaycategory) {
+    return (
+      <div>
+        <p>subway category not found.</p>
+      </div>
+    );
+  }
+
+  if (!dataTwo) {
+    return <p>Loading...</p>;
+  }
+
   return (
     <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
@@ -49,10 +80,10 @@ const CeramicFilterSize = () => {
         </div>
         {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 gap-y-8  w-[78%] filter-grid">
-          {filterableDataCeramic.map((item, index) => (
+          {dataTwo.slice(1).map((item: any, index: any) => (
             <div
               key={index}
-              className={`w-full cursor-pointer transition-all duration-200 rounded-lg shadow bg-gray-200 ${
+              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${
                 activeFilter === "all" || activeFilter === item.name
                   ? "block testing"
                   : "hidden"
@@ -60,16 +91,13 @@ const CeramicFilterSize = () => {
             >
               <Link href={item.link}>
                 <Image
-                  className="rounded-t-lg w-full h-[250px] overflow-hidden"
+                  className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                   src={item.src}
                   alt={item.name}
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
-                  style={{
-                    objectFit: "cover",
-                  }}
-                  // objectCover="object-cover"
+                  objectFit="cover"
                 />
               </Link>
               <div className="p-3">
@@ -88,4 +116,4 @@ const CeramicFilterSize = () => {
   );
 };
 
-export default CeramicFilterSize;
+export default SubwayFilterSize;

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Homec = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "white" }}>
       <div
         className="main-banner wow fadeIn"
         id="top"
@@ -20,25 +20,29 @@ const Homec = () => {
                     data-wow-duration="1s"
                     data-wow-delay="1s"
                   >
-                    <h6>Welcome to Amazing Tiles</h6>
+                    <h6>step into Flowless international.</h6>
                     <h2>
-                      Beautiful,
-                      <em>Today</em> &amp; <span>Forever</span>
+                      Beauty,
+                      <em>Durability</em> &amp; <span>Innovation</span>
                     </h2>
                     <p className="text-[18px]">
-                      As Link leading flooring company, Amazing is proud to
-                      offer you high-quality tile solutions to enhance your home
-                      decor.
+                      Flowless International is the top manufacturer and
+                      exporter of premium sanitary wares, granite, and stones,
+                      as well as porcelain and ceramic wall and floor tiles. We
+                      are committed to quality and innovation, and our items are
+                      unique and popular.
                     </p>
                     <p className="text-[18px]">
-                      From architects and designers to contractors, builders,
-                      and retailers, we proudly support trade businesses; we are
-                      here for you. With Amazing Flooring, create Link beautiful
-                      world, one tile at Link time. From architects and
-                      designers to contractors, builders, and retailers, we
-                      proudly support trade businesses; we are here for you.
-                      With Amazing Flooring, create Link beautiful world, one
-                      tile at Link time.
+                      We constantly push beyond boundaries to improve our
+                      products and services because we are committed to meeting
+                      the demands of our customers. Our dedication to quality
+                      has made it possible us to lead the global marketplaces in
+                      our business.
+                    </p>
+                    <p className="text-[18px]">
+                      You can rely on Flowless International for unparalleled
+                      quality and craftsmanship. We have the perfect tiles and
+                      granite for your home, regardless of your style or budget.
                     </p>
                   </div>
                 </div>
@@ -66,20 +70,10 @@ const Homec = () => {
       <div className="row !p-0">
         <div className="col-lg-12 ">
           <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg mt-10 fixed-bg">
-            <div className="parallax-inner absolute left-[20px] top-[50px] parallax-items item-1">
-              We encourage our customers to look at our designer tile
-              collections, play with the colours and patterns, and come up with
-              unique handmade tile selections.
-            </div>
-            <div className="parallax-inner parallax-inner2 absolute left-[20%] top-[40%] translate transform parallax-items item-2">
-              We encourage our customers to look at our designer tile
-              collections, play with the colours and patterns, and come up with
-              unique handmade tile selections.
-            </div>
-            <div className="parallax-inner parallax-inner3 absolute right-[50px] bottom-[50px] translate transform parallax-items item-3">
-              We encourage our customers to look at our designer tile
-              collections, play with the colours and patterns, and come up with
-              unique handmade tile selections.
+            <div className="parallax-inner absolute parallax-items item-1">
+              We invite our clients to look through our designer tile
+              collections, experiment with the shades and patterns, and create
+              exclusive, individually designed tile arrangements.
             </div>
           </section>
         </div>
@@ -127,8 +121,7 @@ const Homec = () => {
                 data-wow-delay="0.2s"
               >
                 <h2>
-                  See What Our Agency <em>Offers</em> &amp; What We{" "}
-                  <span>Provide</span>
+                  <em>Luxurious </em>tiles for <span>inspired</span> living.
                 </h2>
               </div>
             </div>
@@ -143,9 +136,6 @@ const Homec = () => {
                 >
                   <div className="hidden-content">
                     <h4>Mosaic Tiles</h4>
-                    <p>
-                      Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.
-                    </p>
                   </div>
                   <div className="showed-content">
                     <Image
@@ -168,9 +158,6 @@ const Homec = () => {
                 >
                   <div className="hidden-content">
                     <h4>Matt Tiles</h4>
-                    <p>
-                      Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.
-                    </p>
                   </div>
                   <div className="showed-content">
                     <Image
@@ -192,10 +179,7 @@ const Homec = () => {
                   data-wow-delay="0.5s"
                 >
                   <div className="hidden-content">
-                    <h4>Rustic</h4>
-                    <p>
-                      Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.
-                    </p>
+                    <h4>Rustic Tiles</h4>
                   </div>
                   <div className="showed-content">
                     <Image
@@ -218,9 +202,6 @@ const Homec = () => {
                 >
                   <div className="hidden-content">
                     <h4>Wooden Tiles</h4>
-                    <p>
-                      Lorem ipsum dolor sit ameti ctetur aoi adipiscing eto.
-                    </p>
                   </div>
                   <div className="showed-content">
                     <Image
@@ -271,23 +252,33 @@ const Homec = () => {
                       data-wow-delay="0.5s"
                     >
                       <div className="right-text">
-                        <h4>WHY AMAZING FLOORING?</h4>
                         <p>
-                          Bringing architectural ideas to life, Amazing Flooring
-                          always offers the perfect blend of beauty and
-                          functionality in the form of floor and wall tiles. As
-                          the tile supplier in the US and Canada, our team takes
-                          pride in bringing you the newest designs and unseen
-                          visions in every collection. With superior quality and
-                          Link vast collection of tiles in numerous sizes and
-                          designs, Amazing Flooring has brought the ideas of
-                          countless architects, designers, stylists, and
-                          homeowners to life. Our products have Link wide range
-                          of applications, residential and commercial like
-                          hotels, airports, restrooms, hospitals, and more. We
-                          believe in delivering tiles that stand the test of
-                          time and surpass all the expectations of quality and
-                          functionality.
+                          ➦ Choose Flowless International as your trusted
+                          partner for premium porcelain, ceramic, and natural
+                          stone tiles, including stones.
+                        </p>
+                        <p className={"my-2"}>
+                          ➦ With a reputation as a leading producer and
+                          exporter, we guarantee the highest quality products
+                          crafted with precision and expertise. Our extensive
+                          range offers unparalleled options for wall and floor
+                          applications, ensuring your spaces radiate elegance
+                          and durability.
+                        </p>
+                        <p className={"my-2"}>
+                          ➦ At Flowless International, we prioritize customer
+                          satisfaction, offering tailored solutions to meet your
+                          specific needs and preferences. Our commitment to
+                          excellence is reflected in our meticulous attention to
+                          detail, from sourcing raw materials to the final
+                          product, ensuring that each tile embodies timeless
+                          beauty and unmatched quality.
+                        </p>
+                        <p className={"my-2"}>
+                          ➦ Experience the difference with Flowless
+                          International – where premium craftsmanship meets
+                          exceptional service. Choose us for your next project
+                          and elevate your spaces with sophistication and style.
                         </p>
                       </div>
                     </div>
@@ -315,13 +306,13 @@ const Homec = () => {
                 strokeLinecap="round"
               ></path>
             </svg>
-            <span className="relative">Amazing Flooring</span>
+            <span className="relative">Flowless International.</span>
           </span>
         </p>
         <div className="section-heading text-center mb-[50px] ">
           <h2>
-            See What Our Agency <em>Offers</em> &amp; What We{" "}
-            <span>Provide</span>
+            View the <em>Services</em> &amp; <span>Products</span> Our Agency
+            Offers.
           </h2>
         </div>
         <div className="flex items-center justify-center min-h-screen">
@@ -436,10 +427,6 @@ const Homec = () => {
               <p className="mt-4 text-lg leading-6 font-medium text-gray-900">
                 Affordable Tiles
               </p>
-              <p className="mt-2 text-base text-gray-500">
-                Description of service 1 goes here. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-              </p>
             </div>
             {/* Service Box 2 */}
             <div className="text-center">
@@ -458,10 +445,6 @@ const Homec = () => {
               </div>
               <p className="mt-4 text-lg leading-6 font-medium text-gray-900">
                 Unmatched quality
-              </p>
-              <p className="mt-2 text-base text-gray-500">
-                Description of service 2 goes here. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
               </p>
             </div>
             {/* Service Box 3 */}
@@ -482,10 +465,6 @@ const Homec = () => {
               <p className="mt-4 text-lg leading-6 font-medium text-gray-900">
                 24*7 Support
               </p>
-              <p className="mt-2 text-base text-gray-500">
-                Description of service 3 goes here. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-              </p>
             </div>
             {/* Service Box 4 */}
             <div className="text-center">
@@ -505,15 +484,11 @@ const Homec = () => {
               <p className="mt-4 text-lg leading-6 font-medium text-gray-900">
                 Certified Products
               </p>
-              <p className="mt-2 text-base text-gray-500">
-                Description of service 3 goes here. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit.
-              </p>
             </div>
           </div>
         </div>
       </div>
-      <div id="services" className="our-services section mb-[100px]">
+      <div id="services" className="our-services section mb-[50px]">
         <div className="container">
           <div className="row">
             <div
@@ -523,32 +498,42 @@ const Homec = () => {
             >
               <div className="section-heading">
                 <h2>
-                  We believe in helping to create Link beautiful<em> today </em>{" "}
-                  &amp; <span> tomorrow</span>
+                  Here&apos;s how we can assist you:
+                  {/* <em></em> */}
+                  {/* We believe in helping to create Link beautiful<em> today </em>{" "}
+                  &amp; <span> tomorrow</span> */}
                 </h2>
                 <p className="text-[20px]">
-                  From architects and designers to contractors, builders, and
-                  retailers, we proudly support trade businesses; we are here
-                  for you. With Amazing Flooring, create Link beautiful world,
-                  one tile at Link time.
+                  <b>• High-Quality Products: </b>
+                  Our products are crafted to the highest standards of quality
+                  and durability, ensuring that your projects stand the test of
+                  time and maintain their beauty for years to come.
                 </p>
                 <p className="text-[20px]">
-                  Amazing Flooring is setting new benchmarks in the tile world
-                  with excellent products and on-point customer service. Our
-                  strong vision, dedicated team, expertise, and experience in
-                  the tile industry have strengthened our brand presence
-                  worldwide.
-                </p>{" "}
-                <p className="text-[20px]">
-                  From time-honored to modern and trending designs, we offer an
-                  array of international standard flooring solutions for
-                  everyone. Paint the world in different hues, textures,
-                  designs, and patterns with us.
+                  <b>• Extensive Range: </b>
+                  With our diverse selection of tiles and stones, we offer
+                  endless possibilities to suit any aesthetic preference or
+                  design concept, empowering you to bring your vision to life.
                 </p>
                 <p className="text-[20px]">
-                  A fantastic collection of high-quality tiles proves our
-                  commitment to quality and reliability if you are Link vendor
-                  looking for Link reliable tile supplier.
+                  <b>• Custom Solutions: </b>
+                  We understand that every project is unique. That&apos;s why we
+                  offer custom solutions tailored to your specific requirements,
+                  whether it&apos;s a custom tile size, shape, or color
+                  variation.
+                </p>
+                <p className="text-[20px]">
+                  <b>• Expert Guidance: </b>
+                  Our team of experienced professionals is here to provide
+                  expert guidance and support at every step of your project,
+                  from initial consultation to final installation, ensuring a
+                  seamless and successful outcome.
+                </p>
+                <p className="text-[20px]">
+                  <b>• Global Reach: </b>
+                  As a leading exporter, we have the capability to serve clients
+                  worldwide, delivering top-quality products to your doorstep
+                  wherever you are located.
                 </p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link"; // Import Link from Next.js
 import { useRouter } from "next/router"; // Import useRouter from Next.js
+import Image from "next/image";
 
 function Header() {
   const router = useRouter(); // Initialize Next.js router
@@ -25,19 +26,19 @@ function Header() {
         <div className="head-line">
           <p className="text-center p-3">
             To Speak with us Email or Call at{" "}
-            <a href="#" className="mx-2">
+            <a href="tel:+91 757-308-8222" className="mx-2">
               <i className="fas fa-phone-alt" aria-hidden="true" />
-              +1 (747) 222-9167
+              +91 (757) 308-8222
             </a>{" "}
             |
-            <a href="#">
+            <a href="mailto:info@flowless.co.in">
               <i className="far fa-envelope" aria-hidden="true" />
-              info@amazing-flooring.com
+              info@flowless.co.in
             </a>{" "}
             |
-            <a href="#">
+            <a href="mailto:export@flowless.co.in">
               <i className="far fa-envelope" aria-hidden="true" />
-              order@amazing-flooring.com
+              export@flowless.co.in
             </a>
           </p>
         </div>
@@ -47,9 +48,12 @@ function Header() {
               <nav className="main-nav">
                 {/* ***** Logo Start ***** */}
                 <Link href="/" passHref className="logo">
-                  <h4>
-                    Amazing<span>Flooring</span>
-                  </h4>
+                  {/* <h4>
+                    Flowless <span>International</span>
+                  </h4> */}
+                  <div className="h-[100px] max-w-[150px] flex items-center">
+                  <Image src="/assets/images/logo.jpg" className="object-contain" alt="logo" height={100} width={100} loading="lazy"/>
+                  </div>
                 </Link>
                 {/* ***** Logo End ***** */}
                 {/* ***** Menu Start ***** */}
@@ -78,9 +82,6 @@ function Header() {
                   >
                     <Link href="/products">Products</Link>
                   </li>
-                  {/* <li className={`scroll-to-section ${router.pathname === '/portfolio' ? 'active' : ''}`}>
-                    <Link href="#portfolio">Collection</Link>
-                  </li> */}
                   <li
                     className={`scroll-to-section ${
                       router.pathname === "/faq" ? "active" : ""
@@ -103,8 +104,10 @@ function Header() {
                     }`}
                     onClick={handleLinkClick}
                   >
-                    <div className="main-red-button">
-                      <Link href="/contact">Contact Now</Link>
+                    <div className="main-red-button ">
+                      <Link href="/contact" className="white">
+                        Contact Now
+                      </Link>
                     </div>
                   </li>
                 </ul>

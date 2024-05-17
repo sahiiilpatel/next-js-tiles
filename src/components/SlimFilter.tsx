@@ -14,11 +14,11 @@ const SlimFilter = () => {
     <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         {/* filtered cards display */}
-        <main className="grid lg:grid-cols-2 md:grid-cols-2 gap-x-5 gap-y-8  w-screen filter-grid">
+        <main className="grid lg:grid-cols-3 md:grid-cols-3 gap-x-5 gap-y-8  w-screen filter-grid">
           {slimData.map((item, index) => (
             <div
               key={index}
-              className={`w-full cursor-pointer transition-all duration-200 rounded-lg shadow bg-gray-200 ${
+              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${
                 activeFilter === "all" || activeFilter === item.name
                   ? "block testing"
                   : "hidden"
@@ -26,15 +26,13 @@ const SlimFilter = () => {
             >
               <Link href={item.link}>
                 <Image
-                  className="rounded-t-lg w-full h-[250px] overflow-hidden"
+                  className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                   src={item.src}
                   alt={item.name}
                   height={"500"}
                   width={"500"}
                   loading="lazy"
-                  style={{
-                    objectFit: "cover",
-                  }}
+                  objectFit="cover"
                   // objectCover="object-cover"
                 />
               </Link>

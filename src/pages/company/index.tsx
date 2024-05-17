@@ -1,6 +1,18 @@
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Link from "next/link";
+
+function handleDownload() {
+  const pdfFilePath = "/assets/pdf/Catalogue_sample.pdf";
+
+  const link = document.createElement("a");
+  link.href = pdfFilePath;
+  link.download = "Catalogue_sample.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+
+  document.body.removeChild(link);
+}
 
 const Company = () => {
   return (
@@ -11,11 +23,12 @@ const Company = () => {
         <img
           src="assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="alt"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -85,30 +98,49 @@ const Company = () => {
                 strokeLinecap="round"
               ></path>
             </svg>
-            <span className="relative">Our Company</span>
+            <span className="relative">Flowless International.</span>
           </span>
         </p>
         <br />
-        <div className="p-4 text-gray-600 text-md sm:text-left md:text-left text-center font-sans">
-          “Reliability, Quality & Trust” are the watchwords of Amazing Flooring
-          Tile company. Our devoted team members passionately work to provide
-          the best value to our clients through immersive quality products and
-          exceptional service.
+        <div className="p-4 text-gray-600 text-md sm:text-left md:text-left font-sans">
+          <b style={{ fontSize: "22px" }}>
+            {" "}
+            • At Flowless International, we pride ourselves on our :
+          </b>
         </div>
-        <p className="p-4 text-gray-600 text-md sm:text-left md:text-left text-center font-sans">
-          At Amazing Flooring, our clients recognize us as a reliable and
-          trustworthy tile supplier in USA & Canada. Our simple philosophy is to
-          diligently supply stylish and durable wall and floor tiles to make a
-          fashion statement for proud owners.
-        </p>
-        <p className="text-center text-md text-gray-600 px-4 font_sans py-3">
-          Our tile store constantly strives to exceed customer expectations and
-          stay ahead of modern flooring trends. We firmly believe in our core
-          values, perform the necessary testing to keep up with market trends,
-          and maintain our innovative reputation. As a global wall & floor tile
-          supplier, we offer a wide array of complementary products and flooring
-          solutions.
-        </p>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          <b>Excellence in Quality:</b> Our products undergo rigorous quality
+          control measures to ensure that each tile and stone meets the highest
+          standards of durability, aesthetics, and performance.
+        </div>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          <b>Diverse Selection:</b> Explore our extensive catalog featuring a
+          wide range of designs, colors, and finishes, allowing you to find the
+          perfect solution for any project, whether it&apos;s residential,
+          commercial, or industrial.
+        </div>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          <b>Innovation and Technology:</b> We leverage the latest advancements
+          in manufacturing technology and design innovation to stay at the
+          forefront of the industry, offering cutting-edge products that meet
+          the evolving needs of our clients.
+        </div>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          <b>Global Reach:</b> With a strong network of distributors and
+          partners worldwide, we are able to serve clients in various markets,
+          providing timely delivery and excellent customer service wherever you
+          are located.
+        </div>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          <b>Sustainability:</b> We are committed to environmentally responsible
+          practices throughout our production process, from sourcing materials
+          to reducing waste and energy consumption, ensuring that our products
+          have minimal impact on the planet.
+        </div>
+        <div className="p-2 text-gray-600 text-md sm:text-left md:text-left  font-sans">
+          Discover the difference with Flowless International and experience the
+          finest in premium tiles and natural stones for your projects.
+        </div>
       </div>
       <div className="wrapper bg-[#00000010] p-5 my-[100px]">
         <div className="company-hover">
@@ -116,30 +148,20 @@ const Company = () => {
             <div className="col-md-8 d-flex align-items-center ">
               <div className="text-wrapper">
                 <h6 className="text-uppercase text-lg">
-                  DOWNLOAD LATEST COLLECTION’S CATALOGUE from amazing flooring
+                  DOWNLOAD LATEST COLLECTION’S CATALOGUE from Flowless
+                  International
                 </h6>
                 <p className="mt-4">
-                  Never go out of style with our ever-refreshing tiles
-                  collection. Browse our tiles range for unlimited design ideas.
-                  Add a touch of grandeur to your home or office with Amazing
-                  Flooring, your one-stop destination tile showroom.
+                  Experience the unparalleled elegance and versatility of
+                  Flowless International&apos;s premium tile and stone
+                  collections by downloading our comprehensive catalogue today.
                 </p>
-                <p>
-                  From sophisticated to bold and classic to modern, get the look
-                  you desire with our breathtaking tile collection.
-                </p>
-                <div className="main-red-button mt-[30px] company">
-                  <Link href="#contact">Download Catalogue</Link>
+                <div className="mt-[30px] tempcolor">
+                  <button onClick={handleDownload}>Download Catalogue</button>
                 </div>
-                {/* <button>
-                  <a
-                    href="download.php"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  />
-                </button> */}
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="image-wrapper">
                 <img
                   loading="lazy"
@@ -147,7 +169,7 @@ const Company = () => {
                   alt="Catalogue Book Image"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -15,17 +14,18 @@ const Footer = () => {
               data-wow-delay="0.25s"
             >
               <div className="section-heading">
-                <h2>Feel Free To Send Us a Message About Your Website Needs</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  doer ket eismod tempor incididunt ut labore et dolores
-                </p>
+                {/* <h2>Feel Free To Send Us a Message About Your Website Needs</h2> */}
+                <h2>
+                  Choose Flowless International as your trusted partner, and let
+                  us help you transform your spaces with premium quality tiles
+                  that exceed your expectations.
+                </h2>
                 <div className="phone-info">
                   <h4>
-                    For any enquiry, Call Us:{" "}
+                    For more enquiry, Call Us:{" "}
                     <span>
                       <i className="fa fa-phone" />{" "}
-                      <Link href="#">010-020-0340</Link>
+                      <a href="tel:+91 757-308-8222">+91 757-308-8222</a>
                     </span>
                   </h4>
                 </div>
@@ -36,15 +36,16 @@ const Footer = () => {
               data-wow-duration="0.5s"
               data-wow-delay="0.25s"
             >
-              <form id="contact" action="" method="post">
+              <form id="contact" action="https://formsubmit.co/info@flowless.co.in" method="POST">
                 <div className="row">
                   <div className="col-lg-6">
                     <fieldset>
                       <input
                         type="name"
-                        name="name"
+                        name="Name"
                         id="name"
                         placeholder="Name"
+                        required
                       />
                     </fieldset>
                   </div>
@@ -52,9 +53,10 @@ const Footer = () => {
                     <fieldset>
                       <input
                         type="surname"
-                        name="surname"
+                        name="Surname"
                         id="surname"
                         placeholder="Surname"
+                        required
                       />
                     </fieldset>
                   </div>
@@ -62,24 +64,28 @@ const Footer = () => {
                     <fieldset>
                       <input
                         type="text"
-                        name="email"
+                        name="Email"
                         id="email"
                         pattern="[^ @]*@[^ @]*"
                         placeholder="Your Email"
+                        required
                       />
                     </fieldset>
                   </div>
                   <div className="col-lg-12">
                     <fieldset>
                       <textarea
-                        name="message"
+                        name="Message"
                         className="form-control"
                         id="message"
                         placeholder="Message"
                         defaultValue={""}
+                        required
                       />
                     </fieldset>
                   </div>
+                  <input type="hidden" name="_template" value="table"></input>
+                  <input type="hidden" name="_next" value="https://flowless.co.in/"></input>
                   <div className="col-lg-12">
                     <fieldset>
                       <button
@@ -93,7 +99,13 @@ const Footer = () => {
                   </div>
                 </div>
                 <div className="contact-dec">
-                  <Image src="/assets/images/contact-decoration.png" alt="" height={"500"} width={"500"} loading="lazy"/>
+                  <Image
+                    src="/assets/images/contact-decoration.png"
+                    alt="alt"
+                    height={"500"}
+                    width={"500"}
+                    loading="lazy"
+                  />
                 </div>
               </form>
             </div>
@@ -108,7 +120,7 @@ const Footer = () => {
               data-wow-duration="1s"
               data-wow-delay="0.25s"
             >
-              <p>© Copyright 2024 Amazing Flooring. All Rights Reserved.</p>
+              <p>© Copyright 2024 Flowless International. All Rights Reserved.</p>
             </div>
           </div>
         </div>

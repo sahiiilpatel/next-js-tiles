@@ -1,13 +1,17 @@
 import Footer from "@/components/footer/Footer";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import ScrollCounter from "@/components/Counter";
 import ScrollCounter2 from "@/components/Counter2";
 import ScrollCounter3 from "@/components/Counter3";
 import ScrollCounter4 from "@/components/Counter4";
 import Header from "@/components/header/Header";
+import { PorcelainTilesData } from "@/data/FilterableData";
 import Image from "next/image";
+import { useRouter } from "next/router";
+
 const Fivemm = () => {
   const [ToggleState, setToggleState] = useState(1);
+  const [tileData, setDataTwo] = useState<any>(null);
 
   const toggleTab = (index: any) => {
     setToggleState(index);
@@ -15,9 +19,39 @@ const Fivemm = () => {
 
   const getActiveClass = (index: any, className: any) =>
     ToggleState === index ? className : "";
+
+  const router = useRouter();
+  const { porcelaincategory, tile } = router.query;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!tile || typeof tile !== "string") return;
+      if (!porcelaincategory || typeof porcelaincategory !== "string") return;
+
+      const tile_name = porcelaincategory + "_" + tile;
+      const response = PorcelainTilesData.find((item) => item[0] === tile_name);
+      setDataTwo((response as any)[1]);
+    };
+
+    fetchData();
+  }, [tile]);
+
+  if (!porcelaincategory || !tile) {
+    return (
+      <div>
+        <p>porcelain category or tile not found.</p>
+      </div>
+    );
+  }
+
+  if (!tileData) {
+    return <p>Loading...</p>;
+  }
+
   return (
     <>
       <Header />
+
       <div className="relative  mt-[100px]">
         <Image
           src="/assets/images/a.jpg"
@@ -42,7 +76,7 @@ const Fivemm = () => {
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
-                  5mm
+                  {tile}
                 </h2>
               </div>
             </div>
@@ -62,75 +96,76 @@ const Fivemm = () => {
           <div
             className="slide relative !flex-auto bg-cover bg-center !transition-all !duration-500 !ease-in-out !hover:flex-grow"
             style={{
-              backgroundImage: 'url("/assets/images/a.jpg")',
+              backgroundImage: `url(${tileData.img1})`,
             }}
           />
           <div
             className="slide relative flex-auto bg-cover bg-center transition-all duration-500 ease-in-out hover:flex-grow"
             style={{
-              backgroundImage: 'url("/assets/images/b.jpg")',
+              backgroundImage: `url(${tileData.img2})`,
             }}
           />
           <div
             className="slide relative flex-auto bg-cover bg-center transition-all duration-500 ease-in-out hover:flex-grow"
             style={{
-              backgroundImage: 'url("/assets/images/a.jpg")',
+              backgroundImage: `url(${tileData.img3})`,
             }}
           />
           <div
             className="slide relative flex-auto bg-cover bg-center transition-all duration-500 ease-in-out hover:flex-grow"
             style={{
-              backgroundImage: 'url("/assets/images/b.jpg")',
+              backgroundImage: `url(${tileData.img4})`,
             }}
           />
           <div
             className="slide relative flex-auto bg-cover bg-center transition-all duration-500 ease-in-out hover:flex-grow"
             style={{
-              backgroundImage: 'url("/assets/images/a.jpg")',
+              backgroundImage: `url(${tileData.img5})`,
             }}
           />
         </div>
       </div>
 
-      <div className="flex w-full h-full items-center justify-center">
-        <div className="flex w-[95%] h-[1000px] gap-4 image-slide py-20">
-          <div
-            className="slide relative !flex-auto bg-cover bg-center !transition-all !duration-500 !ease-in-out !hover:flex-grow"
-            style={{
-              backgroundImage: 'url("/assets/images/a.jpg")',
-            }}
-          />
+      {tileData.main_img && (
+        <div className="flex w-full h-full items-center justify-center">
+          <div className="flex w-[95%] sm:h-[1000px] h-[500px] gap-4 image-slide py-5">
+            <div
+              className="slide relative !flex-auto bg-cover bg-center !transition-all !duration-500 !ease-in-out !hover:flex-grow"
+              style={{
+                background: `url(${tileData.main_img})`,
+                backgroundRepeat:"no-repeat",
+                backgroundPosition : "center",
+                backgroundSize : "contain"
+              }}
+            />
+          </div>
         </div>
-      </div>
+      )}
 
-      <div className="flex w-full h-full items-center justify-center">
+      <div className="flex w-full h-full items-center justify-center py-5">
         <div className="w-5/6 h-[500px] gap-4 col-lg-12">
           <div className={`active-content`}>
             <table>
               <tbody>
                 <tr>
                   <td className="font-semibold">CATEGORY </td>
-                  <td>Mosaic</td>
+                  <td>{tileData.main_table.CATEGORY}</td>
                 </tr>
                 <tr>
                   <td className="font-semibold">APPLICATIONS</td>
-                  <td>
-                    Commercial Buildings, Hotel, School, Colleges, Residentials,
-                    Hospital, Airport, Industry, Mall, Religious Place,
-                    Gymnasium
-                  </td>
+                  <td>{tileData.main_table.APPLICATIONS}</td>
                 </tr>
                 <tr>
                   <td className="font-semibold">FINISH</td>
-                  <td>Matt</td>
+                  <td>{tileData.main_table.FINISH}</td>
                 </tr>
                 <tr>
                   <td className="font-semibold">CHIP SIZE</td>
-                  <td>19mm</td>
+                  <td>{tileData.main_table.CHIP_SIZE}</td>
                 </tr>
                 <tr>
                   <td className="font-semibold">PER BOX COVERAGE AREA</td>
-                  <td>1.840 SQ.M | SQ. FT : 19.8</td>
+                  <td>{tileData.main_table.PER_BOX_COVERAGE_AREA}</td>
                 </tr>
               </tbody>
             </table>
@@ -139,26 +174,28 @@ const Fivemm = () => {
       </div>
 
       <div className="row !p-0 my-[30px] tab-mob">
-        <div className="col-lg-12 ">
+        <div className="col-lg-12">
           <div className="container container-tab">
             <ul className="tab-list">
               <li
-                className={`tabs ${getActiveClass(1, "active-tabs")}`}
+                className={`tabs ${getActiveClass(1, "active-tabs")} ${
+                  !tileData.Packaging_table ? "w-full" : ""
+                }`}
                 onClick={() => toggleTab(1)}
               >
                 Specification
               </li>
-              <li
-                className={`tabs ${getActiveClass(2, "active-tabs")}`}
-                onClick={() => toggleTab(2)}
-              >
-                Packaging Details
-              </li>
+              {tileData.Packaging_table && (
+                <li
+                  className={`tabs ${getActiveClass(2, "active-tabs")}`}
+                  onClick={() => toggleTab(2)}
+                >
+                  Packaging Details
+                </li>
+              )}
             </ul>
             <div className="content-container">
-              <div
-                className={`content ${getActiveClass(1, "active-content ")}`}
-              >
+              <div className={`content ${getActiveClass(1, "active-content")}`}>
                 <div className="container mx-auto">
                   <div className="md:flex-1 px-4">
                     <p className="text-gray-500">
@@ -173,36 +210,41 @@ const Fivemm = () => {
                   </div>
                 </div>
               </div>
-              <div className={`content ${getActiveClass(2, "active-content")}`}>
-                <table>
-                  <tbody>
-                    <tr>
-                      <td className="font-semibold">Size </td>
-                      <td>75x300mm</td>
-                    </tr>
-                    <tr>
-                      <td className="font-semibold">Tiles / Box</td>
-                      <td>44pcs</td>
-                    </tr>
-                    <tr>
-                      <td className="font-semibold">Box / Pallet</td>
-                      <td>90</td>
-                    </tr>
-                    <tr>
-                      <td className="font-semibold">Coverage Area</td>
-                      <td>1 Box : 099 SQ. MTR</td>
-                    </tr>
-                    <tr>
-                      <td className="font-semibold">Pallet / Containers</td>
-                      <td>1 Containers = 22 Pallet</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+              {tileData.Packaging_table && (
+                <div
+                  className={`content ${getActiveClass(2, "active-content")}`}
+                >
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className="font-semibold">Size </td>
+                        <td>{tileData.Packaging_table.Size}</td>
+                      </tr>
+                      <tr>
+                        <td className="font-semibold">Tiles / Box</td>
+                        <td>{tileData.Packaging_table.Tiles_Box}</td>
+                      </tr>
+                      <tr>
+                        <td className="font-semibold">Box / Pallet</td>
+                        <td>{tileData.Packaging_table.Box_Pallet}</td>
+                      </tr>
+                      <tr>
+                        <td className="font-semibold">Coverage Area</td>
+                        <td>{tileData.Packaging_table.Coverage_Area}</td>
+                      </tr>
+                      <tr>
+                        <td className="font-semibold">Pallet / Containers</td>
+                        <td>{tileData.Packaging_table.Pallet_Containers}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              )}
             </div>
           </div>
         </div>
       </div>
+
       <div className="area-wrap justify-center my-[100px] ">
         <div className="flex flex-col gap-5 justify-center items-center w-full">
           <div className="service-sec">

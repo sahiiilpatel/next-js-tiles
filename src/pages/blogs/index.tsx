@@ -7,15 +7,16 @@ const Blogs = () => {
     <>
       <Header />
 
-      <div className="relative  mt-[100px]">
+      <div className="relative mt-[100px]">
         <img
           src="assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="alt"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -56,17 +57,15 @@ const Blogs = () => {
                   <img
                     className="h-48 w-full object-cover"
                     src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt=""
+                    alt="alt"
                   />
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
-                        Article
-                      </a>
+                      <span className="hover:underline">Article</span>
                     </p>
-                    <a href="#" className="mt-2 block">
+                    <div className="mt-2 block">
                       <p className="text-xl font-semibold text-gray-900">
                         Boost your conversion rate
                       </p>
@@ -76,24 +75,20 @@ const Blogs = () => {
                         saepe molestiae, sed excepturi cumque corporis
                         perferendis hic.
                       </p>
-                    </a>
+                    </div>
                   </div>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
-                      <a href="#">
-                        <span className="sr-only">Roel Aufderehar</span>
-                        <img
-                          className="h-10 w-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
-                        />
-                      </a>
+                      <span className="sr-only">Roel Aufderehar</span>
+                      <img
+                        className="h-10 w-10 rounded-full"
+                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt="alt"
+                      />
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900">
-                        <a href="#" className="hover:underline">
-                          Roel Aufderehar
-                        </a>
+                        <span className="hover:underline">Roel Aufderehar</span>
                       </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime="2020-03-16">Mar 16, 2020</time>
@@ -111,17 +106,15 @@ const Blogs = () => {
                   <img
                     className="h-48 w-full object-cover"
                     src="https://images.unsplash.com/photo-1547586696-ea22b4d4235d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt=""
+                    alt="alt"
                   />
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
-                        Video
-                      </a>
+                      <span className="hover:underline">Video</span>
                     </p>
-                    <a href="#" className="mt-2 block">
+                    <div className="mt-2 block">
                       <p className="text-xl font-semibold text-gray-900">
                         Boost your conversion rate
                       </p>
@@ -131,24 +124,20 @@ const Blogs = () => {
                         saepe molestiae, sed excepturi cumque corporis
                         perferendis hic.
                       </p>
-                    </a>
+                    </div>
                   </div>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
-                      <a href="#">
-                        <span className="sr-only">Brenna Goyette</span>
-                        <img
-                          className="h-10 w-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
-                        />
-                      </a>
+                      <span className="sr-only">Brenna Goyette</span>
+                      <img
+                        className="h-10 w-10 rounded-full"
+                        src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt="alt"
+                      />
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900">
-                        <a href="#" className="hover:underline">
-                          Brenna Goyette
-                        </a>
+                        <span className="hover:underline">Brenna Goyette</span>
                       </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime="2020-03-10">Mar 10, 2020</time>
@@ -166,17 +155,15 @@ const Blogs = () => {
                   <img
                     className="h-48 w-full object-cover"
                     src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80"
-                    alt=""
+                    alt="alt"
                   />
                 </div>
                 <div className="flex flex-1 flex-col justify-between bg-white p-6">
                   <div className="flex-1">
                     <p className="text-sm font-medium text-indigo-600">
-                      <a href="#" className="hover:underline">
-                        Case Study
-                      </a>
+                      <span className="hover:underline">Case Study</span>
                     </p>
-                    <a href="#" className="mt-2 block">
+                    <div className="mt-2 block">
                       <p className="text-xl font-semibold text-gray-900">
                         Boost your conversion rate
                       </p>
@@ -186,24 +173,20 @@ const Blogs = () => {
                         saepe molestiae, sed excepturi cumque corporis
                         perferendis hic.
                       </p>
-                    </a>
+                    </div>
                   </div>
                   <div className="mt-6 flex items-center">
                     <div className="flex-shrink-0">
-                      <a href="#">
-                        <span className="sr-only">Daniela Metz</span>
-                        <img
-                          className="h-10 w-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                          alt=""
-                        />
-                      </a>
+                      <span className="sr-only">Daniela Metz</span>
+                      <img
+                        className="h-10 w-10 rounded-full"
+                        src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                        alt="alt"
+                      />
                     </div>
                     <div className="ml-3">
                       <p className="text-sm font-medium text-gray-900">
-                        <a href="#" className="hover:underline">
-                          Daniela Metz
-                        </a>
+                        <span className="hover:underline">Daniela Metz</span>
                       </p>
                       <div className="flex space-x-1 text-sm text-gray-500">
                         <time dateTime="2020-02-12">Feb 12, 2020</time>

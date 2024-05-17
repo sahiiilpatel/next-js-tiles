@@ -9,11 +9,12 @@ const ProductDetail = () => {
         <img
           src="assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="alt"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path

@@ -11,11 +11,12 @@ const Contact = () => {
         <img
           src="assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="alt"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -41,62 +42,69 @@ const Contact = () => {
           className="relative h-[400px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.9201725408!2d71.98875190039048!3d23.019778865794226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1715513187145!5m2!1sen!2sin"
             width="100%"
-            height={680}
-            style={{ border: 0 }}
-            allowFullScreen
+            height="100%"
+            style={{ border: "0" }}
             loading="lazy"
-          />
+          ></iframe>
         </div>
+
         <div className="container px-6 md:px-12">
           <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
             <div className="flex flex-wrap">
               <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-                <form>
-                  <div className="relative mb-6" data-te-input-wrapper-init="">
-                    <input
-                      type="text"
-                      className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                      id="exampleInput90"
-                    />
-                    <label
-                      className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
-                      htmlFor="exampleInput90"
-                    >
-                      Name
-                    </label>
+                <form
+                  action="https://formsubmit.co/info@flowless.co.in"
+                  method="POST"
+                >
+                  <div className="relative mb-6">
+                    <fieldset>
+                      <input
+                        className="form-control"
+                        type="name"
+                        name="Name"
+                        id="name"
+                        placeholder="Name"
+                        required
+                      />
+                    </fieldset>
                   </div>
-                  <div className="relative mb-6" data-te-input-wrapper-init="">
-                    <input
-                      type="email"
-                      className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                      id="exampleInput91"
-                    />
-                    <label
-                      className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
-                      htmlFor="exampleInput91"
-                    >
-                      Email address
-                    </label>
+                  <div className="relative mb-6">
+                    <fieldset>
+                      <input
+                        className="form-control"
+                        type="text"
+                        name="Email"
+                        id="email"
+                        pattern="[^ @]*@[^ @]*"
+                        placeholder="Email address"
+                        required
+                      />
+                    </fieldset>
                   </div>
-                  <div className="relative mb-6" data-te-input-wrapper-init="">
-                    <textarea
-                      className="peer block min-h-[auto] w-full rounded border-2 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none "
-                      id="exampleFormControlTextarea1"
-                      rows={3}
-                      defaultValue={""}
-                    />
-                    <label
-                      htmlFor="exampleFormControlTextarea1"
-                      className="pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none "
-                    >
-                      Message
-                    </label>
+                  <div className="relative mb-6">
+                    <fieldset>
+                      <textarea
+                        name="Message"
+                        className="form-control"
+                        id="message"
+                        placeholder="Message"
+                        defaultValue={""}
+                        required
+                      />
+                    </fieldset>
                   </div>
-
-                  <div className="main-red-button">
-                    <Link href="#contact">Send</Link>
+                  <input type="hidden" name="_template" value="table"></input>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://flowless.co.in/"
+                  ></input>
+                  <div className="tempcolor">
+                    <button type="submit" id="form-submit">
+                      Send
+                    </button>
                   </div>
                 </form>
               </div>
@@ -231,7 +239,9 @@ const Contact = () => {
               data-wow-duration="1s"
               data-wow-delay="0.25s"
             >
-              <p>© Copyright 2024 Amazing Flooring. All Rights Reserved.</p>
+              <p>
+                © Copyright 2024 Flowless International. All Rights Reserved.
+              </p>
             </div>
           </div>
         </div>

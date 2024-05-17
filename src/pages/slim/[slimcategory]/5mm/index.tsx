@@ -22,14 +22,15 @@ const Fivemm = () => {
         <Image
           src="/assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt=""
+          alt="alt"
           height={"500"}
           width={"500"}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
-            className="absolute inset-x-0 bottom-[-2px] text-white"
+            className="absolute inset-x-0 bottom-[-2px]"
+            style={{ color: "#f8f8f8" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -92,7 +93,7 @@ const Fivemm = () => {
       </div>
 
       <div className="flex w-full h-full items-center justify-center">
-        <div className="flex w-5/6 h-[800px] gap-4 image-slide py-20">
+        <div className="flex w-[95%] h-[1000px] gap-4 image-slide py-20">
           <div
             className="slide relative !flex-auto bg-cover bg-center !transition-all !duration-500 !ease-in-out !hover:flex-grow"
             style={{

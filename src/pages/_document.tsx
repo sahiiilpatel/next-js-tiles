@@ -27,7 +27,7 @@ export default function Document() {
 
         <script src="https://cdn.tailwindcss.com" async></script>
         <link rel="stylesheet" href="../assets/css/fontawesome.css" />
-        <link rel="stylesheet" href="../assets/css/style.css" />
+        {/* <link rel="stylesheet" href="../assets/css/style.css" /> */}
         <link rel="stylesheet" href="../assets/css/animated.css" />
         <link rel="stylesheet" href="../assets/css/owl.css" />
         <link
@@ -78,7 +78,7 @@ export default function Document() {
         />
         <script src="../assets/js/templatemo-custom.js" async></script>
       </Head>
-      <body>
+      <body className="bg-[#f8f8f8]">
         {/* <FloatingSlider /> */}
         <Main />
 
@@ -200,37 +200,37 @@ export default function Document() {
           <section className="chatbox-popup">
             <main className="chatbox-popup__main">
               <div className="social">
-                <a href="https://api.whatsapp.com/send/?phone=16613322343&text&type=phone_number&app_absent=0">
-                  <img src="/assets/images/whatsapp.png" />
+                <a href="whatsapp://send?phone=+917573088222">
+                  <img src="/assets/images/whatsapp.png" alt="WhatsApp Icon" />
                   <p>Whatsapp</p>
                 </a>
               </div>
               <div className="social">
-                <a href="https://www.instagram.com/amazing.flooring/">
+                <a href="https://www.instagram.com/flowlessinternational?igsh=dmFuOHV1d2Vsamlz&utm_source=qr">
                   <img src="/assets/images/instagram.png" />
                   <p>Instagram</p>
                 </a>
               </div>
               <div className="social">
-                <a href="https://www.facebook.com/amazingflooringtile">
+                <a href="https://www.facebook.com/people/Flowless-International-LLP/61559670771720/">
                   <img src="/assets/images/facebook.png" />
                   <p>Facebook</p>
                 </a>
               </div>
               <div className="social">
-                <a href="maitlo:info@amazing-flooring.com">
+                <a href="mailto:info@flowless.co.in">
                   <img src="/assets/images/mail.png" />
                   <p>Mail</p>
                 </a>
               </div>
               <div className="social">
-                <a href="https://www.linkedin.com/company/amazingflooring/">
+                <a href="https://www.linkedin.com/company/flowless-international-llp/">
                   <img src="/assets/images/linkedin.png" />
                   <p>Linkedin</p>
                 </a>
               </div>
               <div className="social">
-                <a href="telto:+1 (661) 332-2343">
+                <a href="tel:+91 757-308-8222">
                   <img src="/assets/images/call.png" />
                   <p>Call</p>
                 </a>
