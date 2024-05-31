@@ -1,16 +1,15 @@
 import { useState } from "react";
-import Link from "next/link"; // Import Link from Next.js
-import { useRouter } from "next/router"; // Import useRouter from Next.js
+import Link from "next/link";
+import { useRouter } from "next/router";
 
 function Header() {
-  const router = useRouter(); // Initialize Next.js router
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen);
   };
 
-  // Close the menu when a link is clicked on mobile
   const handleLinkClick = () => {
     if (menuOpen) {
       setMenuOpen(false);
@@ -58,49 +57,43 @@ function Header() {
                 </Link>
                 <ul className={`nav ${menuOpen ? "active" : ""}`}>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${router.pathname === "/" ? "active" : ""
+                      }`}
                     onClick={handleLinkClick}
                   >
                     <Link href="/">Home</Link>
                   </li>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/company" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${router.pathname === "/company" ? "active" : ""
+                      }`}
                     onClick={handleLinkClick}
                   >
                     <Link href="/company">Company</Link>
                   </li>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/products" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${/^\/(products|ceramic|mosaic|porcelain|subway|slim)(\/|$)/.test(router.pathname) ? "active" : ""
+                      }`}
                     onClick={handleLinkClick}
                   >
                     <Link href="/products">Products</Link>
                   </li>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/faq" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${router.pathname === "/faq" ? "active" : ""
+                      }`}
                     onClick={handleLinkClick}
                   >
                     <Link href="/faq">FAQ</Link>
                   </li>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/blogs" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${/^\/(blogs|blog-detail)(\/|$)/.test(router.pathname) ? "active" : ""
+                  }`}
                     onClick={handleLinkClick}
                   >
                     <Link href="/blogs">Blogs</Link>
                   </li>
                   <li
-                    className={`scroll-to-section ${
-                      router.pathname === "/contact" ? "active" : ""
-                    }`}
+                    className={`scroll-to-section ${router.pathname === "/contact" ? "active" : ""
+                      }`}
                     onClick={handleLinkClick}
                   >
                     <div className="main-red-button ">

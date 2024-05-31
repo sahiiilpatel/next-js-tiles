@@ -1,3 +1,4 @@
+# new
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -13,13 +14,61 @@
   RewriteCond %{REQUEST_FILENAME}.html -f
   RewriteRule ^(.*)/?$ $1.html [L]
   
-   # Manually handle /slim and /subway routes
-  RewriteRule ^slim$ /slim.html [L]
+  # Handle dynamic routes for subway
   RewriteRule ^subway$ /subway.html [L]
-  RewriteRule ^subway/$ /subway.html [L]
+  RewriteRule ^subway/([^/]+)$ /subway/[subwaycategory].html [L]
+  RewriteRule ^subway/[^/]+/[^/]+$ /subway/[subwaycategory]/[tile].html [L]
+  
+  # Handle dynamic routes for ceramic
+  RewriteRule ^ceramic$ /ceramic.html [L]
+  RewriteRule ^ceramic/([^/]+)$ /ceramic/[ceramiccategory].html [L]
+  RewriteRule ^ceramic/[^/]+/[^/]+$ /ceramic/[ceramiccategory]/[tile].html [L]
+  
+  # Handle dynamic routes for mosaic
+  RewriteRule ^mosaic$ /mosaic.html [L]
+  RewriteRule ^mosaic/([^/]+)$ /mosaic/[mosaicCategory].html [L]
+  RewriteRule ^mosaic/[^/]+/[^/]+$ /mosaic/[mosaicCategory]/[tile].html [L]
+ 
+  # Handle dynamic routes for porcelain
+  RewriteRule ^porcelain$ /porcelain.html [L]
+  RewriteRule ^porcelain/([^/]+)$ /porcelain/[porcelaincategory].html [L]
+  RewriteRule ^porcelain/[^/]+/[^/]+$ /porcelain/[porcelaincategory]/[tile].html [L]
+  
+  # Handle dynamic routes for slim
+  RewriteRule ^slim$ /slim.html [L]
+  RewriteRule ^slim/([^/]+)$ /slim/[tile].html [L]
 
   # Rewrite all other requests to index.html (for client-side routing)
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
 </IfModule>
+
+
+
+# old
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteBase /
+
+#   # Remove trailing slash if present
+#   RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+#   # Rule to ignore direct requests to existing .html files
+#   RewriteCond %{REQUEST_FILENAME} -f
+#   RewriteRule ^(.*)\.html$ $1.html [L]
+
+#   # Rule to serve existing .html files without needing to include .html in the URL
+#   RewriteCond %{REQUEST_FILENAME}.html -f
+#   RewriteRule ^(.*)/?$ $1.html [L]
+  
+#    # Manually handle /slim and /subway routes
+#   RewriteRule ^slim$ /slim.html [L]
+#   RewriteRule ^subway$ /subway.html [L]
+#   RewriteRule ^ceramic$ /ceramic.html [L]
+
+#   # Rewrite all other requests to index.html (for client-side routing)
+#   RewriteCond %{REQUEST_FILENAME} !-f
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteRule . /index.html [L]
+# </IfModule>
