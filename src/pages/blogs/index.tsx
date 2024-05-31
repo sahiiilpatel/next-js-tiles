@@ -13,10 +13,10 @@ const Blogs = () => {
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />
-        <div className="relative bg-opacity-50 bg-[#00000095]">
+        <div className="relative bg-opacity-50 h-[150px] md:h-auto bg-[#00000095]">
           <svg
             className="absolute inset-x-0 bottom-[-2px]"
-            style={{ color: "#f8f8f8" }}
+            style={{ color: "#ffff" }}
             viewBox="0 0 1160 163"
           >
             <path
@@ -27,7 +27,7 @@ const Blogs = () => {
           <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
+                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start md:items-end">
                   Blogs
                 </h2>
               </div>

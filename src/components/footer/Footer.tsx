@@ -14,7 +14,6 @@ const Footer = () => {
               data-wow-delay="0.25s"
             >
               <div className="section-heading">
-                {/* <h2>Feel Free To Send Us a Message About Your Website Needs</h2> */}
                 <h2>
                   Choose Flowless International as your trusted partner, and let
                   us help you transform your spaces with premium quality tiles

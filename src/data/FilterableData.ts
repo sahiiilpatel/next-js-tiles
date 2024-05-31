@@ -4451,6 +4451,13 @@ export const slimTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
+             Packaging_table: {
+                Size: "75x300mm",
+                Tiles_Box: "44pcs",
+                Box_Pallet: "90",
+                Coverage_Area: "1 Box : 099 SQ. MTR",
+                Pallet_Containers: "1 Containers = 22 Pallet",
+            }
         }
     ],
     [

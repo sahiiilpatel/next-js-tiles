@@ -1986,17 +1986,9 @@ summary button:focus {
   border-bottom: 5px solid transparent;
 }
 
-.tabs:not(:last-child) {
-  /* border-right: 1px solid rgba(0, 0, 0, 0.3); */
-}
-
-.active-tabs {
-  /* background: #eeeded; */
-}
-
 .active-tabs {
   color: #fe3f40;
-  border-bottom: 5px solid #fe3f40;
+  border-bottom: 3px solid #fe3f40;
 }
 
 .content {
@@ -2007,6 +1999,7 @@ summary button:focus {
 .active-content {
   display: flex;
 }
+
 .marged {
   background: #f8f8f8;
   text-align: center;
@@ -2022,8 +2015,7 @@ summary button:focus {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
 }
-.marged .number-item {
-}
+
 .value {
   font-size: 60px;
   color: #fe3f40;
@@ -2034,6 +2026,7 @@ summary button:focus {
   color: var(--white);
   text-transform: capitalize;
 }
+
 /* ===========================================
 work data Section Start
 ======================================= */
