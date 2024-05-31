@@ -42,7 +42,7 @@ const Contact = () => {
           className="relative h-[400px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
         >
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470029.9201725408!2d71.98875190039048!3d23.019778865794226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1715513187145!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3677.135493609593!2d70.8823772!3d22.834476100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39598c437ca060e9%3A0x8a15c746f0bd7584!2sOld%20Ghuntu%20Rd%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1716906183727!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: "0" }}
@@ -58,31 +58,31 @@ const Contact = () => {
                   action="https://formsubmit.co/info@flowless.co.in"
                   method="POST"
                 >
-                  <div className="relative mb-6">
-                    <fieldset>
-                      <input
-                        className="form-control"
-                        type="name"
-                        name="Name"
-                        id="name"
-                        placeholder="Name"
-                        required
-                      />
-                    </fieldset>
-                  </div>
-                  <div className="relative mb-6">
-                    <fieldset>
-                      <input
-                        className="form-control"
-                        type="text"
-                        name="Email"
-                        id="email"
-                        pattern="[^ @]*@[^ @]*"
-                        placeholder="Email address"
-                        required
-                      />
-                    </fieldset>
-                  </div>
+                    <div className="relative mb-6">
+                      <fieldset>
+                        <input
+                          className="form-control"
+                          type="name"
+                          name="Name"
+                          id="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </fieldset>
+                    </div>
+                    <div className="relative mb-6">
+                      <fieldset>
+                        <input
+                          className="form-control"
+                          type="text"
+                          name="Email"
+                          id="email"
+                          pattern="[^ @]*@[^ @]*"
+                          placeholder="Email address"
+                          required
+                        />
+                      </fieldset>
+                    </div>
                   <div className="relative mb-6">
                     <fieldset>
                       <textarea
@@ -131,17 +131,18 @@ const Contact = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold ">Technical support</p>
-                        <p className="text-sm text-neutral-500">
-                          example@gmail.com
-                        </p>
-                        <p className="text-sm text-neutral-500">
-                          1-600-890-4567
-                        </p>
+                        <p className="mb-1 font-bold ">Technical support</p>
+                        <a
+                          href="mailto:info@flowless.co.in"
+                          className="text-sm text-neutral-500"
+                        >
+                          <i className="far fa-envelope " aria-hidden="true" />
+                          info@flowless.co.in
+                        </a>
                       </div>
                     </div>
                   </div>
-                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
+                  <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:pr-6 xl:w-6/12">
                     <div className="flex items-start">
                       <div className="srink-0">
                         <div className="inline-block rounded-md bg-sky-200 p-4 text-primary">
@@ -161,11 +162,13 @@ const Contact = () => {
                           </svg>
                         </div>
                       </div>
-                      <div className="ml-6 grow">
-                        <p className="mb-2 font-bold ">Address</p>
+                      <div className="ml-5 grow">
+                        <p className="mb-1 font-bold ">Address</p>
                         <p className="text-sm text-neutral-500">
-                          abcd, <br />
-                          xyz <br />
+                          Flowless International LLP, <br />
+                          Old Ghuntu Road, <br />
+                          Morbi 363 642, <br />
+                          Gujarat, India <br />
                         </p>
                       </div>
                     </div>
@@ -193,8 +196,14 @@ const Contact = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold ">Land Line</p>
-                        <p className="text-neutral-500"> (0421) 431 2030</p>
+                        <p className="mb-1 font-bold ">Mobile</p>
+                        <a
+                          href="tel:+91 757-308-8222"
+                          className="text-sm text-neutral-500"
+                        >
+                          <i className="fas fa-phone-alt" aria-hidden="true" />
+                          +91 (757) 308-8222
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -219,8 +228,14 @@ const Contact = () => {
                         </div>
                       </div>
                       <div className="ml-6 grow">
-                        <p className="mb-2 font-bold ">Mobile</p>
-                        <p className="text-neutral-500"> +91 123456789</p>
+                        <p className="mb-1 font-bold ">Mobile</p>
+                        <a
+                          href="tel:+91 757-308-8222"
+                          className="text-sm text-neutral-500"
+                        >
+                          <i className="fas fa-phone-alt" aria-hidden="true" />
+                          +91 (757) 308-8222
+                        </a>
                       </div>
                     </div>
                   </div>

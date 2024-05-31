@@ -282,7 +282,7 @@ const ProductDetail = () => {
           </div>
         </div>
       </div>
-      <div className="row !p-0 mb-[100px]">
+      {/* <div className="row !p-0 mb-[100px]">
         <div className="col-lg-12 ">
           <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg mt-10">
             <div className="parallax-inner parallax-inner2 absolute left-[25%] top-[40%] translate transform">
@@ -292,7 +292,18 @@ const ProductDetail = () => {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
+      <section className="row flex items-center justify-center h-full relative fixed-bg my-10">
+        <video autoPlay muted loop playsInline className="video-bg">
+          <source src="/assets/images/background_video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="parallax-inner absolute parallax-items item-1 ">
+          We invite our clients to look through our designer tile collections,
+          experiment with the shades and patterns, and create exclusive,
+          individually designed tile arrangements.
+        </div>
+      </section>
       <div className="bg-white pb-24 sm:pb-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
@@ -312,7 +323,7 @@ const ProductDetail = () => {
                     strokeLinecap="round"
                   ></path>
                 </svg>
-                <span className="relative">Amazing Flooring</span>
+                <span className="relative">Flowless International</span>
               </span>
             </p>
             <dl className="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">

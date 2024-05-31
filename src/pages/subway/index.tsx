@@ -3,13 +3,13 @@ import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import React from "react";
 
-const Glossy = () => {
+const Subway = () => {
   return (
     <>
       <Header />
       <div className="relative  mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />
@@ -42,4 +42,4 @@ const Glossy = () => {
   );
 };
 
-export default Glossy;
+export default Subway;

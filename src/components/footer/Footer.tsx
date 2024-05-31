@@ -36,29 +36,35 @@ const Footer = () => {
               data-wow-duration="0.5s"
               data-wow-delay="0.25s"
             >
-              <form id="contact" action="https://formsubmit.co/info@flowless.co.in" method="POST">
+              <form
+                id="contact"
+                action="https://formsubmit.co/info@flowless.co.in"
+                method="POST"
+              >
                 <div className="row">
-                  <div className="col-lg-6">
-                    <fieldset>
-                      <input
-                        type="name"
-                        name="Name"
-                        id="name"
-                        placeholder="Name"
-                        required
-                      />
-                    </fieldset>
-                  </div>
-                  <div className="col-lg-6">
-                    <fieldset>
-                      <input
-                        type="surname"
-                        name="Surname"
-                        id="surname"
-                        placeholder="Surname"
-                        required
-                      />
-                    </fieldset>
+                  <div className="flex flex-row">
+                    <div className="col-lg-6">
+                      <fieldset>
+                        <input
+                          type="name"
+                          name="Name"
+                          id="name"
+                          placeholder="Name"
+                          required
+                        />
+                      </fieldset>
+                    </div>
+                    <div className="ml-1 col-lg-6">
+                      <fieldset>
+                        <input
+                          type="surname"
+                          name="Surname"
+                          id="surname"
+                          placeholder="Surname"
+                          required
+                        />
+                      </fieldset>
+                    </div>
                   </div>
                   <div className="col-lg-12">
                     <fieldset>
@@ -85,7 +91,11 @@ const Footer = () => {
                     </fieldset>
                   </div>
                   <input type="hidden" name="_template" value="table"></input>
-                  <input type="hidden" name="_next" value="https://flowless.co.in/"></input>
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://flowless.co.in/"
+                  ></input>
                   <div className="col-lg-12">
                     <fieldset>
                       <button
@@ -102,8 +112,8 @@ const Footer = () => {
                   <Image
                     src="/assets/images/contact-decoration.png"
                     alt="alt"
-                    height={"500"}
-                    width={"500"}
+                    height={500}
+                    width={500}
                     loading="lazy"
                   />
                 </div>
@@ -120,7 +130,9 @@ const Footer = () => {
               data-wow-duration="1s"
               data-wow-delay="0.25s"
             >
-              <p>© Copyright 2024 Flowless International. All Rights Reserved.</p>
+              <p>
+                © Copyright 2024 Flowless International. All Rights Reserved.
+              </p>
             </div>
           </div>
         </div>

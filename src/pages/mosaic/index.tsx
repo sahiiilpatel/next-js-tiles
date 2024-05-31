@@ -1,17 +1,15 @@
 import MosaicFilter from "@/components/MosaicFilter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
-const Glossy = () => {
+const Mosaic = () => {
   return (
     <>
       <Header />
       <div className="relative  mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="/assets/images/mosaic/SQUARE/CR_0215_Preview.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />
@@ -44,4 +42,4 @@ const Glossy = () => {
   );
 };
 
-export default Glossy;
+export default Mosaic;

@@ -2,11 +2,10 @@ import PorcelainFilterSize from "@/components/PorcelainFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
-const Category = () => {
+const PorcelainCategory = () => {
   const router = useRouter();
   const { porcelaincategory } = router.query;
 
@@ -23,11 +22,11 @@ const Category = () => {
       <Header />
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/a.jpg"
+          src="/assets/images/Porcelain/600x1200/Glossy/Anigma_Gold.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt={"img"}
-          height={"500"}
-          width={"500"}
+          height={500}
+          width={500}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
@@ -59,4 +58,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default PorcelainCategory;

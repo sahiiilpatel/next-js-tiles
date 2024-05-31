@@ -14,7 +14,7 @@ const ImageFilterGlossy = () => {
     setActiveFilter(filter);
   };
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         <div className="flex flex-col w-[20%] sorting">
           <div className="">

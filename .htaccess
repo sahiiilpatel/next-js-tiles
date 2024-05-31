@@ -1,9 +1,25 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
-  RewriteRule ^index\.html$ - [L]
+
+  # Remove trailing slash if present
+  RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+  # Rule to ignore direct requests to existing .html files
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^(.*)\.html$ $1.html [L]
+
+  # Rule to serve existing .html files without needing to include .html in the URL
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)/?$ $1.html [L]
+  
+   # Manually handle /slim and /subway routes
+  RewriteRule ^slim$ /slim.html [L]
+  RewriteRule ^subway$ /subway.html [L]
+  RewriteRule ^subway/$ /subway.html [L]
+
+  # Rewrite all other requests to index.html (for client-side routing)
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . /index.html [L]
-</IfModule> 
+</IfModule>

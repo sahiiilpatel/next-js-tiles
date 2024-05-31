@@ -1,17 +1,15 @@
 import PorcelainFilter from "@/components/PorcelainFilter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
-const Glossy = () => {
+const Porcelain = () => {
   return (
     <>
       <Header />
       <div className="relative  mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="/assets/images/Porcelain/600x1200/Glossy/Anigma_Gold.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />
@@ -44,4 +42,4 @@ const Glossy = () => {
   );
 };
 
-export default Glossy;
+export default Porcelain;

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { filterableDataSubway } from "../data/FilterableData";
+import { filterableDataCeramic } from "../data/FilterableData";
 import Button from "./Button";
 import { Text } from "./Text";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
-const SubwayFilterSize = () => {
+const CeramicFilterSize = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
   const [dataTwo, setDataTwo] = useState<any>(null);
 
@@ -17,25 +17,25 @@ const SubwayFilterSize = () => {
   };
 
   const router = useRouter();
-  const { subwaycategory } = router.query;
+  const { ceramiccategory } = router.query;
 
   useEffect(() => {
     const fetchData = async () => {
-      if (!subwaycategory) return;
+      if (!ceramiccategory) return;
 
-      const response = filterableDataSubway.find(
-        (item) => item[0] === subwaycategory
+      const response = filterableDataCeramic.find(
+        (item) => item[0] === ceramiccategory
       );
       setDataTwo(response);
     };
 
     fetchData();
-  }, [subwaycategory]);
+  }, [ceramiccategory]);
 
-  if (!subwaycategory) {
+  if (!ceramiccategory) {
     return (
       <div>
-        <p>subway category not found.</p>
+        <p>ceramic category not found.</p>
       </div>
     );
   }
@@ -44,8 +44,21 @@ const SubwayFilterSize = () => {
     return <p>Loading...</p>;
   }
 
+  let newData = dataTwo.slice(1)
+
+  newData.sort((a: any, b: any) => {
+    if (a?.title < b?.title) {
+      return -1;
+    }
+    if (a?.title > b?.title) {
+      return 1;
+    }
+    return 0;
+  });
+
+
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         <div className="flex flex-col w-[20%] sorting">
           <div className="">
@@ -80,7 +93,7 @@ const SubwayFilterSize = () => {
         </div>
         {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 gap-y-8  w-[78%] filter-grid">
-          {dataTwo.slice(1).map((item: any, index: any) => (
+          {newData.map((item: any, index: any) => (
             <div
               key={index}
               className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${
@@ -116,4 +129,4 @@ const SubwayFilterSize = () => {
   );
 };
 
-export default SubwayFilterSize;
+export default CeramicFilterSize;

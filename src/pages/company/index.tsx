@@ -21,7 +21,7 @@ const Company = () => {
 
       <div className="relative  mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="assets/images/company.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />

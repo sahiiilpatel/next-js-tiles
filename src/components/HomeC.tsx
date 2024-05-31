@@ -8,7 +8,7 @@ const Homec = () => {
         className="main-banner wow fadeIn"
         id="top"
         data-wow-duration="1s"
-        data-wow-delay="0.5s"
+        data-wow-delay="0.3s"
       >
         <div className="container">
           <div className="row">
@@ -18,9 +18,9 @@ const Homec = () => {
                   <div
                     className="left-content header-text wow fadeInLeft"
                     data-wow-duration="1s"
-                    data-wow-delay="1s"
+                    data-wow-delay="0.8s"
                   >
-                    <h6>step into Flowless international.</h6>
+                    <h6>Step into Flowless International.</h6>
                     <h2>
                       Beauty,
                       <em>Durability</em> &amp; <span>Innovation</span>
@@ -36,8 +36,8 @@ const Homec = () => {
                       We constantly push beyond boundaries to improve our
                       products and services because we are committed to meeting
                       the demands of our customers. Our dedication to quality
-                      has made it possible us to lead the global marketplaces in
-                      our business.
+                      has made it possible for us to lead the global
+                      marketplaces in our business.
                     </p>
                     <p className="text-[18px]">
                       You can rely on Flowless International for unparalleled
@@ -56,8 +56,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/banner-right-image.jpg"
                       alt="team meeting"
-                      height={"500"}
-                      width={"500"}
+                      width={500}
+                      height={500}
+                      layout="fixed"
                       loading="lazy"
                     />
                   </div>
@@ -67,7 +68,7 @@ const Homec = () => {
           </div>
         </div>
       </div>
-      <div className="row !p-0">
+      {/* <div className="row !p-0">
         <div className="col-lg-12 ">
           <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg mt-10 fixed-bg">
             <div className="parallax-inner absolute parallax-items item-1">
@@ -77,7 +78,18 @@ const Homec = () => {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
+      <section className="row flex items-center justify-center h-full relative fixed-bg my-10">
+        <video autoPlay muted loop playsInline className="video-bg">
+          <source src="/assets/images/background_video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="parallax-inner absolute parallax-items item-1 ">
+          We invite our clients to look through our designer tile collections,
+          experiment with the shades and patterns, and create exclusive,
+          individually designed tile arrangements.
+        </div>
+      </section>
       <div id="portfolio" className="our-portfolio section relative vector">
         <svg
           className="absolute left-[100px] bottom-0 -translate-x-1/2 transform hide opacity-50"
@@ -114,7 +126,7 @@ const Homec = () => {
         </svg>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 offset-lg-3">
+            <div className="col-lg-6 flex w-full justify-center item-center">
               <div
                 className="section-heading  wow bounceIn"
                 data-wow-duration="1s"
@@ -127,8 +139,8 @@ const Homec = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
-              <Link href="/glossy">
+            <div id="homeRow" className="col-lg-3 col-sm-6">
+              <Link href="/mosaic">
                 <div
                   className="item wow bounceInUp"
                   data-wow-duration="1s"
@@ -149,66 +161,88 @@ const Homec = () => {
                 </div>
               </Link>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <Link href="/matt">
+            <div id="homeRow" className="col-lg-3 col-sm-6">
+              <Link href="/slim">
                 <div
                   className="item wow bounceInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.4s"
                 >
                   <div className="hidden-content">
-                    <h4>Matt Tiles</h4>
+                    <h4>Slim Tiles</h4>
                   </div>
                   <div className="showed-content">
                     <Image
                       src="/assets/images/2.jpg"
                       alt="img"
-                      height={"500"}
-                      width={"500"}
+                      height={500}
+                      width={500}
                       loading="lazy"
                     />
                   </div>
                 </div>
               </Link>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <Link href="/rustic">
+            <div id="homeRow" className="col-lg-3 col-sm-6">
+              <Link href="/ceramic">
                 <div
                   className="item wow bounceInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.5s"
                 >
                   <div className="hidden-content">
-                    <h4>Rustic Tiles</h4>
+                    <h4>Ceramic Tiles</h4>
                   </div>
                   <div className="showed-content">
                     <Image
                       src="/assets/images/3.jpg"
                       alt="img"
-                      height={"500"}
-                      width={"500"}
+                      height={500}
+                      width={500}
                       loading="lazy"
                     />
                   </div>
                 </div>
               </Link>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <Link href="/wooden">
+            <div id="homeRow" className="col-lg-3 col-sm-6">
+              <Link href="/porcelain">
                 <div
                   className="item wow bounceInUp"
                   data-wow-duration="1s"
                   data-wow-delay="0.6s"
                 >
                   <div className="hidden-content">
-                    <h4>Wooden Tiles</h4>
+                    <h4>Porcelain Tiles</h4>
                   </div>
                   <div className="showed-content">
                     <Image
                       src="/assets/images/4.jpg"
                       alt="img"
-                      height={"500"}
-                      width={"500"}
+                      height={500}
+                      width={500}
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div id="homeRow" className="col-lg-3 col-sm-6">
+              <Link href="/subway">
+                <div
+                  className="item wow bounceInUp"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.3s"
+                >
+                  <div className="hidden-content">
+                    <h4>Subway Tiles</h4>
+                  </div>
+                  <div className="showed-content">
+                    <Image
+                      src="/assets/images/1.jpg"
+                      alt="img"
+                      height={500}
+                      width={500}
                       loading="lazy"
                     />
                   </div>
@@ -236,8 +270,8 @@ const Homec = () => {
                 <Image
                   src="/assets/images/about-left-image.svg"
                   alt="person graphic"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>

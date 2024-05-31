@@ -9,7 +9,7 @@ const Blogs = () => {
 
       <div className="relative mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="assets/images/blog.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />
@@ -46,7 +46,7 @@ const Blogs = () => {
               Get Our Insights
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-500 sm:mt-4">
-              At Amazing Flooring, our clients recognize us as a reliable and
+              At Flowless International, our clients recognize us as a reliable and
               trustworthy tile supplier in USA & Canada.
             </p>
           </div>

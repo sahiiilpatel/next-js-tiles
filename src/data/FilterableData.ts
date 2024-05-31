@@ -42,6 +42,7 @@ export const filterableDataglossy = [
         link: "/glossy/9mm"
     },
 ]
+
 export const filterableDatamatt = [
     {
         name: "12*24",
@@ -131,6 +132,7 @@ export const filterableDatarustic = [
         link: "/rustic/9mm"
     },
 ]
+
 export const filterableDatawood = [
     {
         name: "12*24",
@@ -179,21 +181,21 @@ export const filterableDatawood = [
 export const categoryData = [
     {
         name: "Mosaic Tiles",
-        src: "/assets/images/11.jpg",
+        src: "/assets/images/mosaic/PENNY/CR_1521_Preview.jpg",
         title: "Mosaic Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/mosaic"
     },
     {
         name: "Slim Tiles",
-        src: "/assets/images/22.jpg",
+        src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
         title: "Slim Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/slim"
     },
     {
         name: "Ceramic Tiles",
-        src: "/assets/images/33.jpg",
+        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P1.jpg",
         title: "Ceramic Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/ceramic"
@@ -217,48 +219,48 @@ export const categoryData = [
 export const mosaicData = [
     {
         name: "Square",
-        src: "/assets/images/11.jpg",
+        src: "/assets/images/mosaic/SQUARE/CR_0215_Preview.jpg",
         title: "Square",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/mosaic/square"
     },
     {
         name: "Hexagon",
-        src: "/assets/images/22.jpg",
+        src: "/assets/images/mosaic/Hexagon/M_1751.jpeg",
         title: "Hexagon",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/mosaic/hexagon"
     },
     {
         name: "Penny",
-        src: "/assets/images/33.jpg",
+        src: "/assets/images/mosaic/PENNY/CR_1521_Preview.jpg",
         title: "Penny",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/mosaic/penny"
     }
 ]
 
-export const slimData = [
-    {
-        name: "3 mm",
-        src: "/assets/images/11.jpg",
-        title: "3 mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3-mm"
-    },
-    {
-        name: "5 mm",
-        src: "/assets/images/22.jpg",
-        title: "5 mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/5-mm"
-    },
-]
+// export const slimData = [
+//     {
+//         name: "3 mm",
+//         src: "/assets/images/11.jpg",
+//         title: "3 mm",
+//         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+//         link: "/slim/3-mm"
+//     },
+//     {
+//         name: "5 mm",
+//         src: "/assets/images/22.jpg",
+//         title: "5 mm",
+//         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+//         link: "/slim/5-mm"
+//     },
+// ]
 
 export const ceramicData = [
     {
         name: "300*600",
-        src: "/assets/images/11.jpg",
+        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P1.jpg",
         title: "300*600",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/ceramic/300*600"
@@ -348,100 +350,10 @@ export const subwayData = [
     },
     {
         name: "4X12",
-        src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN.jpg",
+        src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg",
         title: "4X12",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/subway/4*12"
-    },
-]
-
-export const filterableDataMosaic = [
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-    {
-        name: "24*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-    {
-        name: "24*48",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*48",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-    {
-        name: "5mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 5mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-    {
-        name: "9mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 9mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/mosaic/square/5mm"
-    },
-]
-
-export const filterableDataSlim = [
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3mm/5mm"
-    },
-    {
-        name: "24*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3mm/5mm"
-    },
-    {
-        name: "24*48",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*48",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3-mm/5mm"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3-mm/5mm"
-    },
-    {
-        name: "5mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 5mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3-mm/5mm"
-    },
-    {
-        name: "9mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 9mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/3-mm/5mm"
     },
 ]
 
@@ -492,10 +404,10 @@ export const filterableDataCeramic = [
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg",
-            title: "TUCSON GRREN",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg",
+            title: "TUCSON GREEN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/ceramic/300*600/TUCSON-GRREN"
+            link: "/ceramic/300*600/TUCSON-GREEN"
         },
     ],
 ]
@@ -574,42 +486,42 @@ export const filterableDataSubway = [
         "4*12",
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK.jpg",
+            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK__PREVIEW.jpg",
             title: "PLAIN BLACK",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/PLAIN-BLACK"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK.jpg",
+            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK_PREVIEW.jpg",
             title: "PLAIN LIGHT PINK",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/PLAIN-LIGHT-PINK"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE.jpg",
+            src: "/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE_PREVIEW.jpg",
             title: "PLAIN NAVY BLUE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/PLAIN-NAVY-BLUE"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN.jpg",
+            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg",
             title: "BEVEL FOREST GREEN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/BEVEL-FOREST-GREEN"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE.jpg",
+            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE_PREVIEW.jpg",
             title: "BEVEL JADE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/BEVEL-JADE"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE.jpg",
+            src: "/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE_PREVIEW.jpg",
             title: "BEVEL NAVY BLUE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/4*12/BEVEL-NAVY-BLUE"
@@ -1415,13 +1327,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1439,13 +1351,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 400*1200
@@ -1464,13 +1376,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1490,13 +1402,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1515,13 +1427,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1540,13 +1452,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1565,13 +1477,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1590,13 +1502,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 600*600
@@ -1616,13 +1528,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1641,13 +1553,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1666,13 +1578,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1691,13 +1603,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1716,13 +1628,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1741,13 +1653,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 600*1200
@@ -1767,13 +1679,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1792,13 +1704,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1817,13 +1729,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1842,13 +1754,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1867,13 +1779,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1892,13 +1804,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1917,13 +1829,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1942,13 +1854,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1967,13 +1879,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -1992,13 +1904,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2017,13 +1929,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2042,13 +1954,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2067,13 +1979,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2092,13 +2004,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //600*1200 - High Glossy
@@ -2118,13 +2030,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2143,13 +2055,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2168,13 +2080,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2193,13 +2105,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2218,13 +2130,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2243,13 +2155,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //600*1200 - Matt
@@ -2269,13 +2181,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2294,13 +2206,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2319,13 +2231,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2344,13 +2256,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2369,13 +2281,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2394,13 +2306,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2419,13 +2331,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2444,13 +2356,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2469,13 +2381,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2494,13 +2406,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2519,13 +2431,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2544,13 +2456,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //600*1200 - Rustic
@@ -2570,13 +2482,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2595,13 +2507,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2620,13 +2532,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2645,13 +2557,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2670,13 +2582,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2695,13 +2607,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2720,13 +2632,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2745,13 +2657,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2770,13 +2682,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2795,13 +2707,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //600*1200 - Wood
@@ -2821,13 +2733,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2846,13 +2758,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2871,13 +2783,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2896,13 +2808,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2921,13 +2833,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2946,13 +2858,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -2971,13 +2883,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 800*800 Glosyy & Matt
@@ -2997,13 +2909,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3022,13 +2934,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3047,13 +2959,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3072,13 +2984,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 800*800 Glosyy
@@ -3098,13 +3010,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1000*1000 Glossy & Matt
@@ -3124,13 +3036,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3149,13 +3061,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3174,13 +3086,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3199,13 +3111,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1000*1000 Glossy
@@ -3225,13 +3137,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3250,13 +3162,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1200*1200 Glossy & Matt
@@ -3276,13 +3188,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3301,13 +3213,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3326,13 +3238,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3351,13 +3263,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3376,13 +3288,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1200*1200 Glossy
@@ -3402,13 +3314,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3427,13 +3339,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //1200*2400 Glossy & Matt
@@ -3453,13 +3365,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3478,13 +3390,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3503,13 +3415,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1200*2400 Glossy
@@ -3529,13 +3441,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3554,13 +3466,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     //1600*3200  High Glossy
@@ -3580,13 +3492,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3605,13 +3517,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     // 1600*3200 Matt
@@ -3631,13 +3543,13 @@ export const PorcelainTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
 ]
@@ -3676,13 +3588,13 @@ export const ceramicTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3700,13 +3612,13 @@ export const ceramicTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3724,13 +3636,13 @@ export const ceramicTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3748,13 +3660,13 @@ export const ceramicTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-            Packaging_table: {
-                Size: "75x300mm",
-                Tiles_Box: "44pcs",
-                Box_Pallet: "90",
-                Coverage_Area: "1 Box : 099 SQ. MTR",
-                Pallet_Containers: "1 Containers = 22 Pallet",
-            }
+            // Packaging_table: {
+            //     Size: "75x300mm",
+            //     Tiles_Box: "44pcs",
+            //     Box_Pallet: "90",
+            //     Coverage_Area: "1 Box : 099 SQ. MTR",
+            //     Pallet_Containers: "1 Containers = 22 Pallet",
+            // }
         }
     ],
     [
@@ -3775,13 +3687,13 @@ export const ceramicTilesData = [
         }
     ],
     [
-        '300*600_TUCSON-GRREN',
+        '300*600_TUCSON-GREEN',
         {
-            img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg',
-            img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg',
-            img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg',
-            img4: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg',
-            img5: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GRREN/TUCSON_GRREN.jpg',
+            img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
+            img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
+            img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
+            img4: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
+            img5: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
             main_table: {
                 CATEGORY: "Ceramic",
                 APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
@@ -3798,7 +3710,7 @@ export const subwayTilesData = [
     [
         '8*8_BLACK',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/8X8/8X8_BLACK_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/8X8/8X8_BLACK.jpg',
             img2: '/assets/images/SUBWAY/8X8/8X8_BLACK.jpg',
             img3: '/assets/images/SUBWAY/8X8/8X8_BLACK.jpg',
@@ -3834,6 +3746,7 @@ export const subwayTilesData = [
     [
         '8*8_T-BLUE',
         {
+            main_img: '/assets/images/SUBWAY/8X8/8X8_T_BLUE_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/8X8/8X8_T_BLUE.jpg',
             img2: '/assets/images/SUBWAY/8X8/8X8_T_BLUE.jpg',
             img3: '/assets/images/SUBWAY/8X8/8X8_T_BLUE.jpg',
@@ -3851,6 +3764,7 @@ export const subwayTilesData = [
     [
         '8*8_WHITE',
         {
+            main_img: '/assets/images/SUBWAY/8X8/8X8_WHITE_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/8X8/8X8_WHITE.jpg',
             img2: '/assets/images/SUBWAY/8X8/8X8_WHITE.jpg',
             img3: '/assets/images/SUBWAY/8X8/8X8_WHITE.jpg',
@@ -3865,6 +3779,7 @@ export const subwayTilesData = [
             },
         }
     ],
+    // 3*12
     [
         '3*12_PLAIN',
         {
@@ -3955,10 +3870,11 @@ export const subwayTilesData = [
             },
         }
     ],
+    // 4*12
     [
         '4*12_PLAIN-BLACK',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK__PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK.jpg',
             img2: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK.jpg',
             img3: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_BLACK.jpg',
@@ -3976,7 +3892,7 @@ export const subwayTilesData = [
     [
         '4*12_PLAIN-LIGHT-PINK',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK.jpg',
             img2: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK.jpg',
             img3: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK.jpg',
@@ -3994,7 +3910,7 @@ export const subwayTilesData = [
     [
         '4*12_PLAIN-NAVY-BLUE',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE.jpg',
             img2: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE.jpg',
             img3: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_NAVY_BLUE.jpg',
@@ -4012,7 +3928,7 @@ export const subwayTilesData = [
     [
         '4*12_BEVEL-FOREST-GREEN',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN.jpg',
             img2: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN.jpg',
             img3: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN.jpg',
@@ -4030,7 +3946,7 @@ export const subwayTilesData = [
     [
         '4*12_BEVEL-JADE',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE.jpg',
             img2: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE.jpg',
             img3: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_JADE.jpg',
@@ -4048,7 +3964,7 @@ export const subwayTilesData = [
     [
         '4*12_BEVEL-NAVY-BLUE',
         {
-            // main_img: '',
+            main_img: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE_PREVIEW.jpg',
             img1: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE.jpg',
             img2: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE.jpg',
             img3: '/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_NAVY_BLUE.jpg',
@@ -4058,6 +3974,714 @@ export const subwayTilesData = [
                 CATEGORY: "Subway",
                 APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
                 FINISH: "",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+]
+
+export const filterableDataMosaic = [
+    // square
+    [
+        "square",
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/SQUARE/CR_0206_Preview.jpg",
+            title: "CR 0206",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/square/CR-0206"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/SQUARE/CR_0215_Preview.jpg",
+            title: "CR 0215",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/square/CR-0215"
+        }
+    ],
+    // hexagon
+    [
+        "hexagon",
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/Hexagon/M_1749.jpeg",
+            title: "M 1749",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/hexagon/M-1749"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/Hexagon/M_1751.jpeg",
+            title: "M 1751",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/hexagon/M-1751"
+        }
+    ],
+    // penny
+    [
+        "penny",
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/PENNY/G_1503_Preview.jpg",
+            title: "G 1503",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/penny/G-1503"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/PENNY/G_1502_Preview.jpg",
+            title: "G 1502",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/penny/G-1502"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/PENNY/G_1501_Preview.jpg",
+            title: "G 1501",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/penny/G-1501"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/mosaic/PENNY/CR_1521_Preview.jpg",
+            title: "CR 1521",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/mosaic/penny/CR-1521"
+        },
+    ],
+]
+
+export const MosaicTilesData = [
+    // Square
+    [
+        'square_CR-0206',
+        {
+            main_img: '/assets/images/mosaic/SQUARE/CR_0206_Preview.jpg',
+            img1: '/assets/images/mosaic/SQUARE/CR_0206.jpeg',
+            img2: '/assets/images/mosaic/SQUARE/CR_0206.jpeg',
+            img3: '/assets/images/mosaic/SQUARE/CR_0206.jpeg',
+            img4: '/assets/images/mosaic/SQUARE/CR_0206.jpeg',
+            img5: '/assets/images/mosaic/SQUARE/CR_0206.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "303X303 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    [
+        'square_CR-0215',
+        {
+            main_img: '/assets/images/mosaic/SQUARE/CR_0215_Preview.jpg',
+            img1: '/assets/images/mosaic/SQUARE/CR_0215.jpeg',
+            img2: '/assets/images/mosaic/SQUARE/CR_0215.jpeg',
+            img3: '/assets/images/mosaic/SQUARE/CR_0215.jpeg',
+            img4: '/assets/images/mosaic/SQUARE/CR_0215.jpeg',
+            img5: '/assets/images/mosaic/SQUARE/CR_0215.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "303X303 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    // Hexagon
+    [
+        'hexagon_M-1749',
+        {
+            main_img: '/assets/images/mosaic/Hexagon/M_1749_Preview.jpg',
+            img1: '/assets/images/mosaic/Hexagon/M_1749.jpeg',
+            img2: '/assets/images/mosaic/Hexagon/M_1749.jpeg',
+            img3: '/assets/images/mosaic/Hexagon/M_1749.jpeg',
+            img4: '/assets/images/mosaic/Hexagon/M_1749.jpeg',
+            img5: '/assets/images/mosaic/Hexagon/M_1749.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "277X322 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0089 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    [
+        'hexagon_M-1751',
+        {
+            main_img: '/assets/images/mosaic/Hexagon/M_1751_Preview.jpg',
+            img1: '/assets/images/mosaic/Hexagon/M_1751.jpeg',
+            img2: '/assets/images/mosaic/Hexagon/M_1751.jpeg',
+            img3: '/assets/images/mosaic/Hexagon/M_1751.jpeg',
+            img4: '/assets/images/mosaic/Hexagon/M_1751.jpeg',
+            img5: '/assets/images/mosaic/Hexagon/M_1751.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "277X322 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0089 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    // Penny
+    [
+        'penny_CR-1521',
+        {
+            main_img: '/assets/images/mosaic/PENNY/CR_1521_Preview.jpg',
+            img1: '/assets/images/mosaic/PENNY/CR_1521.jpeg',
+            img2: '/assets/images/mosaic/PENNY/CR_1521.jpeg',
+            img3: '/assets/images/mosaic/PENNY/CR_1521.jpeg',
+            img4: '/assets/images/mosaic/PENNY/CR_1521.jpeg',
+            img5: '/assets/images/mosaic/PENNY/CR_1521.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "294X313 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    [
+        'penny_G-1501',
+        {
+            main_img: '/assets/images/mosaic/PENNY/G_1501_Preview.jpg',
+            img1: '/assets/images/mosaic/PENNY/G_1501.jpeg',
+            img2: '/assets/images/mosaic/PENNY/G_1501.jpeg',
+            img3: '/assets/images/mosaic/PENNY/G_1501.jpeg',
+            img4: '/assets/images/mosaic/PENNY/G_1501.jpeg',
+            img5: '/assets/images/mosaic/PENNY/G_1501.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "294X313 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    [
+        'penny_G-1502',
+        {
+            main_img: '/assets/images/mosaic/PENNY/G_1502_Preview.jpg',
+            img1: '/assets/images/mosaic/PENNY/G_1502.jpeg',
+            img2: '/assets/images/mosaic/PENNY/G_1502.jpeg',
+            img3: '/assets/images/mosaic/PENNY/G_1502.jpeg',
+            img4: '/assets/images/mosaic/PENNY/G_1502.jpeg',
+            img5: '/assets/images/mosaic/PENNY/G_1502.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "294X313 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+    [
+        'penny_G-1503',
+        {
+            main_img: '/assets/images/mosaic/PENNY/G_1503_Preview.jpg',
+            img1: '/assets/images/mosaic/PENNY/G_1503.jpeg',
+            img2: '/assets/images/mosaic/PENNY/G_1503.jpeg',
+            img3: '/assets/images/mosaic/PENNY/G_1503.jpeg',
+            img4: '/assets/images/mosaic/PENNY/G_1503.jpeg',
+            img5: '/assets/images/mosaic/PENNY/G_1503.jpeg',
+            main_table: {
+                CATEGORY: "Mosaic",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt & Glossy",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+            Packaging_table: {
+                Size: "294X313 MM",
+                Tiles_Box: "20pcs",
+                Box_Pallet: "54",
+                Coverage_Area: "1 Box : 0092 SQ. MTR",
+                Pallet_Containers: "",
+            }
+        }
+    ],
+]
+
+export const filterableDataSlim = [
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
+        title: "IRONY AQUA",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/IRONY-AQUA"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
+        title: "TUDOR CHOCO",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/TUDOR-CHOCO"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg",
+        title: "BOHO GRIS",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/BOHO-GRIS"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg",
+        title: "CALACATTA ORO",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/CALACATTA-ORO"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg",
+        title: "CEMENTO NATURALLY 02",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/CEMENTO-NATURALLY-02"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg",
+        title: "CONCRETE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/CONCRETE"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg",
+        title: "DARK COBALT BLUE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/DARK-COBALT-BLUE"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg",
+        title: "ELITE DARK GREY",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/ELITE-DARK-GREY"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg",
+        title: "ELITE OLIVE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/ELITE-OLIVE"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg",
+        title: "ELITE PEACH",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/ELITE-PEACH"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg",
+        title: "GRAPHITO BLACK",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/GRAPHITO-BLACK"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg",
+        title: "MOSS GREEN",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/MOSS-GREEN"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg",
+        title: "MYRA SAND",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/MYRA-SAND"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg",
+        title: "NATURAL TRAVENTINE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/NATURAL-TRAVENTINE"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg",
+        title: "OAK WOOD BEIGE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/OAK-WOOD-BEIGE"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg",
+        title: "SLATE BLACK",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/SLATE-BLACK"
+    },
+    {
+        name: "12*24",
+        src: "/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg",
+        title: "TERRAZZO LITE",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/TERRAZZO-LITE"
+    },
+]
+
+export const slimTilesData = [
+    [
+        'slim_IRONY-AQUA',
+        {
+            main_img: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
+            img2: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
+            img3: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
+            img4: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
+            img5: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Metalic",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_TUDOR-CHOCO',
+        {
+            main_img: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
+            img2: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
+            img3: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
+            img4: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
+            img5: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Matt Carving",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_BOHO-GRIS',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_CALACATTA-ORO',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_CEMENTO-NATURALLY-02',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_CONCRETE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_DARK-COBALT-BLUE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_ELITE-DARK-GREY',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_ELITE-OLIVE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_ELITE-PEACH',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_GRAPHITO-BLACK',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_MOSS-GREEN',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_MYRA-SAND',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_NATURAL-TRAVENTINE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_OAK-WOOD-BEIGE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_SLATE-BLACK',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
+                CHIP_SIZE: "19mm",
+                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
+            },
+        }
+    ],
+    [
+        'slim_TERRAZZO-LITE',
+        {
+            main_img: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg',
+            img1: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
+            img2: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
+            img3: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
+            img4: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
+            img5: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
+            main_table: {
+                CATEGORY: "Slim",
+                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
+                FINISH: "Normal Matt",
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },

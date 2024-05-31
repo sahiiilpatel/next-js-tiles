@@ -1,11 +1,9 @@
 import CeramicFilter from "@/components/CeramicFilter";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
-const Glossy = () => {
+const Ceramic = () => {
   return (
     <>
       <Header />
@@ -44,4 +42,4 @@ const Glossy = () => {
   );
 };
 
-export default Glossy;
+export default Ceramic;

@@ -54,11 +54,11 @@ const Fivemm = () => {
 
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/a.jpg"
+          src={`${tileData.main_img ? tileData.main_img : "/assets/images/a.jpg"}`}
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
-          height={"500"}
-          width={"500"}
+          height={500}
+          width={500}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
@@ -253,8 +253,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Floor-Tiles-Icon.png"
                   alt="Floor Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -267,8 +267,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Wall-Tiles-Icon.png"
                   alt="Wall Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -281,8 +281,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Bathroom-Tiles-Icon.png"
                   alt="Bathroom Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -296,8 +296,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Kitchen-Tiles-Icon.png"
                   alt="Kitchen Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -313,8 +313,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Floor-Tiles-Icon.png"
                   alt="Floor Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -327,8 +327,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Wall-Tiles-Icon.png"
                   alt="Wall Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -341,8 +341,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Bathroom-Tiles-Icon.png"
                   alt="Bathroom Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -355,8 +355,8 @@ const Fivemm = () => {
                 <Image
                   src="/assets/images/Kitchen-Tiles-Icon.png"
                   alt="Kitchen Tiles"
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                 />
               </div>
@@ -367,7 +367,7 @@ const Fivemm = () => {
           </div>
         </div>
       </div>
-      <div className="row !p-0 mb-[100px] detail-parallax">
+      {/* <div className="row !p-0 mb-[100px] detail-parallax">
         <div className="col-lg-12 ">
           <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg ">
             <div className="parallax-inner parallax-inner2 absolute left-[25%] top-[40%] translate transform">
@@ -377,7 +377,18 @@ const Fivemm = () => {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
+      <section className="row flex items-center justify-center h-full relative fixed-bg my-10">
+        <video autoPlay muted loop playsInline className="video-bg">
+          <source src="/assets/images/background_video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="parallax-inner absolute parallax-items item-1 ">
+          We invite our clients to look through our designer tile collections,
+          experiment with the shades and patterns, and create exclusive,
+          individually designed tile arrangements.
+        </div>
+      </section>
       <div className="bg-white pb-24 sm:pb-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:max-w-none">
@@ -397,7 +408,7 @@ const Fivemm = () => {
                     strokeLinecap="round"
                   ></path>
                 </svg>
-                <span className="relative">Amazing Flooring</span>
+                <span className="relative">Flowless International</span>
               </span>
             </p>
             <section className="numbers dark-blue-bg white-txt">

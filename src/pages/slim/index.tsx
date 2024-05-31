@@ -1,19 +1,22 @@
-import SlimFilter from "@/components/SlimFilter";
+import SlimFilterSize from "@/components/SlimFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 
-const Glossy = () => {
+const SlimCategory = () => {
   return (
     <>
       <Header />
       <div className="relative  mt-[100px]">
-        <img
-          src="assets/images/a.jpg"
+        <Image
+          src="/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg"
           className="absolute inset-0 object-cover w-full h-full"
-          alt="alt"
+          alt={"img"}
+          height={500}
+          width={500}
+          loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
           <svg
@@ -37,11 +40,11 @@ const Glossy = () => {
           </div>
         </div>
       </div>
-  
-      <SlimFilter />
+
+      <SlimFilterSize />
       <Footer />
     </>
   );
 };
 
-export default Glossy;
+export default SlimCategory;

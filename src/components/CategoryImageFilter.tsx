@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { categoryData, filterableDataglossy } from "../data/FilterableData";
-import Button from "./Button";
-// import { Image } from "./Image";
+import { categoryData } from "../data/FilterableData";
 import { Text } from "./Text";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,13 +7,18 @@ import Image from "next/image";
 const CategoryImageFilter = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
 
-  const buttonCaptions = ["all", "12*24", "24*24", "24*48", "5mm", "9mm"];
+  categoryData.sort((a: any, b: any) => {
+    if (a?.title < b?.title) {
+      return -1;
+    }
+    if (a?.title > b?.title) {
+      return 1;
+    }
+    return 0;
+  });
 
-  const handleFilterClick = (filter: string) => {
-    setActiveFilter(filter);
-  };
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-3 gap-x-5 gap-y-8  w-screen filter-grid">

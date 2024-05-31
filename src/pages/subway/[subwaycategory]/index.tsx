@@ -1,18 +1,18 @@
-import SubwayFilterSize from "@/components/CeramicFilterSize";
+import SubwayFilterSize from "@/components/SubwayFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
 
-const Category = () => {
+const SubwayCategory = () => {
   const router = useRouter();
   const { subwaycategory } = router.query;
 
   if (!subwaycategory) {
     return (
       <div>
-        <p>ceramic category not found.</p>
+        <p>subway category not found.</p>
       </div>
     );
   }
@@ -22,11 +22,11 @@ const Category = () => {
       <Header />
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/a.jpg"
+          src="/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt={"img"}
-          height={"500"}
-          width={"500"}
+          height={500}
+          width={500}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
@@ -58,4 +58,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default SubwayCategory;

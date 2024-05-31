@@ -9,7 +9,7 @@ export default function Products() {
       <Header />
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/a.jpg"
+          src="/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="img"
           width={500}

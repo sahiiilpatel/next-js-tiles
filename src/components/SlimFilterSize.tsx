@@ -13,8 +13,19 @@ const SlimFilterSize = () => {
   const handleFilterClick = (filter: string) => {
     setActiveFilter(filter);
   };
+  
+  filterableDataSlim.sort((a: any, b: any) => {
+    if (a?.title < b?.title) {
+      return -1;
+    }
+    if (a?.title > b?.title) {
+      return 1;
+    }
+    return 0;
+  });
+  
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         <div className="flex flex-col w-[20%] sorting">
           <div className="">
@@ -31,11 +42,10 @@ const SlimFilterSize = () => {
                           key={filter}
                           onClick={() => handleFilterClick(filter)}
                           type="button"
-                          className={`focus:outline-none border-2 border-[#fe3f40] hover:bg-[#fe3f40] hover:text-white font-medium rounded-lg text-sm px-5 text-[#fe3f40] focus:text-[#000] py-2.5 mb-2 capitalize ${
-                            activeFilter === filter
-                              ? "bg-[#fe3f40] text-white"
-                              : " "
-                          }`}
+                          className={`focus:outline-none border-2 border-[#fe3f40] hover:bg-[#fe3f40] hover:text-white font-medium rounded-lg text-sm px-5 text-[#fe3f40] focus:text-[#000] py-2.5 mb-2 capitalize ${activeFilter === filter
+                            ? "bg-[#fe3f40] text-white"
+                            : " "
+                            }`}
                         >
                           {filter === "all" ? "All Sizes" : filter}
                         </Button>
@@ -52,22 +62,21 @@ const SlimFilterSize = () => {
           {filterableDataSlim.map((item, index) => (
             <div
               key={index}
-              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${
-                activeFilter === "all" || activeFilter === item.name
-                  ? "block testing"
-                  : "hidden"
-              }`}
+              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${activeFilter === "all" || activeFilter === item.name
+                ? "block testing"
+                : "hidden"
+                }`}
             >
               <Link href={item.link}>
                 <Image
                   className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                   src={item.src}
                   alt={item.name}
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                   objectFit="cover"
-                  // objectCover="object-cover"
+                // objectCover="object-cover"
                 />
               </Link>
               <div className="p-3">

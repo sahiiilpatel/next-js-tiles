@@ -2,11 +2,10 @@ import CeramicFilterSize from "@/components/CeramicFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 
-const Category = () => {
+const CeramicCategory = () => {
   const router = useRouter();
   const { ceramiccategory } = router.query;
 
@@ -26,8 +25,8 @@ const Category = () => {
           src="/assets/images/a.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt={"img"}
-          height={"500"}
-          width={"500"}
+          height={500}
+          width={500}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
@@ -59,4 +58,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default CeramicCategory;

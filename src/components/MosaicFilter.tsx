@@ -1,43 +1,45 @@
 import { useState } from "react";
-import { filterableDataglossy, mosaicData } from "../data/FilterableData";
-import Button from "./Button";
-// import { Image } from "./Image";
+import { mosaicData } from "../data/FilterableData";
 import { Text } from "./Text";
 import Link from "next/link";
 import Image from "next/image";
 
 const MosaicFilter = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
-
-  const handleFilterClick = (filter: string) => {
-    setActiveFilter(filter);
-  };
+  console.log('mosaicData: ', mosaicData);
+  mosaicData.sort((a, b) => {
+    if (a?.title < b?.title) {
+      return -1;
+    }
+    if (a?.title > b?.title) {
+      return 1;
+    }
+    return 0;
+  });
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 gap-y-8  w-screen filter-grid">
           {mosaicData.map((item, index) => (
             <div
               key={index}
-              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${
-                activeFilter === "all" || activeFilter === item.name
-                  ? "block testing"
-                  : "hidden"
-              }`}
+              className={`w-full cursor-pointer overflow-hidden transition-all duration-200 rounded-lg shadow bg-gray-200 ${activeFilter === "all" || activeFilter === item.name
+                ? "block testing"
+                : "hidden"
+                }`}
             >
               <Link href={item.link}>
                 <Image
                   className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                   src={item.src}
                   alt={item.name}
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                   style={{
-                    objectFit:"cover"
+                    objectFit: "cover",
                   }}
-                  // objectCover="object-cover"
                 />
               </Link>
               <div className="p-3">

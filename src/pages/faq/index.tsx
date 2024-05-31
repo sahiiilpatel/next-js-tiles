@@ -9,7 +9,7 @@ const Faq = () => {
 
       <div className="relative  mt-[100px]">
         <img
-          src="assets/images/a.jpg"
+          src="assets/images/faq.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
         />

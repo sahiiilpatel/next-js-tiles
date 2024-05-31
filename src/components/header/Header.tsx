@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Link from "next/link"; // Import Link from Next.js
 import { useRouter } from "next/router"; // Import useRouter from Next.js
-import Image from "next/image";
 
 function Header() {
   const router = useRouter(); // Initialize Next.js router
@@ -46,17 +45,17 @@ function Header() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                {/* ***** Logo Start ***** */}
                 <Link href="/" passHref className="logo">
-                  {/* <h4>
-                    Flowless <span>International</span>
-                  </h4> */}
-                  <div className="h-[100px] max-w-[150px] flex items-center">
-                  <Image src="/assets/images/logo.jpg" className="object-contain" alt="logo" height={100} width={100} loading="lazy"/>
+                  <div className="h-[100px] max-w-[280px] flex items-center overflow-hidden">
+                    <img
+                      src="/assets/images/logo.svg"
+                      alt="logo"
+                      width={150}
+                      height={100}
+                      loading="lazy"
+                    />
                   </div>
                 </Link>
-                {/* ***** Logo End ***** */}
-                {/* ***** Menu Start ***** */}
                 <ul className={`nav ${menuOpen ? "active" : ""}`}>
                   <li
                     className={`scroll-to-section ${

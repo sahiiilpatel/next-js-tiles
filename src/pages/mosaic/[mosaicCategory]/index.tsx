@@ -1,12 +1,11 @@
 import MosaicFilterSize from "@/components/MosaicFilterSize";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
 import Footer from "@/components/footer/Footer";
 
-const Category = () => {
+const MosaicCategory = () => {
   const router = useRouter();
   const { mosaicCategory } = router.query;
 
@@ -23,11 +22,11 @@ const Category = () => {
       <Header />
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/a.jpg"
+          src="/assets/images/mosaic/Hexagon/M_1751_Preview.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt={"img"}
-          height={"500"}
-          width={"500"}
+          height={500}
+          width={500}
           loading="lazy"
         />
         <div className="relative bg-opacity-50 bg-[#00000095]">
@@ -59,4 +58,4 @@ const Category = () => {
   );
 };
 
-export default Category;
+export default MosaicCategory;

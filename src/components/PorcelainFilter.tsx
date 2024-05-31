@@ -7,11 +7,18 @@ import Image from "next/image";
 const PorcelainFilter = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
 
-  const handleFilterClick = (filter: string) => {
-    setActiveFilter(filter);
-  };
+  porcelainData.sort((a: any, b: any) => {
+    if (a?.title < b?.title) {
+      return -1;
+    }
+    if (a?.title > b?.title) {
+      return 1;
+    }
+    return 0;
+  });
+
   return (
-    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-5">
+    <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
       <div className="flex w-full md:justify-start items-start gap-6 flex-wrap sorting-wrap">
         {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 gap-y-8  w-screen filter-grid">
@@ -29,8 +36,8 @@ const PorcelainFilter = () => {
                   className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                   src={item.src}
                   alt={item.name}
-                  height={"500"}
-                  width={"500"}
+                  height={500}
+                  width={500}
                   loading="lazy"
                   style={{
                     objectFit: "cover"
