@@ -34,7 +34,7 @@ const Fivemm = () => {
     };
 
     fetchData();
-  }, [tile]);
+  }, [tile, ceramiccategory]);
 
   if (!ceramiccategory || !tile) {
     return (
@@ -175,9 +175,8 @@ const Fivemm = () => {
           <div className="container container-tab">
             <ul className="tab-list">
               <li
-                className={`tabs ${getActiveClass(1, "active-tabs")} ${
-                  !tileData.Packaging_table ? "w-full" : ""
-                }`}
+                className={`tabs ${getActiveClass(1, "active-tabs")} ${!tileData.Packaging_table ? "w-full" : ""
+                  }`}
                 onClick={() => toggleTab(1)}
               >
                 Specification

@@ -1,13 +1,13 @@
-import Footer from "@/components/footer/Footer";
 import React, { useEffect, useState } from "react";
+import { slimTilesData } from "@/data/FilterableData";
+import { useRouter } from "next/router";
+import Image from "next/image";
+import Footer from "@/components/footer/Footer";
+import Header from "@/components/header/Header";
 import ScrollCounter from "@/components/Counter";
 import ScrollCounter2 from "@/components/Counter2";
 import ScrollCounter3 from "@/components/Counter3";
 import ScrollCounter4 from "@/components/Counter4";
-import Header from "@/components/header/Header";
-import { slimTilesData } from "@/data/FilterableData";
-import Image from "next/image";
-import { useRouter } from "next/router";
 
 const Fivemm = () => {
   const [ToggleState, setToggleState] = useState(1);
@@ -29,11 +29,15 @@ const Fivemm = () => {
 
       const tile_name = "slim_" + tile;
       const response = slimTilesData.find((item) => item[0] === tile_name);
+      if (!response) {
+        router.push('/');
+        return;
+      }
       setDataTwo((response as any)[1]);
     };
 
     fetchData();
-  }, [tile]);
+  }, [tile, router]);
 
   if (!tile) {
     return (

@@ -34,7 +34,7 @@ const Fivemm = () => {
     };
 
     fetchData();
-  }, [tile]);
+  }, [tile,porcelaincategory]);
 
   if (!porcelaincategory || !tile) {
     return (

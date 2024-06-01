@@ -30,7 +30,7 @@ const Fivemm = () => {
     };
 
     fetchData();
-  }, [tile]);
+  }, [tile, subwaycategory]);
 
   if (!subwaycategory || !tile) {
     return (

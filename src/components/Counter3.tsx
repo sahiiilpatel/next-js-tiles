@@ -5,7 +5,7 @@ const ScrollCounter = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [counterStarted, setCounterStarted] = useState(false);
   const targetRef = useRef(null);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null); // Adjusted the type
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(

@@ -6,7 +6,6 @@ import Image from "next/image";
 
 const MosaicFilter = () => {
   const [activeFilter, setActiveFilter] = useState<string>("all");
-  console.log('mosaicData: ', mosaicData);
   mosaicData.sort((a, b) => {
     if (a?.title < b?.title) {
       return -1;
