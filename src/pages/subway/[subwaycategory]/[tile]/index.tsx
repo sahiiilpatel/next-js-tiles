@@ -1,9 +1,5 @@
 import Footer from "@/components/footer/Footer";
 import React, { useEffect, useState } from "react";
-import ScrollCounter from "@/components/Counter";
-import ScrollCounter2 from "@/components/Counter2";
-import ScrollCounter3 from "@/components/Counter3";
-import ScrollCounter4 from "@/components/Counter4";
 import Header from "@/components/header/Header";
 import { subwayTilesData } from "@/data/FilterableData";
 import Image from "next/image";
@@ -39,7 +35,7 @@ const Fivemm = () => {
   if (!subwaycategory || !tile) {
     return (
       <div>
-        <p>subway category or tile not found.</p>
+        <p>Subway category or tile not found.</p>
       </div>
     );
   }
@@ -51,10 +47,9 @@ const Fivemm = () => {
   return (
     <>
       <Header />
-
-      <div className="relative  mt-[100px]">
+      <div className="relative mt-[100px]">
         <Image
-          src={`${tileData.main_img ? tileData.main_img : "/assets/images/a.jpg"}`}
+          src={tileData.main_img ? tileData.main_img : "/assets/images/a.jpg"}
           className="absolute inset-0 object-cover w-full h-full"
           alt="alt"
           height={500}
@@ -178,9 +173,8 @@ const Fivemm = () => {
           <div className="container container-tab">
             <ul className="tab-list">
               <li
-                className={`tabs ${getActiveClass(1, "active-tabs")} ${
-                  !tileData.Packaging_table ? "w-full" : ""
-                }`}
+                className={`tabs ${getActiveClass(1, "active-tabs")} ${!tileData.Packaging_table ? "w-full" : ""
+                  }`}
                 onClick={() => toggleTab(1)}
               >
                 Specification
@@ -217,235 +211,30 @@ const Fivemm = () => {
                   <table>
                     <tbody>
                       <tr>
-                        <td className="font-semibold">Size </td>
-                        <td>{tileData.Packaging_table.Size}</td>
+                        <td className="font-semibold">Coverage / Box</td>
+                        <td>{tileData.Packaging_table.Coverage_Box}</td>
                       </tr>
                       <tr>
-                        <td className="font-semibold">Tiles / Box</td>
-                        <td>{tileData.Packaging_table.Tiles_Box}</td>
+                        <td className="font-semibold">Weight / Box</td>
+                        <td>{tileData.Packaging_table.Weight_Box}</td>
                       </tr>
                       <tr>
-                        <td className="font-semibold">Box / Pallet</td>
-                        <td>{tileData.Packaging_table.Box_Pallet}</td>
+                        <td className="font-semibold">Boxes / Pallet</td>
+                        <td>{tileData.Packaging_table.Boxes_Pallet}</td>
                       </tr>
                       <tr>
-                        <td className="font-semibold">Coverage Area</td>
-                        <td>{tileData.Packaging_table.Coverage_Area}</td>
+                        <td className="font-semibold">Pallets / Container</td>
+                        <td>{tileData.Packaging_table.Pallets_Container}</td>
                       </tr>
                       <tr>
-                        <td className="font-semibold">Pallet / Containers</td>
-                        <td>{tileData.Packaging_table.Pallet_Containers}</td>
+                        <td className="font-semibold">Boxes / Container</td>
+                        <td>{tileData.Packaging_table.Boxes_Container}</td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               )}
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="area-wrap justify-center my-[100px] ">
-        <div className="flex flex-col gap-5 justify-center items-center w-full">
-          <div className="service-sec">
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Floor-Tiles-Icon.png"
-                  alt="Floor Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant <a href="/tiles/floor-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Wall-Tiles-Icon.png"
-                  alt="Wall Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant <a href="/tiles/wall-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Bathroom-Tiles-Icon.png"
-                  alt="Bathroom Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant
-                <a href="/tiles/bathroom-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Kitchen-Tiles-Icon.png"
-                  alt="Kitchen Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant
-                <a href="/tiles/kitchen-tiles"></a>
-              </div>
-            </div>
-          </div>
-          <div className="service-sec">
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Floor-Tiles-Icon.png"
-                  alt="Floor Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Floor Tiles <a href="/tiles/floor-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Wall-Tiles-Icon.png"
-                  alt="Wall Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Wall Tiles <a href="/tiles/wall-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Bathroom-Tiles-Icon.png"
-                  alt="Bathroom Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Bathroom Tiles <a href="/tiles/bathroom-tiles"></a>
-              </div>
-            </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
-                <Image
-                  src="/assets/images/Kitchen-Tiles-Icon.png"
-                  alt="Kitchen Tiles"
-                  height={500}
-                  width={500}
-                  loading="lazy"
-                />
-              </div>
-              <div className="area-txt">
-                Kitchen Tiles <a href="/tiles/kitchen-tiles"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* <div className="row !p-0 mb-[100px] detail-parallax">
-        <div className="col-lg-12 ">
-          <section className=" flex items-center justify-center h-screen bg-fixed bg-center bg-cover custom-img relative fixed-bg ">
-            <div className="parallax-inner parallax-inner2 absolute left-[25%] top-[40%] translate transform">
-              We encourage our customers to look at our designer tile
-              collections, play with the colours and patterns, and come up with
-              unique handmade tile selections.
-            </div>
-          </section>
-        </div>
-      </div> */}
-      <section className="row flex items-center justify-center h-full relative fixed-bg my-10">
-        <video autoPlay muted loop playsInline className="video-bg">
-          <source src="/assets/images/background_video.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div className="parallax-inner absolute parallax-items item-1 ">
-          We invite our clients to look through our designer tile collections,
-          experiment with the shades and patterns, and create exclusive,
-          individually designed tile arrangements.
-        </div>
-      </section>
-      <div className="bg-white pb-24 sm:pb-32">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl lg:max-w-none">
-            <p className="text-4xl font-extrabold text-gray-900  sm:text-5xl sm:tracking-tight lg:text-6xl text-center mt-[100px] mb-[10px]">
-              Discover
-              <span className="px-2 py-1 relative inline-block">
-                <svg
-                  className="stroke-current bottom-0 absolute text-[#FF334B] -translate-x-2"
-                  viewBox="0 0 410 18"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 6.4c16.8 16.8 380.8-11.2 397.6 5.602"
-                    strokeWidth="12"
-                    fill="none"
-                    fillRule="evenodd"
-                    strokeLinecap="round"
-                  ></path>
-                </svg>
-                <span className="relative">Flowless International</span>
-              </span>
-            </p>
-            <section className="numbers dark-blue-bg white-txt">
-              <div className="marged">
-                {/* item 01 */}
-                <div className="number-item">
-                  <h2 className="value">
-                    <ScrollCounter />
-                  </h2>
-                  <h6 className="font-semibold">clients</h6>
-                </div>
-                {/* item 02 */}
-                <div className="number-item">
-                  <h2 className="value">
-                    {" "}
-                    <ScrollCounter2 />
-                  </h2>
-                  <h6 className="font-semibold">Products Delivered</h6>
-                </div>
-                {/* item 03 */}
-                <div className="number-item">
-                  <h2 className="value">
-                    {" "}
-                    <ScrollCounter3 />
-                  </h2>
-                  <h6 className="font-semibold">Revenue</h6>
-                </div>
-                {/* item 04 */}
-                <div className="number-item">
-                  <h2 className="value">
-                    {" "}
-                    <ScrollCounter4 />
-                  </h2>
-                  <h6 className="font-semibold">clients</h6>
-                </div>
-              </div>
-            </section>
           </div>
         </div>
       </div>
