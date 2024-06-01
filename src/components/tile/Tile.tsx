@@ -81,7 +81,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
         </h2>
       </div>
 
-      <div className="flex w-full h-full items-center justify-center">
+      <div className="flex w-full h-full items-center justify-center pb-4">
         <div className="flex w-5/6 h-[500px] gap-4 image-slide">
           <div
             className="slide relative !flex-auto bg-cover bg-center !transition-all !duration-500 !ease-in-out !hover:flex-grow"
@@ -117,8 +117,8 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
       </div>
 
       {tileData.main_img && (
-        <div className="flex w-full h-full items-center justify-center">
-          <div className="flex w-[95%] sm:h-[1000px] h-[500px] gap-4 image-slide py-5">
+        <div className="flex w-full h-full items-center justify-center md:py-5">
+          <div className="flex w-[95%] sm:h-[1000px] h-[500px] gap-4 image-slide">
             <div
               className="slide relative flex-auto bg-cover bg-center bg-no-repeat transition-all duration-500 ease-in-out hover:flex-grow"
               style={{

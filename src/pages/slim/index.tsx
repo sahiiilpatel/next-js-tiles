@@ -2,10 +2,9 @@ import SlimFilterSize from "@/components/SlimFilterSize";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import React from "react";
 
-const SlimCategory = () => {
+const Slim = () => {
   return (
     <>
       <Header />
@@ -40,11 +39,10 @@ const SlimCategory = () => {
           </div>
         </div>
       </div>
-
       <SlimFilterSize />
       <Footer />
     </>
   );
 };
 
-export default SlimCategory;
+export default Slim;
