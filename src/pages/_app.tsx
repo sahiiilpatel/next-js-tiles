@@ -6,6 +6,7 @@ import '/public/vendor/bootstrap/css/bootstrap.min.css'
 import '/public/assets/css/style.css'
 import '/public/assets/css/fontawesome.css'
 import '/public/assets/css/animated.css'
+import '/public/assets/css/loader.css'
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();

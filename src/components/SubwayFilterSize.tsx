@@ -46,15 +46,7 @@ const SubwayFilterSize = () => {
 
   let newData = dataTwo.slice(1)
 
-  newData.sort((a: any, b: any) => {
-    if (a?.title < b?.title) {
-      return -1;
-    }
-    if (a?.title > b?.title) {
-      return 1;
-    }
-    return 0;
-  });
+  newData.sort((a: any, b: any) => a.title.localeCompare(b.title));
 
   return (
     <section className="w-full flex flex-col gap-12 py-16 lg:px-16 md:px-10 px-2">
@@ -89,7 +81,6 @@ const SubwayFilterSize = () => {
             </details>
           </div>
         </div>
-        {/* filtered cards display */}
         <main className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 gap-y-8  w-[78%] filter-grid">
           {newData.map((item: any, index: any) => (
             <div
