@@ -9,59 +9,27 @@ import Footer from '@/components/footer/Footer';
 const SlimTile = () => {
   const [tileData, setTileData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [paramsValidated, setParamsValidated] = useState(false);
-  const [delayExpired, setDelayExpired] = useState(false);
 
   const router = useRouter();
   const { tile } = router.query;
 
   useEffect(() => {
-    const validateParams = () => {
-      if (!tile || typeof tile !== "string") {
-        setParamsValidated(true);
-        setLoading(false);
-        return;
-      }
-      setParamsValidated(true);
-      fetchData();
-    };
-
-    const fetchData = async () => {
-      const tile_name = "slim_" + tile;
-      const response = slimTilesData.find((item) => item[0] === tile_name);
-      setTileData(response ? response[1] : null);
-      setLoading(false);
-    };
-
     const timer = setTimeout(() => {
-      setDelayExpired(true);
+      if (tile && typeof tile === "string") {
+        const tile_name = "slim_" + tile;
+        const response = slimTilesData.find((item) => item[0] === tile_name);
+        setTileData(response ? response[1] : null);
+      }
+      setLoading(false);
     }, 1000);
-
-    validateParams();
 
     return () => clearTimeout(timer);
   }, [tile]);
 
-  if (!paramsValidated || !delayExpired) {
+  if (!tileData || !tile) {
     return (
       <>
         <Header />
-        <Loader />
-      </>
-    );
-  }
-
-  if (!tile) {
-    return (
-      <div>
-        <p className='flex justify-center items-center w-screen h-screen'>Slim tile not found.</p>
-      </div>
-    );
-  }
-
-  if (!tileData) {
-    return (
-      <>
         <div className='w-screen h-screen flex font-medium justify-center items-center flex-col'>
           <p className='text-lg'>Data for this tile is currently unavailable.</p>
           <button
@@ -71,6 +39,7 @@ const SlimTile = () => {
             Return to Home
           </button>
         </div>
+        <Footer />
       </>
     );
   }
@@ -78,8 +47,14 @@ const SlimTile = () => {
   return (
     <>
       <Header />
-      <Tile tileData={tileData} navbarTitle={tile.toString()} />
-      <Footer />
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <Tile tileData={tileData} navbarTitle={tile.toString()} />
+          <Footer />
+        </>
+      )}
     </>
   );
 };
