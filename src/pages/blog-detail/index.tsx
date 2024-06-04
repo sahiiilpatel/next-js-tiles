@@ -60,7 +60,7 @@ const Blogetail = () => {
                   >
                     Election
                   </a>
-                  <h1 className="text-gray-900 font-bold text-4xl">
+                  <h1 className="text-gray-900 font-bold text-4xl" onClick={() => { console.log('process.env.GOOGLE_ANALYTICS: ', process.env.GOOGLE_ANALYTICS) }}>
                     Portrait Photography In Early Days
                   </h1>
                   <div className="py-5 text-sm font-regular text-gray-900 flex">

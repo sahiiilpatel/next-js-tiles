@@ -25,6 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta charSet="utf-8" />
         <title>{title}</title>
+        <meta name="google-site-verification" content="d4O6OCZopFR4S3z0BDFfBQUwNUjiOkeADIeJ4d3ePJw" />
         <meta name="description" content="FLOWLESS INTERNATIONAL" />
         <link rel="icon" href="../../assets/images/small_logo.svg" />
       </Head>

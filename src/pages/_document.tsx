@@ -1,4 +1,5 @@
 import { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
@@ -26,6 +27,21 @@ export default function Document() {
         <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" async type="module"></script>
         <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" async ></script>
         <script src="/assets/js/templatemo-custom.js" async></script>
+        <Script
+          strategy="lazyOnload"
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS}`}
+        />
+
+        <Script id="ga-script" strategy="lazyOnload">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS}', {
+      page_path: window.location.pathname,
+    });
+        `}
+        </Script>
       </Head>
       <body className="bg-[#f8f8f8]">
         {/* <FloatingSlider /> */}

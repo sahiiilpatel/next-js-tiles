@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  env: {
+    GOOGLE_ANALYTICS: process.env.GOOGLE_ANALYTICS,
+  },
 };
 
 export default nextConfig;
