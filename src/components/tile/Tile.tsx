@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import ScrollCounter from "@/components/Counter";
-import ScrollCounter2 from "@/components/Counter2";
-import ScrollCounter3 from "@/components/Counter3";
-import ScrollCounter4 from "@/components/Counter4";
-
+import Counter from "@/components/Counter";
 interface TileData {
   main_img: string;
   img1: string;
@@ -129,7 +125,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
         </div>
       )}
 
-      <div className="flex w-full h-full items-center justify-center py-1 md:py-5">
+      <div className="flex w-full h-full items-center justify-center mt-4 py-1 md:py-5">
         <div className="w-[94%] h-auto gap-4 col-lg-12 md:w-11/12 md:h-auto">
           <div className="active-content flex flex-col md:flex-row md:items-start">
             <table className="w-full border-collapse">
@@ -184,7 +180,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
               <div className={`content ${getActiveClass(1, "active-content")}`}>
                 <div className="container p-0 mx-auto">
                   <div className="md:flex-1 px-2 md:px-4">
-                    <p className="text-gray-500 text-justify">
+                    <p className="text-gray-500 text-justify text-[14px] !pointer-events-none !leading-6 !md:leading-10 md:text-[18px]">
                       It&rsquo;s best to know important factors while selecting
                       tiles. We had a big goal and used cutting-edge technology
                       to start a revolution, which caused us to plan. Our modern
@@ -231,128 +227,135 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
         </div>
       </div>
 
-      <div className="area-wrap justify-center md:my-[100px] ">
-        <div className="flex flex-col gap-5 justify-center items-center w-full">
-          <div className="service-sec">
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+      <div className="area-wrap justify-center my-[40px] md:my-[100px]">
+        <div className="flex flex-col gap-3 justify-center items-center w-full">
+          <div className="px-[10px] grid grid-cols-4 gap-2 w-full md:w-5/6 md:h-[200px]">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Floor-Tiles-Icon.png"
                   alt="Floor Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Bending And Breaking Resistant <a href="/tiles/floor-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Wall-Tiles-Icon.png"
                   alt="Wall Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Bending And Breaking Resistant <a href="/tiles/wall-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Bathroom-Tiles-Icon.png"
                   alt="Bathroom Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant
-                <a href="/tiles/bathroom-tiles"></a>
+              <div className="text-center area-txt text-[8px] md:text-sm">
+                Bending And Breaking Resistant <a href="/tiles/bathroom-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Kitchen-Tiles-Icon.png"
                   alt="Kitchen Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
-                Bending And Breaking Resistant
-                <a href="/tiles/kitchen-tiles"></a>
+              <div className="text-center area-txt text-[8px] md:text-sm">
+                Bending And Breaking Resistant <a href="/tiles/kitchen-tiles"></a>
               </div>
             </div>
           </div>
-          <div className="service-sec">
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+          <div className="px-auto grid grid-cols-4 gap-2 w-full md:w-5/6 md:my-4">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Floor-Tiles-Icon.png"
                   alt="Floor Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Floor Tiles <a href="/tiles/floor-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Wall-Tiles-Icon.png"
                   alt="Wall Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Wall Tiles <a href="/tiles/wall-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Bathroom-Tiles-Icon.png"
                   alt="Bathroom Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Bathroom Tiles <a href="/tiles/bathroom-tiles"></a>
               </div>
             </div>
-            <div className="area-col items-center flex flex-col">
-              <div className="area-thumb">
+            <div className="hover:transform hover:scale-95 hover:text-red-500 items-center flex flex-col p-1">
+              <div className="text-center mb-2">
                 <Image
                   src="/assets/images/Kitchen-Tiles-Icon.png"
                   alt="Kitchen Tiles"
-                  height={500}
-                  width={500}
+                  height={85}
+                  width={85}
+                  className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
                   loading="lazy"
                 />
               </div>
-              <div className="area-txt">
+              <div className="text-center area-txt text-[8px] md:text-sm">
                 Kitchen Tiles <a href="/tiles/kitchen-tiles"></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
       <section className="row flex items-center justify-center h-full relative fixed-bg my-10">
         <video autoPlay muted loop playsInline className="video-bg">
           <source src="/assets/images/background_video.mp4" type="video/mp4" />
@@ -391,7 +394,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                 {/* item 01 */}
                 <div className="number-item">
                   <h2 className="value">
-                    <ScrollCounter />
+                    <Counter targetValue={1400} />
                   </h2>
                   <h6 className="font-semibold">clients</h6>
                 </div>
@@ -399,7 +402,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                 <div className="number-item">
                   <h2 className="value">
                     {" "}
-                    <ScrollCounter2 />
+                    <Counter targetValue={880} />
                   </h2>
                   <h6 className="font-semibold">Products Delivered</h6>
                 </div>
@@ -407,7 +410,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                 <div className="number-item">
                   <h2 className="value">
                     {" "}
-                    <ScrollCounter3 />
+                    <Counter targetValue={580} />
                   </h2>
                   <h6 className="font-semibold">Revenue</h6>
                 </div>
@@ -415,7 +418,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                 <div className="number-item">
                   <h2 className="value">
                     {" "}
-                    <ScrollCounter4 />
+                    <Counter targetValue={400} />
                   </h2>
                   <h6 className="font-semibold">clients</h6>
                 </div>

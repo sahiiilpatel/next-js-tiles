@@ -1,57 +1,57 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const ScrollCounter = () => {
-  const [count, setCount] = useState(0);
-  const [isVisible, setIsVisible] = useState(false);
-  const [counterStarted, setCounterStarted] = useState(false);
-  const targetRef = useRef(null);
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
+interface ScrollCounterProps {
+    targetValue: number;
+}
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !counterStarted) {
-            setCounterStarted(true);
-            setIsVisible(true);
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
+const Counter: React.FC<ScrollCounterProps> = ({ targetValue }) => {
+    const [count, setCount] = useState(0);
+    const [isVisible, setIsVisible] = useState(false);
+    const targetRef = useRef<HTMLDivElement | null>(null);
+    const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
-    const currentTargetRef = targetRef.current;
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting && !isVisible) {
+                        setIsVisible(true);
+                    }
+                });
+            },
+            { threshold: 0.5 }
+        );
 
-    if (currentTargetRef) {
-      observer.observe(currentTargetRef);
-    }
+        const currentRef = targetRef.current;
+        if (currentRef) observer.observe(currentRef);
 
-    return () => {
-      if (currentTargetRef) {
-        observer.unobserve(currentTargetRef);
-      }
-    };
-  }, [counterStarted]);
+        return () => {
+            if (currentRef) observer.unobserve(currentRef);
+        };
+    }, [isVisible]);
 
-  useEffect(() => {
-    if (isVisible && counterStarted) {
-      intervalRef.current = setInterval(() => {
-        if (count < 1400) {
-          setCount((prevCount) => prevCount + 15);
-        } else {
-          clearInterval(intervalRef.current!);
+    useEffect(() => {
+        if (isVisible) {
+            intervalRef.current = setInterval(() => {
+                setCount((prevCount) => {
+                    if (prevCount < targetValue) {
+                        return prevCount + 15;
+                    } else {
+                        clearInterval(intervalRef.current!);
+                        return targetValue;
+                    }
+                });
+            }, 30);
+
+            return () => clearInterval(intervalRef.current!);
         }
-      }, 30);
+    }, [isVisible, targetValue]);
 
-      return () => clearInterval(intervalRef.current!);
-    }
-  }, [isVisible, counterStarted, count]);
-
-  return (
-    <div className="counter-container" ref={targetRef}>
-      <h1 className="counter">{count}+</h1>
-    </div>
-  );
+    return (
+        <div className="counter-container" ref={targetRef}>
+            <h1 className="counter">{count}+</h1>
+        </div>
+    );
 };
 
-export default ScrollCounter;
+export default Counter;
