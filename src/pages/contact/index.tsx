@@ -1,9 +1,81 @@
 import Loader from "@/components/Loader";
 import Header from "@/components/header/Header";
+import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
+import { Slide, toast } from "react-toastify";
 
 const Contact = () => {
   const [loading, setLoading] = useState(true);
+  const router = useRouter();
+  const [formData, setFormData] = useState({
+    Name: '',
+    Surname: '',
+    Email: '',
+    Message: '',
+  });
+
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success('Email sent successfully.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Slide,
+        });
+        router.push('/')
+      } else {
+        toast.error('Failed to send email.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Slide,
+        });
+        router.push('/')
+      }
+    } catch (error) {
+      toast.error('Failed to send email.', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Slide,
+      });
+      router.push('/')
+    }
+  };
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -67,10 +139,7 @@ const Contact = () => {
               <div className="block rounded-lg bg-[hsla(0,0%,100%,0.8)] px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]  md:py-16 md:px-12 -mt-[100px] backdrop-blur-[30px] border border-gray-300">
                 <div className="flex flex-wrap">
                   <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-                    <form
-                      action="https://formsubmit.co/info@flowless.co.in"
-                      method="POST"
-                    >
+                    <form className="relative mb-6" onSubmit={handleSubmit} >
                       <div className="relative mb-6">
                         <fieldset>
                           <input
@@ -80,6 +149,22 @@ const Contact = () => {
                             id="name"
                             placeholder="Name"
                             required
+                            value={formData.Name}
+                            onChange={handleChange}
+                          />
+                        </fieldset>
+                      </div>
+                      <div className="relative mb-6">
+                        <fieldset>
+                          <input
+                            className="form-control"
+                            type="text"
+                            name="Surname"
+                            id="Surname"
+                            placeholder="Surname"
+                            required
+                            value={formData.Surname}
+                            onChange={handleChange}
                           />
                         </fieldset>
                       </div>
@@ -91,8 +176,10 @@ const Contact = () => {
                             name="Email"
                             id="email"
                             pattern="[^ @]*@[^ @]*"
-                            placeholder="Email address"
+                            placeholder="Your Email"
                             required
+                            value={formData.Email}
+                            onChange={handleChange}
                           />
                         </fieldset>
                       </div>
@@ -103,23 +190,19 @@ const Contact = () => {
                             className="form-control"
                             id="message"
                             placeholder="Message"
-                            defaultValue={""}
+                            defaultValue={formData.Message}
                             required
+                            onChange={handleChange}
                           />
                         </fieldset>
                       </div>
-                      <input type="hidden" name="_template" value="table"></input>
-                      <input
-                        type="hidden"
-                        name="_next"
-                        value="https://flowless.co.in/"
-                      ></input>
                       <div className="tempcolor">
-                        <button type="submit" id="form-submit">
+                        <button type="submit" id="form-submit" className="main-button">
                           Send
                         </button>
                       </div>
                     </form>
+
                   </div>
                   <div className="w-full shrink-0 grow-0 basis-auto lg:w-7/12">
                     <div className="flex flex-wrap">

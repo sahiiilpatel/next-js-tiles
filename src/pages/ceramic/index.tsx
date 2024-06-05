@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import MainCategory from "@/components/MainCategory";
-import { mosaicData } from "@/data/FilterableData";
+import { ceramicData } from "@/data/FilterableData";
 import Loader from "@/components/Loader";
 
 const Ceramic = () => {
@@ -23,7 +23,7 @@ const Ceramic = () => {
         <Loader />
       ) : (
         <>
-          <MainCategory CategoryData={mosaicData} navbarImagePath="assets/images/a.jpg" navbarTitle="CERAMIC TILES" />
+          <MainCategory CategoryData={ceramicData} navbarImagePath="assets/images/a.jpg" navbarTitle="CERAMIC TILES" />
           <Footer />
         </>
       )}

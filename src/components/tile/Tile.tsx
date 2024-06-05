@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Counter from "@/components/Counter";
+import { Slide, toast } from "react-toastify";
+import { useRouter } from "next/router";
 interface TileData {
   main_img: string;
   img1: string;
@@ -31,13 +33,16 @@ interface TileProps {
 
 const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
   const [toggleState, setToggleState] = useState<number>(1);
-
+  const router = useRouter();
   const toggleTab = (index: number) => {
     setToggleState(index);
   };
 
   const getActiveClass = (index: number, className: string) =>
     toggleState === index ? className : "";
+  if (!tileData) {
+    return
+  }
 
   return (
     <>

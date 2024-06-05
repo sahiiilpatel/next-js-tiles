@@ -1,7 +1,79 @@
-import Image from "next/image";
-import React from "react";
+import { useRouter } from "next/router";
+import React, { useState } from "react";
+import { Slide, toast } from "react-toastify";
 
 const Footer = () => {
+  const router = useRouter();
+  const [formData, setFormData] = useState({
+    Name: '',
+    Surname: '',
+    Email: '',
+    Message: '',
+  });
+
+  const handleChange = (e: any) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
+    });
+  };
+
+  const handleSubmit = async (e: any) => {
+    e.preventDefault();
+
+    try {
+      const response = await fetch('/api/sendEmail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success('Email sent successfully.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Slide,
+        });
+        router.push('/')
+      } else {
+        toast.error('Failed to send email.', {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Slide,
+        });
+        router.push('/')
+      }
+    } catch (error) {
+      toast.error('Failed to send email.', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: false,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Slide,
+      });
+      router.push('/')
+    }
+  };
+
   return (
     <>
       {" "}
@@ -35,32 +107,32 @@ const Footer = () => {
               data-wow-duration="0.5s"
               data-wow-delay="0.25s"
             >
-              <form
-                id="contact"
-                action="https://formsubmit.co/info@flowless.co.in"
-                method="POST"
-              >
+              <form id="contact" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="flex flex-row">
                     <div className="col-lg-6">
                       <fieldset>
                         <input
-                          type="name"
+                          type="text"
                           name="Name"
                           id="name"
                           placeholder="Name"
                           required
+                          value={formData.Name}
+                          onChange={handleChange}
                         />
                       </fieldset>
                     </div>
                     <div className="ml-1 col-lg-6">
                       <fieldset>
                         <input
-                          type="surname"
+                          type="text"
                           name="Surname"
                           id="surname"
                           placeholder="Surname"
                           required
+                          value={formData.Surname}
+                          onChange={handleChange}
                         />
                       </fieldset>
                     </div>
@@ -68,12 +140,13 @@ const Footer = () => {
                   <div className="col-lg-12">
                     <fieldset>
                       <input
-                        type="text"
+                        type="email"
                         name="Email"
                         id="email"
-                        pattern="[^ @]*@[^ @]*"
                         placeholder="Your Email"
                         required
+                        value={formData.Email}
+                        onChange={handleChange}
                       />
                     </fieldset>
                   </div>
@@ -84,37 +157,19 @@ const Footer = () => {
                         className="form-control"
                         id="message"
                         placeholder="Message"
-                        defaultValue={""}
                         required
+                        value={formData.Message}
+                        onChange={handleChange}
                       />
                     </fieldset>
                   </div>
-                  <input type="hidden" name="_template" value="table"></input>
-                  <input
-                    type="hidden"
-                    name="_next"
-                    value="https://flowless.co.in/"
-                  ></input>
                   <div className="col-lg-12">
                     <fieldset>
-                      <button
-                        type="submit"
-                        id="form-submit"
-                        className="main-button "
-                      >
+                      <button type="submit" id="form-submit" className="main-button">
                         Send Message
                       </button>
                     </fieldset>
                   </div>
-                </div>
-                <div className="contact-dec">
-                  <Image
-                    src="/assets/images/contact-decoration.png"
-                    alt="alt"
-                    height={500}
-                    width={500}
-                    loading="lazy"
-                  />
                 </div>
               </form>
             </div>

@@ -2,6 +2,8 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import '/public/vendor/bootstrap/css/bootstrap.min.css'
 import '/public/assets/css/style.css'
 import '/public/assets/css/fontawesome.css'
@@ -29,6 +31,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="description" content="FLOWLESS INTERNATIONAL" />
         <link rel="icon" href="../../assets/images/small_logo.svg" />
       </Head>
+      <ToastContainer />
       <Component {...pageProps} />
     </>
   );

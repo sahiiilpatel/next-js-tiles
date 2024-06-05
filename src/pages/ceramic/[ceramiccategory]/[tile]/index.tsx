@@ -5,6 +5,7 @@ import Loader from '@/components/Loader';
 import Header from '@/components/header/Header';
 import Tile from '@/components/tile/Tile';
 import Footer from '@/components/footer/Footer';
+import { Slide, toast } from 'react-toastify';
 
 const CeramicTile = () => {
   const [tileData, setTileData] = useState<any>(null);
@@ -60,20 +61,20 @@ const CeramicTile = () => {
   }
 
   if (!tileData) {
-    return (
-      <>
-        <div className='w-screen h-screen flex font-medium justify-center items-center flex-col'>
-          <p className='text-lg'>Data for this tile is currently unavailable.</p>
-          <button
-            className='bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-5 rounded-full mt-2'
-            onClick={() => { router.push('/') }}
-          >
-            Return to Home
-          </button>
-        </div>
-      </>
-    );
+    toast.error('Data for this tile is currently unavailable.', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      transition: Slide,
+    });
+    router.push('/ceramic')
   }
+
 
   return (
     <>
