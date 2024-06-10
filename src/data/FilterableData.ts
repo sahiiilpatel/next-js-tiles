@@ -188,7 +188,7 @@ export const categoryData = [
     },
     {
         name: "Slim Tiles",
-        src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
+        src: "/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg",
         title: "Slim Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/slim"
@@ -209,7 +209,7 @@ export const categoryData = [
     },
     {
         name: "Subway Tiles",
-        src: "/assets/images/33.jpg",
+        src: "/assets/images/SUBWAY/3X12/3X12_CLOUDY/3X12_NAVY_BLUE_GLOSSY.jpg",
         title: "Subway Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/subway"

@@ -10,7 +10,7 @@ const Slim = () => {
       <Header />
       <div className="relative  mt-[100px]">
         <Image
-          src="/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg"
+          src="/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg"
           className="absolute inset-0 object-cover w-full h-full"
           alt={"img"}
           height={500}

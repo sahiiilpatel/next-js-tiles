@@ -25,7 +25,7 @@ const Subway = () => {
         <>
           <MainCategory
             CategoryData={subwayData}
-            navbarImagePath="/assets/images/SUBWAY/4X12/BEVEL/4X12_BEVEL_FOREST_GREEN_PREVIEW.jpg"
+            navbarImagePath="/assets/images/SUBWAY/3X12/3X12_CLOUDY/3X12_NAVY_BLUE_GLOSSY.jpg"
             navbarTitle="SUBWAY TILES"
           />
           <Footer />
