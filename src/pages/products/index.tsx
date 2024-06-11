@@ -1,3 +1,4 @@
+import Catalogue from "@/components/Catalogue";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Loader from "@/components/Loader";
@@ -24,6 +25,7 @@ export default function Products() {
       ) : (
         <>
           <MainCategory CategoryData={categoryData} navbarImagePath="/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg" navbarTitle="PRODUCTS" />
+          <Catalogue />
           <Footer />
         </>
       )}

@@ -1,9 +1,42 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper';
+import 'swiper/css';
+import 'swiper/css/autoplay';
+import { Autoplay } from 'swiper/modules';
 
+SwiperCore.use([Autoplay]);
 
 const Homec = () => {
+  const imgData = [
+    {
+      src: '/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK_PREVIEW.jpg',
+      tag: 'Subway Tiles',
+      herf: '/subway',
+    },
+    {
+      src: '/assets/images/Porcelain/400x1200/Matt/STATUARIO_OPAL.jpg',
+      tag: 'Porcelain Tiles',
+      herf: '/porcelain',
+    },
+    {
+      src: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY_001.jpg',
+      tag: 'Ceramic Tiles',
+      herf: '/ceramic',
+    },
+    {
+      src: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg',
+      tag: 'Slim Tiles',
+      herf: '/slim',
+    },
+    {
+      src: '/assets/images/mosaic/Hexagon/M_1751_Preview.jpg',
+      tag: 'Mosaic Tiles',
+      herf: '/mosaic',
+    }
+  ]
+
   return (
     <div style={{ backgroundColor: "white" }}>
       <div
@@ -58,10 +91,10 @@ const Homec = () => {
                     <Image
                       src="/assets/images/banner-right-image.jpg"
                       alt="team meeting"
-                      width={500}
-                      height={500}
+                      width={1000}
+                      height={1000}
                       layout="fixed"
-                      loading="lazy"
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -155,9 +188,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/1.jpg"
                       alt="img"
-                      height={500}
-                      width={500}
-                      loading="lazy"
+                      height={1000}
+                      width={1000}
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -177,9 +210,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/2.jpg"
                       alt="img"
-                      height={500}
-                      width={500}
-                      loading="lazy"
+                      height={1000}
+                      width={1000}
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -199,9 +232,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/3.jpg"
                       alt="img"
-                      height={500}
-                      width={500}
-                      loading="lazy"
+                      height={1000}
+                      width={1000}
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -221,9 +254,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/4.jpg"
                       alt="img"
-                      height={500}
-                      width={500}
-                      loading="lazy"
+                      height={1000}
+                      width={1000}
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -243,9 +276,9 @@ const Homec = () => {
                     <Image
                       src="/assets/images/1.jpg"
                       alt="img"
-                      height={500}
-                      width={500}
-                      loading="lazy"
+                      height={1000}
+                      width={1000}
+                      loading="eager"
                     />
                   </div>
                 </div>
@@ -272,9 +305,9 @@ const Homec = () => {
                 <Image
                   src="/assets/images/about-left-image.svg"
                   alt="person graphic"
-                  height={500}
-                  width={500}
-                  loading="lazy"
+                  height={1000}
+                  width={1000}
+                  loading="eager"
                 />
               </div>
             </div>
@@ -351,111 +384,34 @@ const Homec = () => {
             Offers.
           </h2>
         </div>
-        <div className="flex items-center justify-center w-full !h-[50%]">
-            <Swiper
-              spaceBetween={30}
-              slidesPerView={1}
-              loop={true}
-              autoplay={{ delay: 2500, disableOnInteraction: false }}
-              className="mySwiper7"
-            >
-              <SwiperSlide className="swiper-slide flex items-center justify-center">
-                <figure className="relative group overflow-hidden w-full">
-                  <Link href="/mosaic" className="relative w-full flex items-center">
-                    <Image
-                      src="/assets/images/mosaic/Hexagon/M_1751_Preview.jpg"
-                      alt="Mosaic Tiles"
-                      width={10000}
-                      height={10000}
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 group transition-all duration-200"
-                    />
-                  </Link>
-                  <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
-                    <div className="flex flex-col gap-y-2">
-                      <p className="text-lg font-semibold !text-white">Mosaic Tiles</p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide flex items-center justify-center">
-                <figure className="relative group overflow-hidden w-full ">
-                  <Link href="/slim" className="relative w-full flex items-center">
-                    <Image
-                      src="/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg"
-                      alt="Slim Tiles"
-                      width={10000}
-                      height={10000}
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 group transition-all duration-200"
-                    />
-                  </Link>
-                  <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
-                    <div className="flex flex-col gap-y-2">
-                      <p className="text-lg font-semibold !text-white">Slim Tiles</p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide flex items-center justify-center">
-                <figure className="relative group overflow-hidden w-full ">
-                  <Link href="/ceramic" className="relative w-full flex items-center">
-                    <Image
-                      src="/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY_001.jpg"
-                      alt="Ceramic Tiles"
-                      width={10000}
-                      height={10000}
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 group transition-all duration-200"
-                    />
-                  </Link>
-                  <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
-                    <div className="flex flex-col gap-y-2">
-                      <p className="text-lg font-semibold !text-white">Ceramic Tiles</p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide flex items-center justify-center">
-                <figure className="relative group overflow-hidden w-full">
-                  <Link href="/porcelain" className="relative w-full flex items-center">
-                    <Image
-                      src="/assets/images/Porcelain/400x1200/Matt/STATUARIO_OPAL.jpg"
-                      alt="Porcelain Tiles"
-                      width={10000}
-                      height={10000}
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 group transition-all duration-200"
-                    />
-                  </Link>
-                  <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
-                    <div className="flex flex-col gap-y-2">
-                      <p className="text-lg font-semibold !text-white">Porcelain Tiles</p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide flex items-center justify-center">
-                <figure className="relative group overflow-hidden w-full">
-                  <Link href="/subway" className="relative w-full flex items-center">
-                    <Image
-                      src="/assets/images/SUBWAY/4X12/PLAIN/4X12_PLAIN_LIGHT_PINK_PREVIEW.jpg"
-                      alt="Porcelain Tiles"
-                      width={10000}
-                      height={10000}
-                      loading="lazy"
-                      className="w-full h-full object-cover group-hover:scale-105 group transition-all duration-200"
-                    />
-                  </Link>
-                  <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
-                    <div className="flex flex-col gap-y-2">
-                      <p className="text-lg font-semibold !text-white">Subway Tiles</p>
-                    </div>
-                  </figcaption>
-                </figure>
-              </SwiperSlide>
-            </Swiper>
-          </div>
+        <Swiper
+          spaceBetween={0}
+          slidesPerView={1}
+          autoplay={{ delay: 2000 }}
+          loop={true}
+        >
+          {imgData.map((src, index) => (
+            <SwiperSlide key={index} className="w-full h-[350px] md:h-[550px] flex justify-center items-center">
+              <figure className="w-[97%] h-[350px] md:h-[550px] relative">
+                <Link href={imgData[index].herf} className="relative w-full flex items-center">
+                  <Image
+                    src={imgData[index].src}
+                    alt={`Slide ${index + 1}`}
+                    width={10000}
+                    height={10000}
+                    loading="eager"
+                    className="object-cover w-full h-full"
+                  />
+                </Link>
+                <figcaption className="flex w-full p-3 absolute left-0 bg-slate-900/60 !text-white justify-between items-center bottom-0 hover:visible transition-all duration-200">
+                  <div className="flex flex-col gap-y-2">
+                    <p className="text-lg font-semibold !text-white">{imgData[index].tag}</p>
+                  </div>
+                </figcaption>
+              </figure>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </section>
       <div className="bg-gray-100 py-16 mt-[100px] mb-[50px]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -600,3 +556,5 @@ const Homec = () => {
 };
 
 export default Homec;
+
+

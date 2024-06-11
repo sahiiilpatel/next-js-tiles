@@ -1,183 +1,3 @@
-export const filterableDataglossy = [
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/12_24"
-    },
-    {
-        name: "24*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/24_24"
-    },
-    {
-        name: "24*48",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 24*48",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/24_48"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 12*24",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/48_48"
-    },
-    {
-        name: "5mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 5mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/5mm"
-    },
-    {
-        name: "9mm",
-        src: "/assets/images/a.jpg",
-        title: "Antisky GLossy 9mm",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/glossy/9mm"
-    },
-]
-
-export const filterableDatamatt = [
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Antisky Matt",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        // link:"/matt/12_24"
-    },
-    {
-        name: "24*24",
-        src: "assets/images/a.jpg",
-        title: "BMW",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/24_24"
-    },
-    {
-        name: "24*48",
-        src: "assets/images/a.jpg",
-        title: "Modeller",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/24_48"
-    },
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Sea Life",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/48_48"
-    },
-    {
-        name: "5mm",
-        src: "assets/images/a.jpg",
-        title: "Lamborghini",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/5mm"
-    },
-    {
-        name: "9mm",
-        src: "assets/images/a.jpg",
-        title: "Artist",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/9mm"
-    },
-]
-
-export const filterableDatarustic = [
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Antisky rustic",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/matt/12_24"
-    },
-    {
-        name: "24*24",
-        src: "assets/images/a.jpg",
-        title: "BMW",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/rustic/24_24"
-    },
-    {
-        name: "24*48",
-        src: "assets/images/a.jpg",
-        title: "Modeller",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/rustic/24_48"
-    },
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Sea Life",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/rustic/48_48"
-    },
-    {
-        name: "5mm",
-        src: "assets/images/a.jpg",
-        title: "Lamborghini",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/rustic/5mm"
-    },
-    {
-        name: "9mm",
-        src: "assets/images/a.jpg",
-        title: "Artist",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/rustic/9mm"
-    },
-]
-
-export const filterableDatawood = [
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Antisky wood",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/12_24"
-    },
-    {
-        name: "24*24",
-        src: "assets/images/a.jpg",
-        title: "BMW",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/24_24"
-    },
-    {
-        name: "24*48",
-        src: "assets/images/a.jpg",
-        title: "Modeller",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/24_48"
-    },
-    {
-        name: "12*24",
-        src: "assets/images/a.jpg",
-        title: "Sea Life",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/48_48"
-    },
-    {
-        name: "5mm",
-        src: "assets/images/a.jpg",
-        title: "Lamborghini",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/5mm"
-    },
-    {
-        name: "9mm",
-        src: "assets/images/a.jpg",
-        title: "Artist",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/wooden/9mm"
-    },
-]
-
 export const categoryData = [
     {
         name: "Mosaic Tiles",
@@ -195,7 +15,7 @@ export const categoryData = [
     },
     {
         name: "Ceramic Tiles",
-        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P1.jpg",
+        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY_001.jpg",
         title: "Ceramic Tiles",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/ceramic"
@@ -240,27 +60,20 @@ export const mosaicData = [
     }
 ]
 
-// export const slimData = [
-//     {
-//         name: "3 mm",
-//         src: "/assets/images/11.jpg",
-//         title: "3 mm",
-//         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//         link: "/slim/3-mm"
-//     },
-//     {
-//         name: "5 mm",
-//         src: "/assets/images/22.jpg",
-//         title: "5 mm",
-//         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-//         link: "/slim/5-mm"
-//     },
-// ]
+export const slimData = [
+    {
+        name: "5mm",
+        src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
+        title: "5mm",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        link: "/slim/5mm"
+    },
+]
 
 export const ceramicData = [
     {
         name: "300*600",
-        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P1.jpg",
+        src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GRREN_001.jpg",
         title: "300*600",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/ceramic/300*600"
@@ -270,7 +83,7 @@ export const ceramicData = [
 export const porcelainData = [
     {
         name: "300*600",
-        src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_P1.jpg",
+        src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIONUVO001.jpg",
         title: "300*600",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/300*600"
@@ -284,7 +97,7 @@ export const porcelainData = [
     },
     {
         name: "600*600",
-        src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_P1.jpg",
+        src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_001.jpg",
         title: "600*600",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/600*600"
@@ -298,35 +111,35 @@ export const porcelainData = [
     },
     {
         name: "800*800",
-        src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_P1.jpg",
+        src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
         title: "800*800",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/800*800"
     },
     {
         name: "1000*1000",
-        src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg",
+        src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_001.jpg",
         title: "1000*1000",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/1000*1000"
     },
     {
         name: "1200*1200",
-        src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg",
+        src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_001.jpg",
         title: "1200*1200",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/1200*1200"
     },
     {
         name: "1200*2400",
-        src: "/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_P1.jpg",
+        src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_001.jpg",
         title: "1200*2400",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/1200*2400"
     },
     {
         name: "1600*3200",
-        src: "/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_1.jpg",
+        src: "/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_001.jpg",
         title: "1600*3200",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         link: "/porcelain/1600*3200"
@@ -362,49 +175,49 @@ export const filterableDataCeramic = [
         "300*600",
         {
             name: "12*24",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO_001.jpg",
             title: "ALTRA CHOCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/ALTRA-CHOCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY_001.jpg",
             title: "ALTRA IVORY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/ALTRA-IVORY"
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_P1.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_001.jpg",
             title: "G81005",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/G81005"
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO-F-1.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO_001.jpg",
             title: "GLACIER STATUARIO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/GLACIER-STATUARIO"
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P1.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_WHITE_001.jpg",
             title: "JUCAR",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/JUCAR"
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL_001.jpg",
             title: "TUCSON AZUL",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/TUCSON-AZUL"
         },
         {
             name: "24*48",
-            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg",
+            src: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GRREN_001.jpg",
             title: "TUCSON GREEN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/ceramic/300*600/TUCSON-GREEN"
@@ -417,7 +230,7 @@ export const filterableDataSubway = [
         "8*8",
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/8X8/8X8_BLACK.jpg",
+            src: "/assets/images/SUBWAY/8X8/8X8_BLACK_PREVIEW.jpg",
             title: "BLACK",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/8*8/BLACK"
@@ -431,14 +244,14 @@ export const filterableDataSubway = [
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/8X8/8X8_T_BLUE.jpg",
+            src: "/assets/images/SUBWAY/8X8/8X8_T_BLUE_PREVIEW.jpg",
             title: "T BLUE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/8*8/T-BLUE"
         },
         {
             name: "12*24",
-            src: "/assets/images/SUBWAY/8X8/8X8_WHITE.jpg",
+            src: "/assets/images/SUBWAY/8X8/8X8_WHITE_PREVIEW.jpg",
             title: "WHITE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/subway/8*8/WHITE"
@@ -534,42 +347,42 @@ export const filterableDataPorcelain = [
         "300*600",
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_P1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_001.jpg",
             title: "Chips Stone Bianco",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/Chips-Stone-Bianco"
         },
         {
             name: "24*24",
-            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_P1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_001.jpg",
             title: "LASA WHITE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/LASA-WHITE"
         },
         {
             name: "24*48",
-            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/Onix-Dream"
         },
         {
             name: "5mm",
-            src: "/assets/images//Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIOGOLD001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/STATUARIO-GOLD"
         },
         {
             name: "9mm",
-            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p1.jpg",
+            src: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIONUVO001.jpg",
             title: "STATUARIO NUVO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/300*600/STATUARIO-NUVO"
@@ -586,35 +399,35 @@ export const filterableDataPorcelain = [
         },
         {
             name: "24*24",
-            src: "/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE/ALBITE_BROWN_BAR_DECORE.jpg",
+            src: "/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE.jpg",
             title: "ALBITE BROWN BAR DECORE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/400*1200/ALBITE-BROWN-BAR-DECORE"
         },
         {
             name: "24*48",
-            src: "/assets/images/Porcelain/400x1200/Matt/CALCATTA_GREY/2.jpg",
+            src: "/assets/images/Porcelain/400x1200/Matt/CALCATTA_GREY.jpg",
             title: "CALCATTA GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/400*1200/CALCATTA-GREY"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/400x1200/Matt/DELIGHT_BROWN/DELIGHT_BROWN_P1.jpg",
+            src: "/assets/images/Porcelain/400x1200/Matt/DELIGHT_BROWN.jpg",
             title: "DELIGHT BROWN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/400*1200/DELIGHT-BROWN"
         },
         {
             name: "5mm",
-            src: "/assets/images/Porcelain/400x1200/Matt/JASPER_GREY/1.jpg",
+            src: "/assets/images/Porcelain/400x1200/Matt/JASPER_GREY.jpg",
             title: "JASPER GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/400*1200/JASPER-GREY"
         },
         {
             name: "9mm",
-            src: "/assets/images/Porcelain/400x1200/Matt/STATUARIO_OPAL/STATUARIO_OPAL_1.jpg",
+            src: "/assets/images/Porcelain/400x1200/Matt/STATUARIO_OPAL.jpg",
             title: "STATUARIO OPAL",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/400*1200/STATUARIO-OPAL"
@@ -624,42 +437,42 @@ export const filterableDataPorcelain = [
         "600*600",
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_P1.jpg",
+            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_001.jpg",
             title: "Brecia Aurora Silver",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/Brecia-Aurora-Silver"
         },
         {
             name: "24*24",
-            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_001.jpg",
             title: "GLITZ BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/GLITZ-BIANCO"
         },
         {
             name: "24*48",
-            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_01.jpg",
+            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_001.jpg",
             title: "picasso grey",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/picasso-grey"
         },
         {
             name: "5mm",
-            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/STATUARIO-GOLD"
         },
         {
             name: "9mm",
-            src: "/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_1.jpg",
+            src: "/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*600/Onix-Dream"
@@ -733,7 +546,7 @@ export const filterableDataPorcelain = [
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_1.jpg",
+            src: "/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*1200/Onix-Dream"
@@ -754,7 +567,7 @@ export const filterableDataPorcelain = [
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_60x120_003.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/600*1200/STATUARIO-GOLD"
@@ -1021,28 +834,28 @@ export const filterableDataPorcelain = [
         // Glossy & Matt
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_P1.jpg",
+            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_001.jpg",
             title: "ARMANI HARBOR GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/800*800/ARMANI-HARBOR-GREY"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/800*800/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_1.jpg",
+            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_001.jpg",
             title: "Silver Luxury",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/800*800/Silver-Luxury"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/800*800/STATUARIO-GOLD"
@@ -1050,7 +863,7 @@ export const filterableDataPorcelain = [
         // Glossy 
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_1.jpg",
+            src: "/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/800*800/Onix-Dream"
@@ -1061,28 +874,28 @@ export const filterableDataPorcelain = [
         // Glossy & Matt
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_001.jpg",
             title: "CANYON GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/CANYON-GREY"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_001.jpg",
             title: "Eos Pearl",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/Eos-Pearl"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/STATUARIO-GOLD"
@@ -1090,14 +903,14 @@ export const filterableDataPorcelain = [
         // Glossy
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_001.jpg",
             title: "Leto Pearl",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/Leto-Pearl"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_P1.jpg",
+            src: "/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1000*1000/Onix-Dream"
@@ -1108,35 +921,35 @@ export const filterableDataPorcelain = [
         // Glossy & Matt
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_001.jpg",
             title: "CANYON GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/CANYON-GREY"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_001.jpg",
             title: "Costa Marfil",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/Costa-Marfil"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_001.jpg",
             title: "Eos Pearl",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/Eos-Pearl"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/STATUARIO-GOLD"
@@ -1144,14 +957,14 @@ export const filterableDataPorcelain = [
         // Glossy
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_001.jpg",
             title: "Leto Pearl",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/Leto-Pearl"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_P1.jpg",
+            src: "/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*1200/Onix-Dream"
@@ -1162,21 +975,21 @@ export const filterableDataPorcelain = [
         // Glossy & Matt
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_P1.jpg",
+            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_001.jpg",
             title: "ARMANI HARBOR BROWN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*2400/ARMANI-HARBOR-BROWN"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg",
+            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             title: "LUCCA BIANCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*2400/LUCCA-BIANCO"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg",
+            src: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             title: "STATUARIO GOLD",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*2400/STATUARIO-GOLD"
@@ -1184,14 +997,14 @@ export const filterableDataPorcelain = [
         // Glossy
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_P1.jpg",
+            src: "/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             title: "Onix Dream",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*2400/Onix-Dream"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_P1.jpg",
+            src: "/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_001.jpg",
             title: "Eos Pearl",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1200*2400/Eos-Pearl"
@@ -1202,14 +1015,14 @@ export const filterableDataPorcelain = [
         // High Glossy
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_1.jpg",
+            src: "/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_C_001.jpg",
             title: "BRUCE GREY MARBLE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1600*3200/BRUCE-GREY-MARBLE"
         },
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_1.jpg",
+            src: "/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_001.jpg",
             title: "GOLDEN WHITE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1600*3200/GOLDEN-WHITE"
@@ -1217,7 +1030,7 @@ export const filterableDataPorcelain = [
         // Matt
         {
             name: "12*24",
-            src: "/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_P1.jpg",
+            src: "/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_001.jpg",
             title: "Neolith Iron Corten",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
             link: "/porcelain/1600*3200/Neolith-Iron-Corten"
@@ -1230,6 +1043,7 @@ export const PorcelainTilesData = [
     [
         '300*600_Chips-Stone-Bianco',
         {
+            main_img: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_001.jpg',
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_P1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_P2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Chips_Stone_Bianco/Chips_Stone_Bianco_P3.jpg',
@@ -1247,6 +1061,7 @@ export const PorcelainTilesData = [
     [
         '300*600_LASA-WHITE',
         {
+            main_img: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_001.jpg",
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_P1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_P2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_P3.jpg',
@@ -1264,6 +1079,7 @@ export const PorcelainTilesData = [
     [
         '300*600_LUCCA-BIANCO',
         {
+            main_img: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -1281,6 +1097,7 @@ export const PorcelainTilesData = [
     [
         '300*600_Onix-Dream',
         {
+            main_img: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/Onix_Dream/Onix_Dream_3.jpg',
@@ -1298,6 +1115,7 @@ export const PorcelainTilesData = [
     [
         '300*600_STATUARIO-GOLD',
         {
+            main_img: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIOGOLD001.jpg",
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -1315,30 +1133,7 @@ export const PorcelainTilesData = [
     [
         '300*600_STATUARIO-NUVO',
         {
-            img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p1.jpg',
-            img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p2.jpg',
-            img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p3.jpg',
-            img4: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p4.jpg',
-            img5: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p5.jpg',
-            main_table: {
-                CATEGORY: "Porcelain",
-                APPLICATIONS: "Commercial Buildings, Hotel, School, Colleges, Residentials, Hospital, Airport, Industry, Mall, Religious Place, Gymnasium",
-                FINISH: "Matt",
-                CHIP_SIZE: "19mm",
-                PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
-            },
-            // Packaging_table: {
-            //     Size: "75x300mm",
-            //     Tiles_Box: "44pcs",
-            //     Box_Pallet: "90",
-            //     Coverage_Area: "1 Box : 099 SQ. MTR",
-            //     Pallet_Containers: "1 Containers = 22 Pallet",
-            // }
-        }
-    ],
-    [
-        '300*600_STATUARIO-NUVO',
-        {
+            main_img: "/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIONUVO001.jpg",
             img1: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p1.jpg',
             img2: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p2.jpg',
             img3: '/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIO_NUVO_p3.jpg',
@@ -1364,6 +1159,7 @@ export const PorcelainTilesData = [
     [
         '400*1200_ALBITE-BROWN',
         {
+            main_img: "/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN/ALBITE_BROWN_1.jpg",
             img1: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN/ALBITE_BROWN_1.jpg',
             img2: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN/ALBITE_BROWN_2.jpg',
             img3: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN/ALBITE_BROWN_3.jpg',
@@ -1389,7 +1185,7 @@ export const PorcelainTilesData = [
 
         '400*1200_ALBITE-BROWN-BAR-DECORE',
         {
-            main_img: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE.jpg',
+            main_img: "/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE.jpg",
             img1: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE/ALBITE_BROWN_BAR_DECORE.jpg',
             img2: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE/ALBITE_BROWN_BAR_DECORE.jpg',
             img3: '/assets/images/Porcelain/400x1200/Matt/ALBITE_BROWN_BAR_DECORE/ALBITE_BROWN_BAR_DECORE.jpg',
@@ -1515,7 +1311,7 @@ export const PorcelainTilesData = [
     [
         '600*600_Brecia-Aurora-Silver',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_P1.jpg',
             img2: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_P2.jpg',
             img3: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/Brecia_Aurora_Silver/Brecia_Aurora_Silver_P3.jpg',
@@ -1540,7 +1336,7 @@ export const PorcelainTilesData = [
     [
         '600*600_GLITZ-BIANCO',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/GLITZ_BIANCO/GLITZ_BIANCO_P3.jpg',
@@ -1565,7 +1361,7 @@ export const PorcelainTilesData = [
     [
         '600*600_LUCCA-BIANCO',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -1590,7 +1386,7 @@ export const PorcelainTilesData = [
     [
         '600*600_picasso-grey',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_01.jpg',
             img2: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_02.jpg',
             img3: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/picasso_grey/picasso_grey_03.jpg',
@@ -1615,7 +1411,7 @@ export const PorcelainTilesData = [
     [
         '600*600_STATUARIO-GOLD',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/600x600/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -1640,7 +1436,7 @@ export const PorcelainTilesData = [
     [
         '600*600_Onix-Dream',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_1.jpg',
             img2: '/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_2.jpg',
             img3: '/assets/images/Porcelain/600x600/Onix_Dream_Glossy_Surface/Onix_Dream_3.jpg',
@@ -1891,7 +1687,7 @@ export const PorcelainTilesData = [
     [
         '600*1200_Onix-Dream',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_1.jpg',
             img2: '/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_2.jpg',
             img3: '/assets/images/Porcelain/600x1200/Glossy/Onix_Dream/Onix_Dream_3.jpg',
@@ -1966,7 +1762,7 @@ export const PorcelainTilesData = [
     [
         '600*1200_STATUARIO-GOLD',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_60x120_003.jpg",
             img1: '/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/600x1200/Glossy/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -2896,7 +2692,7 @@ export const PorcelainTilesData = [
     [
         '800*800_ARMANI-HARBOR-GREY',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_001.jpg",
             img1: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_P1.jpg ',
             img2: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_P2.jpg ',
             img3: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/ARMANI_HARBOR_GREY/ARMANI_HARBOR_GREY_P3.jpg ',
@@ -2922,6 +2718,7 @@ export const PorcelainTilesData = [
         '800*800_LUCCA-BIANCO',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -2946,7 +2743,7 @@ export const PorcelainTilesData = [
     [
         '800*800_Silver-Luxury',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_001.jpg",
             img1: ' /assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_1.jpg',
             img2: ' /assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_2.jpg',
             img3: ' /assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/Silver_Luxury/Silver_Luxury_3.jpg',
@@ -2971,7 +2768,7 @@ export const PorcelainTilesData = [
     [
         '800*800_STATUARIO-GOLD',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             img1: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/800x800/Glossy_Matt_Both_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -2997,7 +2794,7 @@ export const PorcelainTilesData = [
     [
         '800*800_Onix-Dream',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_1.jpg ',
             img2: '/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_2.jpg ',
             img3: '/assets/images/Porcelain/800x800/Onix_Dream_Glossy/Onix_Dream_3.jpg ',
@@ -3023,7 +2820,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_CANYON-GREY',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P3.jpg',
@@ -3048,7 +2845,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_Eos-Pearl',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P3.jpg',
@@ -3073,7 +2870,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_LUCCA-BIANCO',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -3098,7 +2895,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_STATUARIO-GOLD',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -3124,7 +2921,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_Leto-Pearl',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Leto_Pearl_Glossy/Leto_Pearl_P3.jpg',
@@ -3149,7 +2946,7 @@ export const PorcelainTilesData = [
     [
         '1000*1000_Onix-Dream',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_P1.jpg',
             img2: '/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_P2.jpg',
             img3: '/assets/images/Porcelain/1000x1000/Onix_Dream_Glossy/Onix_Dream_P3.jpg',
@@ -3176,6 +2973,7 @@ export const PorcelainTilesData = [
         '1200*1200_CANYON-GREY',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/CANYON_GREY/CANYON_GREY_P3.jpg',
@@ -3201,6 +2999,7 @@ export const PorcelainTilesData = [
         '1200*1200_Costa-Marfil',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Costa_Marfil/Costa_Marfil_P3.jpg',
@@ -3226,6 +3025,7 @@ export const PorcelainTilesData = [
         '1200*1200_Eos-Pearl',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/Eos_Pearl/Eos_Pearl_P3.jpg',
@@ -3251,6 +3051,7 @@ export const PorcelainTilesData = [
         '1200*1200_LUCCA-BIANCO',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -3276,6 +3077,7 @@ export const PorcelainTilesData = [
         '1200*1200_STATUARIO-GOLD',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -3302,6 +3104,7 @@ export const PorcelainTilesData = [
         '1200*1200_Leto-Pearl',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Leto_Pearl_Glossy_Surgace/Leto_Pearl_P3.jpg',
@@ -3327,6 +3130,7 @@ export const PorcelainTilesData = [
         '1200*1200_Onix-Dream',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_P1.jpg',
             img2: '/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_P2.jpg',
             img3: '/assets/images/Porcelain/1200x1200/Onix_Dream_Glossy_Surface/Onix_Dream_P3.jpg',
@@ -3353,6 +3157,7 @@ export const PorcelainTilesData = [
         '1200*2400_ARMANI-HARBOR-BROWN',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_001.jpg",
             img1: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_P1.jpg',
             img2: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_P2.jpg',
             img3: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/ARMANI_HARBOR_BROWN/ARMANI_HARBOR_BROWN_P3.jpg',
@@ -3378,6 +3183,7 @@ export const PorcelainTilesData = [
         '1200*2400_LUCCA-BIANCO',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_001.jpg",
             img1: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P1.jpg',
             img2: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P2.jpg',
             img3: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/LUCCA_BIANCO/LUCCA_BIANCO_P3.jpg',
@@ -3403,6 +3209,7 @@ export const PorcelainTilesData = [
         '1200*2400_STATUARIO-GOLD',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_001.jpg",
             img1: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P1.jpg',
             img2: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P2.jpg',
             img3: '/assets/images/Porcelain/1200x2400/Glossy_Matt_Surface/STATUARIO_GOLD/STATUARIO_GOLD_P3.jpg',
@@ -3429,6 +3236,7 @@ export const PorcelainTilesData = [
         '1200*2400_Onix-Dream',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_001.jpg",
             img1: '/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_P1.jpg',
             img2: '/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_P2.jpg',
             img3: '/assets/images/Porcelain/1200x2400/Onix_Dream_Glossy_Surface/Onix_Dream_P3.jpg',
@@ -3454,6 +3262,7 @@ export const PorcelainTilesData = [
         '1200*2400_Eos-Pearl',
         {
             // main_img: '',
+            main_img: "/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_001.jpg",
             img1: '/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_P1.jpg',
             img2: '/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_P2.jpg',
             img3: '/assets/images/Porcelain/1200x2400/Eos_Pearl_Glossy_Surface/Eos_Pearl_P3.jpg',
@@ -3479,7 +3288,7 @@ export const PorcelainTilesData = [
     [
         '1600*3200_BRUCE-GREY-MARBLE',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_C_001.jpg",
             img1: '/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_1.jpg',
             img2: '/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_2.jpg',
             img3: '/assets/images/Porcelain/1600x3200/BRUCE_GREY_MARBLE_High_Glossy/BRUCE_GREY_MARBLE_3.jpg',
@@ -3504,7 +3313,7 @@ export const PorcelainTilesData = [
     [
         '1600*3200_GOLDEN-WHITE',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_001.jpg",
             img1: '/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_1.jpg',
             img2: '/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_2.jpg',
             img3: '/assets/images/Porcelain/1600x3200/GOLDEN_WHITE_High_Glossy/GOLDEN_WHITE_3.jpg',
@@ -3530,7 +3339,7 @@ export const PorcelainTilesData = [
     [
         '1600*3200_Neolith-Iron-Corten',
         {
-            // main_img: '',
+            main_img: "/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_001.jpg",
             img1: '/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_P1.jpg',
             img2: '/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_P2.jpg',
             img3: '/assets/images/Porcelain/1600x3200/Neolith_Iron_Corten_Matt/Neolith_Iron_Corten_P3.jpg',
@@ -3558,7 +3367,7 @@ export const ceramicTilesData = [
     [
         '300*600_ALTRA-CHOCO',
         {
-            // main_img: '',
+            main_img: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO_001.jpg',
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_CHOCO/ALTRA_CHOCO.jpg',
@@ -3576,6 +3385,7 @@ export const ceramicTilesData = [
     [
         '300*600_ALTRA-IVORY',
         {
+            main_img: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY_001.jpg',
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/ALTRA_IVORY/ALTRA_IVORY.jpg',
@@ -3600,6 +3410,7 @@ export const ceramicTilesData = [
     [
         '300*600_G81005',
         {
+            main_img: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_001.jpg',
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_P1.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_P2.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/G81005/G81005_P3.jpg',
@@ -3624,6 +3435,7 @@ export const ceramicTilesData = [
     [
         '300*600_GLACIER-STATUARIO',
         {
+            main_img: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO_001.jpg",
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO-F-1.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO-F-2.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/GLACIER_STATUARIO/GLACIER_STATUARIO-F-3.jpg',
@@ -3648,6 +3460,7 @@ export const ceramicTilesData = [
     [
         '300*600_JUCAR',
         {
+            main_img: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_WHITE_001.jpg",
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P2.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P2.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/JUCAR/JUCAR_GREY-P3.jpg',
@@ -3672,6 +3485,7 @@ export const ceramicTilesData = [
     [
         '300*600_TUCSON-AZUL',
         {
+            main_img: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL_001.jpg",
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_AZUL/TUCSON_AZUL.jpg',
@@ -3689,6 +3503,7 @@ export const ceramicTilesData = [
     [
         '300*600_TUCSON-GREEN',
         {
+            main_img: "/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GRREN_001.jpg",
             img1: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
             img2: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
             img3: '/assets/images/Ceramic/300x600/Glossy_Matt_Both_Surface/TUCSON_GREEN/TUCSON_GREEN.jpg',
@@ -4259,130 +4074,133 @@ export const MosaicTilesData = [
 ]
 
 export const filterableDataSlim = [
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
-        title: "IRONY AQUA",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/IRONY-AQUA"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
-        title: "TUDOR CHOCO",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/TUDOR-CHOCO"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg",
-        title: "BOHO GRIS",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/BOHO-GRIS"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg",
-        title: "CALACATTA ORO",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/CALACATTA-ORO"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg",
-        title: "CEMENTO NATURALLY 02",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/CEMENTO-NATURALLY-02"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg",
-        title: "CONCRETE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/CONCRETE"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg",
-        title: "DARK COBALT BLUE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/DARK-COBALT-BLUE"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg",
-        title: "ELITE DARK GREY",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/ELITE-DARK-GREY"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg",
-        title: "ELITE OLIVE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/ELITE-OLIVE"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg",
-        title: "ELITE PEACH",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/ELITE-PEACH"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg",
-        title: "GRAPHITO BLACK",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/GRAPHITO-BLACK"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg",
-        title: "MOSS GREEN",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/MOSS-GREEN"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg",
-        title: "MYRA SAND",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/MYRA-SAND"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg",
-        title: "NATURAL TRAVENTINE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/NATURAL-TRAVENTINE"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg",
-        title: "OAK WOOD BEIGE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/OAK-WOOD-BEIGE"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg",
-        title: "SLATE BLACK",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/SLATE-BLACK"
-    },
-    {
-        name: "12*24",
-        src: "/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg",
-        title: "TERRAZZO LITE",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/TERRAZZO-LITE"
-    },
+    [
+        "5mm",
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
+            title: "IRONY AQUA",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/IRONY-AQUA"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
+            title: "TUDOR CHOCO",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/TUDOR-CHOCO"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg",
+            title: "BOHO GRIS",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/BOHO-GRIS"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg",
+            title: "CALACATTA ORO",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/CALACATTA-ORO"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg",
+            title: "CEMENTO NATURALLY 02",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/CEMENTO-NATURALLY-02"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg",
+            title: "CONCRETE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/CONCRETE"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg",
+            title: "DARK COBALT BLUE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/DARK-COBALT-BLUE"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg",
+            title: "ELITE DARK GREY",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/ELITE-DARK-GREY"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg",
+            title: "ELITE OLIVE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/ELITE-OLIVE"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg",
+            title: "ELITE PEACH",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/ELITE-PEACH"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg",
+            title: "GRAPHITO BLACK",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/GRAPHITO-BLACK"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg",
+            title: "MOSS GREEN",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/MOSS-GREEN"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg",
+            title: "MYRA SAND",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/MYRA-SAND"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg",
+            title: "NATURAL TRAVENTINE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/NATURAL-TRAVENTINE"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg",
+            title: "OAK WOOD BEIGE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/OAK-WOOD-BEIGE"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg",
+            title: "SLATE BLACK",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/SLATE-BLACK"
+        },
+        {
+            name: "12*24",
+            src: "/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg",
+            title: "TERRAZZO LITE",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            link: "/slim/5mm/TERRAZZO-LITE"
+        },
+    ]
 ]
 
 export const slimTilesData = [
     [
-        'slim_IRONY-AQUA',
+        '5mm_IRONY-AQUA',
         {
             main_img: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
@@ -4400,7 +4218,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_TUDOR-CHOCO',
+        '5mm_TUDOR-CHOCO',
         {
             main_img: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
@@ -4418,7 +4236,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_BOHO-GRIS',
+        '5mm_BOHO-GRIS',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
@@ -4436,7 +4254,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_CALACATTA-ORO',
+        '5mm_CALACATTA-ORO',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
@@ -4451,7 +4269,7 @@ export const slimTilesData = [
                 CHIP_SIZE: "19mm",
                 PER_BOX_COVERAGE_AREA: "1.840 SQ.M | SQ. FT : 19.8",
             },
-             Packaging_table: {
+            Packaging_table: {
                 Size: "75x300mm",
                 Tiles_Box: "44pcs",
                 Box_Pallet: "90",
@@ -4461,7 +4279,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_CEMENTO-NATURALLY-02',
+        '5mm_CEMENTO-NATURALLY-02',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
@@ -4479,7 +4297,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_CONCRETE',
+        '5mm_CONCRETE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
@@ -4497,7 +4315,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_DARK-COBALT-BLUE',
+        '5mm_DARK-COBALT-BLUE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
@@ -4515,7 +4333,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_ELITE-DARK-GREY',
+        '5mm_ELITE-DARK-GREY',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
@@ -4533,7 +4351,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_ELITE-OLIVE',
+        '5mm_ELITE-OLIVE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
@@ -4551,7 +4369,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_ELITE-PEACH',
+        '5mm_ELITE-PEACH',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
@@ -4569,7 +4387,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_GRAPHITO-BLACK',
+        '5mm_GRAPHITO-BLACK',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
@@ -4587,7 +4405,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_MOSS-GREEN',
+        '5mm_MOSS-GREEN',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
@@ -4605,7 +4423,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_MYRA-SAND',
+        '5mm_MYRA-SAND',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
@@ -4623,7 +4441,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_NATURAL-TRAVENTINE',
+        '5mm_NATURAL-TRAVENTINE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
@@ -4641,7 +4459,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_OAK-WOOD-BEIGE',
+        '5mm_OAK-WOOD-BEIGE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
@@ -4659,7 +4477,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_SLATE-BLACK',
+        '5mm_SLATE-BLACK',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
@@ -4677,7 +4495,7 @@ export const slimTilesData = [
         }
     ],
     [
-        'slim_TERRAZZO-LITE',
+        '5mm_TERRAZZO-LITE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',

@@ -4,6 +4,7 @@ import Header from "@/components/header/Header";
 import MainCategory from "@/components/MainCategory";
 import { porcelainData } from "@/data/FilterableData";
 import Loader from "@/components/Loader";
+import Catalogue from "@/components/Catalogue";
 
 const Porcelain = () => {
   const [loading, setLoading] = useState(true);
@@ -23,7 +24,8 @@ const Porcelain = () => {
         <Loader />
       ) : (
         <>
-          <MainCategory CategoryData={porcelainData} navbarImagePath="/assets/images/Porcelain/600x1200/Glossy/Anigma_Gold.jpg" navbarTitle="PORCELAIN TILES" />
+          <MainCategory CategoryData={porcelainData} navbarImagePath="/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/STATUARIO_NUVO/STATUARIONUVO001.jpg" navbarTitle="PORCELAIN TILES" />
+          <Catalogue />
           <Footer />
         </>
       )}

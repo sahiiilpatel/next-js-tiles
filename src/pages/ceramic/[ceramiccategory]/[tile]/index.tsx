@@ -6,6 +6,7 @@ import Header from '@/components/header/Header';
 import Tile from '@/components/tile/Tile';
 import Footer from '@/components/footer/Footer';
 import { Slide, toast } from 'react-toastify';
+import Catalogue from '@/components/Catalogue';
 
 const CeramicTile = () => {
   const [tileData, setTileData] = useState<any>(null);
@@ -79,7 +80,8 @@ const CeramicTile = () => {
   return (
     <>
       <Header />
-      <Tile tileData={tileData} navbarTitle={tile.toString()} />
+      <Tile tileData={tileData} navbarTitle={`CERAMIC TILES - ${ceramiccategory} - ${tile.toString()}`} />
+      <Catalogue />
       <Footer />
     </>
   );

@@ -14,13 +14,13 @@ const MainCategory: React.FC<TileProps> = ({ CategoryData, navbarTitle, navbarIm
 
     return (
         <>
-            <div className="relative  mt-[100px]">
+            <div className="relative mt-[100px]">
                 <img
                     src={navbarImagePath}
                     className="absolute inset-0 object-cover w-full h-full"
                     alt="alt"
                 />
-                <div className="relative bg-opacity-50 bg-[#00000095]">
+                <div className="relative bg-opacity-50 h-[150px] md:h-auto bg-[#00000095]">
                     <svg
                         className="absolute inset-x-0 bottom-[-2px]"
                         style={{ color: "#f8f8f8" }}
@@ -34,7 +34,7 @@ const MainCategory: React.FC<TileProps> = ({ CategoryData, navbarTitle, navbarIm
                     <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                         <div className="flex flex-col items-center justify-between xl:flex-row">
                             <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
+                                <h2 className="max-w-lg mb-6 font-sans text-lg md:text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start md:items-end">
                                     {navbarTitle}
                                 </h2>
                             </div>
@@ -54,9 +54,9 @@ const MainCategory: React.FC<TileProps> = ({ CategoryData, navbarTitle, navbarIm
                                         className="rounded-t-lg w-full h-[250px] object-cover scale-100 hover:scale-110 duration-500 z-10"
                                         src={item.src}
                                         alt={item.name}
-                                        height={500}
-                                        width={500}
-                                        loading="lazy"
+                                        height={1000}
+                                        width={1000}
+                                        loading="eager"
                                         objectFit="cover"
                                     />
                                 </Link>

@@ -1,3 +1,4 @@
+import Catalogue from "@/components/Catalogue";
 import Loader from "@/components/Loader";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
@@ -218,7 +219,7 @@ const Blogetail = () => {
               </div>
             </div>
           </div>
-
+          <Catalogue />
           <Footer />
         </>
       )}

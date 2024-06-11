@@ -1,58 +1,65 @@
-import PorcelainFilterSize from "@/components/PorcelainFilterSize";
+import React, { useEffect, useState } from "react";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import Image from "next/image";
+import MainCategory from "@/components/MainCategory";
+import { filterableDataPorcelain } from "@/data/FilterableData";
+import Loader from "@/components/Loader";
 import { useRouter } from "next/router";
-import React from "react";
+import Catalogue from "@/components/Catalogue";
 
 const PorcelainCategory = () => {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState(null);
   const router = useRouter();
   const { porcelaincategory } = router.query;
 
-  if (!porcelaincategory) {
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!porcelaincategory) return;
+      if (!filterableDataPorcelain) return;
+
+      const response = filterableDataPorcelain.find(
+        (item) => item[0] === porcelaincategory
+      );
+
+      if (response) {
+        const updateddata = response.slice(1);
+        setData(updateddata as any);
+      }
+
+      setLoading(false);
+    };
+
+    fetchData();
+  }, [porcelaincategory]);
+
+  if (!porcelaincategory || loading) {
     return (
-      <div>
-        <p>porcelain category not found.</p>
-      </div>
+      <>
+        <Header />
+        <Loader />
+      </>
+    );
+  }
+
+  if (!data) {
+    return (
+      <>
+        <Header />
+        <div className="w-full h-full flex justify-center items-center">No data found for the specified category.</div>
+      </>
     );
   }
 
   return (
     <>
       <Header />
-      <div className="relative  mt-[100px]">
-        <Image
-          src="/assets/images/Porcelain/600x1200/Glossy/Anigma_Gold.jpg"
-          className="absolute inset-0 object-cover w-full h-full"
-          alt={"img"}
-          height={500}
-          width={500}
-          loading="lazy"
-        />
-        <div className="relative bg-opacity-50 bg-[#00000095]">
-          <svg
-            className="absolute inset-x-0 bottom-[-2px]"
-            style={{ color: "#f8f8f8" }}
-            viewBox="0 0 1160 163"
-          >
-            <path
-              fill="currentColor"
-              d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z"
-            />
-          </svg>
-          <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <div className="flex flex-col items-center justify-between xl:flex-row">
-              <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start items-end">
-                  {porcelaincategory}
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <PorcelainFilterSize />
+      <MainCategory
+        CategoryData={data}
+        navbarImagePath="/assets/images/Porcelain/300x600/Glossy_Matt_Both_Surface/LASA_WHITE/LASA_WHITE_001.jpg"
+        navbarTitle={`PORCELAIN TILES - ${porcelaincategory}`}
+      />
+      <Catalogue />
       <Footer />
     </>
   );

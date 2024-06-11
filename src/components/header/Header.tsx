@@ -51,7 +51,7 @@ function Header() {
                       alt="logo"
                       width={150}
                       height={100}
-                      loading="lazy"
+                      loading="eager"
                     />
                   </div>
                 </Link>

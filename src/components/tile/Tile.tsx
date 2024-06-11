@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Counter from "@/components/Counter";
-import { useRouter } from "next/router";
 interface TileData {
   main_img: string;
   img1: string;
@@ -31,7 +30,6 @@ interface TileProps {
 
 const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
   const [toggleState, setToggleState] = useState<number>(1);
-  const [showContent, setShowContent] = useState(false);
   const toggleTab = (index: number) => {
     setToggleState(index);
   };
@@ -40,23 +38,6 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
     toggleState === index ? className : "";
   if (!tileData) {
     return
-  }
-
-  function handleDownload() {
-    const pdfFilePath = "/assets/pdf/Catalogue_sample.pdf";
-
-    const link = document.createElement("a");
-    link.href = pdfFilePath;
-    link.download = "Catalogue_sample.pdf";
-
-    document.body.appendChild(link);
-    link.click();
-
-    document.body.removeChild(link);
-  }
-
-  function toggleContent() {
-    setShowContent(!showContent);
   }
 
   return (
@@ -81,7 +62,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
           <div className="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="flex flex-col items-center justify-between xl:flex-row">
               <div className="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-                <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start md:items-end">
+                <h2 className="max-w-lg mb-6 font-sans text-lg md:text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none min-h-[300px] flex justify-start md:items-end">
                   {navbarTitle}
                 </h2>
               </div>
@@ -258,7 +239,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -273,7 +254,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -288,7 +269,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -303,7 +284,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -320,7 +301,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -335,7 +316,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -350,7 +331,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -365,7 +346,7 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
                   height={85}
                   width={85}
                   className="border border-gray-300 rounded-full max-w-[100px] h-[50px] w-[50px] md:h-auto md:w-auto"
-                  loading="lazy"
+                  loading="eager"
                 />
               </div>
               <div className="text-center area-txt text-[8px] md:text-sm">
@@ -447,33 +428,6 @@ const Tile: React.FC<TileProps> = ({ tileData, navbarTitle }) => {
           </div>
         </div>
       </div>
-      <div className="bg-white mb-3 w-screen flex justify-center items-center">
-        <button className="tempcolor" onClick={toggleContent}>
-          {showContent ? "Show Less" : "Read More"}
-        </button>
-      </div>
-      {showContent && (<div className="wrapper bg-[#00000010] p-5 mb-[20px]">
-        <div className="company-hover">
-          <div className="row gx-5">
-            <div className="col-md-8 d-flex align-items-center ">
-              <div className="text-wrapper">
-                <h6 className="text-uppercase text-lg">
-                  DOWNLOAD LATEST COLLECTION’S CATALOGUE from Flowless
-                  International
-                </h6>
-                <p className="mt-4">
-                  Experience the unparalleled elegance and versatility of
-                  Flowless International&apos;s premium tile and stone
-                  collections by downloading our comprehensive catalogue today.
-                </p>
-                <div className="mt-[30px] tempcolor">
-                  <button onClick={handleDownload}>Download Catalogue</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>)}
     </>
   );
 };

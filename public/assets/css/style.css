@@ -66,11 +66,11 @@ figcaption {
   border: 0;
   outline: 0;
 }
-body {
+/* body {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
+} */
 
 /* clear fix */
 .grid:after {

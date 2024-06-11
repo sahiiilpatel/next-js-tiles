@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
-import { MosaicTilesData } from '@/data/FilterableData';
+import { slimTilesData } from '@/data/FilterableData';
 import Loader from '@/components/Loader';
 import Header from '@/components/header/Header';
 import Tile from '@/components/tile/Tile';
@@ -8,18 +8,18 @@ import Footer from '@/components/footer/Footer';
 import { Slide, toast } from 'react-toastify';
 import Catalogue from '@/components/Catalogue';
 
-const MosaicTile = () => {
+const SlimTile = () => {
   const [tileData, setTileData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
   const [paramsValidated, setParamsValidated] = useState(false);
   const [delayExpired, setDelayExpired] = useState(false);
 
   const router = useRouter();
-  const { mosaiccategory, tile } = router.query;
+  const { slimcategory, tile } = router.query;
 
   useEffect(() => {
     const validateParams = () => {
-      if (!tile || typeof tile !== "string" || !mosaiccategory || typeof mosaiccategory !== "string") {
+      if (!tile || typeof tile !== "string" || !slimcategory || typeof slimcategory !== "string") {
         setParamsValidated(true);
         setLoading(false);
         return;
@@ -29,8 +29,8 @@ const MosaicTile = () => {
     };
 
     const fetchData = async () => {
-      const tile_name = mosaiccategory + "_" + tile;
-      const response = MosaicTilesData.find((item) => item[0] === tile_name);
+      const tile_name = slimcategory + "_" + tile;
+      const response = slimTilesData.find((item) => item[0] === tile_name);
       setTileData(response ? response[1] : null);
       setLoading(false);
     };
@@ -42,21 +42,20 @@ const MosaicTile = () => {
     validateParams();
 
     return () => clearTimeout(timer);
-  }, [tile, mosaiccategory]);
+  }, [tile, slimcategory]);
 
   if (!paramsValidated || !delayExpired) {
-    return (
-      <>
-        <Header />
-        <Loader />
-      </>
-    );
+    return (<>
+      <Header />
+      <Loader />
+    </>
+    )
   }
 
-  if (!mosaiccategory || !tile) {
+  if (!slimcategory || !tile) {
     return (
       <div>
-        <p className='flex justify-center items-center w-screen h-screen'>Mosaic category or tile not found.</p>
+        <p className='flex justify-center items-center w-screen h-screen'>Slim category or tile not found.</p>
       </div>
     );
   }
@@ -73,9 +72,8 @@ const MosaicTile = () => {
       theme: "light",
       transition: Slide,
     });
-    router.push('/mosaic')
+    router.push('/slim')
   }
-
 
   return (
     <>
@@ -85,6 +83,6 @@ const MosaicTile = () => {
       <Footer />
     </>
   );
-};
+}
 
-export default MosaicTile;
+export default SlimTile;
