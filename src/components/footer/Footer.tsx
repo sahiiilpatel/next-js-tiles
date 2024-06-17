@@ -9,6 +9,8 @@ const Footer = () => {
     Surname: '',
     Email: '',
     Message: '',
+    title1: 'Page',
+    title2: 'Footer'
   });
 
   const handleChange = (e: any) => {

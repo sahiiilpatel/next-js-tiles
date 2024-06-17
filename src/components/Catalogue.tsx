@@ -12,6 +12,8 @@ const Catalogue = () => {
         Surname: '',
         Email: '',
         Message: '',
+        title1: 'Download',
+        title2: 'Catalogue'
     });
 
     const handleChange = (e: any) => {
@@ -188,9 +190,7 @@ const Catalogue = () => {
                         </form>
                         <button
                             className="absolute top-0 right-0 m-4 text-gray-500 hover:text-gray-700"
-                            onClick={() => setIsModalOpen(false)}
-                        >
-                            &times;
+                            onClick={() => setIsModalOpen(false)}>&times;
                         </button>
                     </div>)}
                     {loading && (<Loader />)}
