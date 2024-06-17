@@ -89,7 +89,7 @@ const Homec = () => {
                     data-wow-delay="0.5s"
                   >
                     <Image
-                      src="/assets/images/banner-right-image.jpg"
+                      src="/assets/images/banner-right-image.png"
                       alt="team meeting"
                       width={1000}
                       height={1000}
@@ -186,7 +186,7 @@ const Homec = () => {
                   </div>
                   <div className="showed-content">
                     <Image
-                      src="/assets/images/1.jpg"
+                      src="/assets/images/1.png"
                       alt="img"
                       height={1000}
                       width={1000}
@@ -208,7 +208,7 @@ const Homec = () => {
                   </div>
                   <div className="showed-content">
                     <Image
-                      src="/assets/images/2.jpg"
+                      src="/assets/images/2.png"
                       alt="img"
                       height={1000}
                       width={1000}
@@ -230,7 +230,7 @@ const Homec = () => {
                   </div>
                   <div className="showed-content">
                     <Image
-                      src="/assets/images/3.jpg"
+                      src="/assets/images/3.png"
                       alt="img"
                       height={1000}
                       width={1000}
@@ -252,7 +252,7 @@ const Homec = () => {
                   </div>
                   <div className="showed-content">
                     <Image
-                      src="/assets/images/4.jpg"
+                      src="/assets/images/4.png"
                       alt="img"
                       height={1000}
                       width={1000}
@@ -274,7 +274,7 @@ const Homec = () => {
                   </div>
                   <div className="showed-content">
                     <Image
-                      src="/assets/images/1.jpg"
+                      src="/assets/images/1.png"
                       alt="img"
                       height={1000}
                       width={1000}
