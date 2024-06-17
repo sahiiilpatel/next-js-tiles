@@ -326,11 +326,12 @@ const Contact = () => {
                           <div className="ml-6 grow">
                             <p className="mb-1 font-bold ">Mobile</p>
                             <a
-                              href="tel:+91 757-308-8222"
+                              href="tel:+91 756-727-5222"
                               className="text-sm text-neutral-500"
                             >
                               <i className="fas fa-phone-alt" aria-hidden="true" />
-                              +91 (757) 308-8222
+                              +91 (756) 727-5222
+
                             </a>
                           </div>
                         </div>

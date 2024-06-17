@@ -62,11 +62,11 @@ export const mosaicData = [
 
 export const slimData = [
     {
-        name: "5mm",
+        name: "600*1200",
         src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
-        title: "5mm",
+        title: "600*1200",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        link: "/slim/5mm"
+        link: "/slim/600*1200"
     },
 ]
 
@@ -4075,132 +4075,132 @@ export const MosaicTilesData = [
 
 export const filterableDataSlim = [
     [
-        "5mm",
+        "600*1200",
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg",
             title: "IRONY AQUA",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/IRONY-AQUA"
+            link: "/slim/600*1200/IRONY-AQUA"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg",
             title: "TUDOR CHOCO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/TUDOR-CHOCO"
+            link: "/slim/600*1200/TUDOR-CHOCO"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg",
             title: "BOHO GRIS",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/BOHO-GRIS"
+            link: "/slim/600*1200/BOHO-GRIS"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg",
             title: "CALACATTA ORO",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/CALACATTA-ORO"
+            link: "/slim/600*1200/CALACATTA-ORO"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg",
             title: "CEMENTO NATURALLY 02",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/CEMENTO-NATURALLY-02"
+            link: "/slim/600*1200/CEMENTO-NATURALLY-02"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg",
             title: "CONCRETE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/CONCRETE"
+            link: "/slim/600*1200/CONCRETE"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg",
             title: "DARK COBALT BLUE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/DARK-COBALT-BLUE"
+            link: "/slim/600*1200/DARK-COBALT-BLUE"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg",
             title: "ELITE DARK GREY",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/ELITE-DARK-GREY"
+            link: "/slim/600*1200/ELITE-DARK-GREY"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg",
             title: "ELITE OLIVE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/ELITE-OLIVE"
+            link: "/slim/600*1200/ELITE-OLIVE"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg",
             title: "ELITE PEACH",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/ELITE-PEACH"
+            link: "/slim/600*1200/ELITE-PEACH"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg",
             title: "GRAPHITO BLACK",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/GRAPHITO-BLACK"
+            link: "/slim/600*1200/GRAPHITO-BLACK"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg",
             title: "MOSS GREEN",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/MOSS-GREEN"
+            link: "/slim/600*1200/MOSS-GREEN"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg",
             title: "MYRA SAND",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/MYRA-SAND"
+            link: "/slim/600*1200/MYRA-SAND"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg",
             title: "NATURAL TRAVENTINE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/NATURAL-TRAVENTINE"
+            link: "/slim/600*1200/NATURAL-TRAVENTINE"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg",
             title: "OAK WOOD BEIGE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/OAK-WOOD-BEIGE"
+            link: "/slim/600*1200/OAK-WOOD-BEIGE"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg",
             title: "SLATE BLACK",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/SLATE-BLACK"
+            link: "/slim/600*1200/SLATE-BLACK"
         },
         {
             name: "12*24",
             src: "/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg",
             title: "TERRAZZO LITE",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            link: "/slim/5mm/TERRAZZO-LITE"
+            link: "/slim/600*1200/TERRAZZO-LITE"
         },
     ]
 ]
 
 export const slimTilesData = [
     [
-        '5mm_IRONY-AQUA',
+        '600*1200_IRONY-AQUA',
         {
             main_img: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Metalic/IRONY_AQUA.jpg',
@@ -4218,7 +4218,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_TUDOR-CHOCO',
+        '600*1200_TUDOR-CHOCO',
         {
             main_img: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Matt_Carving/TUDOR_CHOCO.jpg',
@@ -4236,7 +4236,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_BOHO-GRIS',
+        '600*1200_BOHO-GRIS',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/BOHO_GRIS.jpg',
@@ -4254,7 +4254,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_CALACATTA-ORO',
+        '600*1200_CALACATTA-ORO',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CALACATTA_ORO.jpg',
@@ -4279,7 +4279,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_CEMENTO-NATURALLY-02',
+        '600*1200_CEMENTO-NATURALLY-02',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CEMENTO_NATURALLY_02.jpg',
@@ -4297,7 +4297,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_CONCRETE',
+        '600*1200_CONCRETE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/CONCRETE.jpg',
@@ -4315,7 +4315,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_DARK-COBALT-BLUE',
+        '600*1200_DARK-COBALT-BLUE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/DARK_COBALT_BLUE.jpg',
@@ -4333,7 +4333,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_ELITE-DARK-GREY',
+        '600*1200_ELITE-DARK-GREY',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_DARK_GREY.jpg',
@@ -4351,7 +4351,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_ELITE-OLIVE',
+        '600*1200_ELITE-OLIVE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_OLIVE.jpg',
@@ -4369,7 +4369,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_ELITE-PEACH',
+        '600*1200_ELITE-PEACH',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/ELITE_PEACH.jpg',
@@ -4387,7 +4387,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_GRAPHITO-BLACK',
+        '600*1200_GRAPHITO-BLACK',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/GRAPHITO_BLACK.jpg',
@@ -4405,7 +4405,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_MOSS-GREEN',
+        '600*1200_MOSS-GREEN',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/MOSS_GREEN.jpg',
@@ -4423,7 +4423,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_MYRA-SAND',
+        '600*1200_MYRA-SAND',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/MYRA_SAND.jpg',
@@ -4441,7 +4441,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_NATURAL-TRAVENTINE',
+        '600*1200_NATURAL-TRAVENTINE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/NATURAL_TRAVENTINE.jpg',
@@ -4459,7 +4459,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_OAK-WOOD-BEIGE',
+        '600*1200_OAK-WOOD-BEIGE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/OAK_WOOD_BEIGE.jpg',
@@ -4477,7 +4477,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_SLATE-BLACK',
+        '600*1200_SLATE-BLACK',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/SLATE_BLACK.jpg',
@@ -4495,7 +4495,7 @@ export const slimTilesData = [
         }
     ],
     [
-        '5mm_TERRAZZO-LITE',
+        '600*1200_TERRAZZO-LITE',
         {
             main_img: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE_Preview.jpg',
             img1: '/assets/images/slim/5_MM/Normal_Matt/TERRAZZO_LITE.jpg',
