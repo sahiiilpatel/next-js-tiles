@@ -19,7 +19,7 @@ function Header() {
   return (
     <>
       <header
-        className={`header-area header-sticky ${menuOpen ? "active" : ""}`}
+        className={`header-area header-sticky z-10 ${menuOpen ? "active" : ""}`}
       >
         <div className="head-line">
           <p className="text-center p-3">
