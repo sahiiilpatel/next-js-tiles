@@ -71,7 +71,9 @@ figcaption {
   -ms-user-select: none;
   user-select: none;
 } */
-
+::-webkit-scrollbar {
+  display: none;
+}
 /* clear fix */
 .grid:after {
   content: "";
