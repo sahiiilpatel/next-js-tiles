@@ -48,6 +48,14 @@ const Contact = () => {
           theme: "light",
           transition: Slide,
         });
+        setFormData({
+          Name: '',
+          Surname: '',
+          Email: '',
+          Message: '',
+          title1: 'Page',
+          title2: 'Footer'
+        });
         router.push('/')
       } else {
         toast.error('Failed to send email.', {
@@ -60,6 +68,14 @@ const Contact = () => {
           progress: undefined,
           theme: "light",
           transition: Slide,
+        });
+        setFormData({
+          Name: '',
+          Surname: '',
+          Email: '',
+          Message: '',
+          title1: 'Page',
+          title2: 'Footer'
         });
         router.push('/')
       }
@@ -74,6 +90,14 @@ const Contact = () => {
         progress: undefined,
         theme: "light",
         transition: Slide,
+      });
+      setFormData({
+        Name: '',
+        Surname: '',
+        Email: '',
+        Message: '',
+        title1: 'Page',
+        title2: 'Footer'
       });
       router.push('/')
     }

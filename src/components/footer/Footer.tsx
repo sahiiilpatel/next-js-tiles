@@ -25,7 +25,7 @@ const Footer = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/sendEmail', {
+      const response = await fetch('https://flowless.vercel.app/api/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,15 @@ const Footer = () => {
           theme: "light",
           transition: Slide,
         });
-        router.push('/')
+        setFormData({
+          Name: '',
+          Surname: '',
+          Email: '',
+          Message: '',
+          title1: 'Page',
+          title2: 'Footer'
+        });
+        router.push('/');
       } else {
         toast.error('Failed to send email.', {
           position: "top-right",
@@ -58,7 +66,15 @@ const Footer = () => {
           theme: "light",
           transition: Slide,
         });
-        router.push('/')
+        setFormData({
+          Name: '',
+          Surname: '',
+          Email: '',
+          Message: '',
+          title1: 'Page',
+          title2: 'Footer'
+        });
+        router.push('/');
       }
     } catch (error) {
       toast.error('Failed to send email.', {
@@ -72,13 +88,20 @@ const Footer = () => {
         theme: "light",
         transition: Slide,
       });
-      router.push('/')
+      setFormData({
+        Name: '',
+        Surname: '',
+        Email: '',
+        Message: '',
+        title1: 'Page',
+        title2: 'Footer'
+      });
+      router.push('/');
     }
   };
 
   return (
     <>
-      {" "}
       <div id="contact" className="contact-us section">
         <div className="container">
           <div className="row">
