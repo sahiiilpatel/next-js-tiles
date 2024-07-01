@@ -28,7 +28,7 @@ const Contact = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('/api/sendEmail', {
+      const response = await fetch('https://flowless.vercel.app/api/sendEmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
     const mailOptions = {
       from: Email,
-      to: 'sahil.patel@techivies.com',
+      to: 'info@flowless.co.in',
       subject: `Flowless - ${Name}`,
       html: `<h1 style="margin-bottom: 1rem; font-size: 2.25rem; font-weight: 900; line-height: 1; letter-spacing: -0.05em; color: #212529; text-decoration: none;">
                     ${title2} <span style="text-decoration: underline 3px offset(3px) #3f577f;">${title1}</span>
